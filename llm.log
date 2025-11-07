@@ -265,3 +265,134 @@
 2025-11-08 01:09:25,622 - llm - INFO - Model name: all-MiniLM-L6-v2
 2025-11-08 01:09:25,691 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
 2025-11-08 01:09:25,692 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-08 01:20:43,468 - llm - INFO - Step 1: Loading tables from 6 files...
+2025-11-08 01:20:43,821 - llm - INFO - Step 2: Creating row-based chunks with metadata...
+2025-11-08 01:20:43,869 - llm - INFO - Step 3: Embedding chunks and building FAISS index...
+2025-11-08 01:20:43,883 - llm - INFO - All files unchanged, can use cache
+2025-11-08 01:20:43,883 - llm - INFO - Loading embeddings and index from cache...
+2025-11-08 01:20:43,883 - llm - INFO - Loading embeddings and index from cache...
+2025-11-08 01:20:43,894 - llm - INFO - FAISS index loaded: 150 vectors
+2025-11-08 01:20:43,898 - llm - INFO - Embeddings loaded: shape (150, 384)
+2025-11-08 01:20:43,901 - llm - INFO - Chunks loaded: 150 chunks
+2025-11-08 01:20:43,902 - llm - INFO - Model name: all-MiniLM-L6-v2
+2025-11-08 01:20:43,918 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-08 01:20:43,918 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-08 01:26:56,865 - __main__ - INFO - ============================================================
+2025-11-08 01:26:56,867 - __main__ - INFO - Starting LLM RAG Pipeline
+2025-11-08 01:26:56,868 - __main__ - INFO - ============================================================
+2025-11-08 01:26:56,868 - __main__ - INFO - Step 1: Loading tables from 6 files...
+2025-11-08 01:26:56,936 - __main__ - INFO - Step 2: Creating row-based chunks with metadata...
+2025-11-08 01:26:56,979 - __main__ - INFO - Step 3: Embedding chunks and building FAISS index...
+2025-11-08 01:26:56,995 - __main__ - INFO - All files unchanged, can use cache
+2025-11-08 01:26:56,995 - __main__ - INFO - Loading embeddings and index from cache...
+2025-11-08 01:26:56,997 - __main__ - INFO - Loading embeddings and index from cache...
+2025-11-08 01:26:57,006 - __main__ - INFO - FAISS index loaded: 150 vectors
+2025-11-08 01:26:57,015 - __main__ - INFO - Embeddings loaded: shape (150, 384)
+2025-11-08 01:26:57,020 - __main__ - INFO - Chunks loaded: 150 chunks
+2025-11-08 01:26:57,021 - __main__ - INFO - Model name: all-MiniLM-L6-v2
+2025-11-08 01:26:57,037 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-08 01:26:57,037 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-08 01:27:02,531 - __main__ - INFO - Step 4: Retrieving top 5 results for: 'What are the major schemes in Andhra Pradesh?'
+2025-11-08 01:27:02,832 - __main__ - INFO - Retrieved 5 chunks:
+2025-11-08 01:27:02,847 - __main__ - INFO - Step 5: Generating final LLM prompt...
+2025-11-08 01:27:02,847 - __main__ - INFO - Calling LLM for answer...
+2025-11-08 01:27:02,848 - __main__ - INFO - Step 6: Getting answer from LLM (model: gemini-2.0-flash)...
+2025-11-08 01:27:04,842 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-11-08 01:27:07,346 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-08 01:27:07,364 - __main__ - INFO - 
+============================================================
+2025-11-08 01:27:07,366 - __main__ - INFO - FINAL RESULTS
+2025-11-08 01:27:07,366 - __main__ - INFO - ============================================================
+2025-11-08 01:27:07,367 - __main__ - INFO - Pipeline completed successfully
+2025-11-08 01:27:45,049 - __main__ - INFO - ============================================================
+2025-11-08 01:27:45,049 - __main__ - INFO - Starting LLM RAG Pipeline
+2025-11-08 01:27:45,049 - __main__ - INFO - ============================================================
+2025-11-08 01:27:45,049 - __main__ - INFO - Step 1: Loading tables from 6 files...
+2025-11-08 01:27:45,095 - __main__ - INFO - Step 2: Creating row-based chunks with metadata...
+2025-11-08 01:27:45,119 - __main__ - INFO - Step 3: Embedding chunks and building FAISS index...
+2025-11-08 01:27:45,134 - __main__ - INFO - All files unchanged, can use cache
+2025-11-08 01:27:45,134 - __main__ - INFO - Loading embeddings and index from cache...
+2025-11-08 01:27:45,134 - __main__ - INFO - Loading embeddings and index from cache...
+2025-11-08 01:27:45,136 - __main__ - INFO - FAISS index loaded: 150 vectors
+2025-11-08 01:27:45,140 - __main__ - INFO - Embeddings loaded: shape (150, 384)
+2025-11-08 01:27:45,142 - __main__ - INFO - Chunks loaded: 150 chunks
+2025-11-08 01:27:45,144 - __main__ - INFO - Model name: all-MiniLM-L6-v2
+2025-11-08 01:27:45,151 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-08 01:27:45,151 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-08 01:27:50,098 - __main__ - INFO - Step 4: Retrieving top 5 results for: 'What are the major schemes in Andhra Pradesh?'
+2025-11-08 01:27:50,149 - __main__ - INFO - Retrieved 5 chunks:
+2025-11-08 01:27:50,167 - __main__ - INFO - Step 5: Generating final LLM prompt...
+2025-11-08 01:27:50,167 - __main__ - INFO - Calling LLM for answer...
+2025-11-08 01:27:50,168 - __main__ - INFO - Step 6: Getting answer from LLM (model: gemini-2.0-flash)...
+2025-11-08 01:27:51,431 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-11-08 01:27:53,616 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-08 01:27:53,616 - __main__ - INFO - 
+============================================================
+2025-11-08 01:27:53,616 - __main__ - INFO - FINAL RESULTS
+2025-11-08 01:27:53,616 - __main__ - INFO - ============================================================
+2025-11-08 01:27:53,616 - __main__ - INFO - Pipeline completed successfully
+2025-11-08 01:28:50,905 - __main__ - INFO - ============================================================
+2025-11-08 01:28:50,905 - __main__ - INFO - Starting LLM RAG Pipeline
+2025-11-08 01:28:50,906 - __main__ - INFO - ============================================================
+2025-11-08 01:28:50,906 - __main__ - INFO - Step 1: Loading tables from 6 files...
+2025-11-08 01:28:50,908 - __main__ - INFO - Loaded 'andhra_pradesh.json' (24 rows)
+2025-11-08 01:28:50,912 - __main__ - INFO - Loaded 'bihar.json' (24 rows)
+2025-11-08 01:28:50,914 - __main__ - INFO - Loaded 'MP.json' (24 rows)
+2025-11-08 01:28:50,917 - __main__ - INFO - Loaded 'punjab.json' (24 rows)
+2025-11-08 01:28:50,918 - __main__ - INFO - Loaded 'UP.json' (24 rows)
+2025-11-08 01:28:50,921 - __main__ - INFO - Loaded 'all_india.json' (30 rows)
+2025-11-08 01:28:50,921 - __main__ - INFO - Step 2: Creating row-based chunks with metadata...
+2025-11-08 01:28:50,939 - __main__ - INFO - Created 150 total chunks from 6 files.
+2025-11-08 01:28:50,940 - __main__ - INFO - Step 3: Embedding chunks and building FAISS index...
+2025-11-08 01:28:50,951 - __main__ - INFO - All files unchanged, can use cache
+2025-11-08 01:28:50,952 - __main__ - INFO - Loading embeddings and index from cache...
+2025-11-08 01:28:50,952 - __main__ - INFO - Loading embeddings and index from cache...
+2025-11-08 01:28:50,954 - __main__ - INFO - FAISS index loaded: 150 vectors
+2025-11-08 01:28:50,957 - __main__ - INFO - Embeddings loaded: shape (150, 384)
+2025-11-08 01:28:50,960 - __main__ - INFO - Chunks loaded: 150 chunks
+2025-11-08 01:28:50,963 - __main__ - INFO - Model name: all-MiniLM-L6-v2
+2025-11-08 01:28:50,971 - __main__ - INFO - Using cached embeddings and index
+2025-11-08 01:28:50,972 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-08 01:28:50,974 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-08 01:28:55,248 - __main__ - INFO - Step 4: Retrieving top 5 results for: 'What are the major schemes in Andhra Pradesh?'
+2025-11-08 01:28:55,280 - __main__ - INFO - Retrieved 5 chunks:
+2025-11-08 01:28:55,281 - __main__ - INFO -   [1] From andhra_pradesh.json | Row 19 | Distance: 0.9270
+2025-11-08 01:28:55,281 - __main__ - INFO -   [2] From MP.json | Row 19 | Distance: 1.0272
+2025-11-08 01:28:55,281 - __main__ - INFO -   [3] From andhra_pradesh.json | Row 14 | Distance: 1.0300
+2025-11-08 01:28:55,281 - __main__ - INFO -   [4] From andhra_pradesh.json | Row 16 | Distance: 1.0437
+2025-11-08 01:28:55,281 - __main__ - INFO -   [5] From UP.json | Row 19 | Distance: 1.0722
+2025-11-08 01:28:55,282 - __main__ - INFO - Step 5: Generating final LLM prompt...
+2025-11-08 01:28:55,282 - __main__ - INFO - Calling LLM for answer...
+2025-11-08 01:28:55,282 - __main__ - INFO - Step 6: Getting answer from LLM (model: gemini-2.0-flash)...
+2025-11-08 01:28:56,856 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-11-08 01:28:58,958 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-08 01:28:58,960 - __main__ - INFO - Received response from LLM
+2025-11-08 01:28:58,962 - __main__ - INFO - 
+============================================================
+2025-11-08 01:28:58,962 - __main__ - INFO - FINAL RESULTS
+2025-11-08 01:28:58,962 - __main__ - INFO - ============================================================
+2025-11-08 01:28:58,966 - __main__ - INFO - Pipeline completed successfully
+2025-11-08 01:29:27,702 - __main__ - INFO - ============================================================
+2025-11-08 01:29:27,702 - __main__ - INFO - Starting LLM RAG Pipeline
+2025-11-08 01:29:27,703 - __main__ - INFO - ============================================================
+2025-11-08 01:29:27,703 - __main__ - INFO - Step 1: Loading tables from 6 files...
+2025-11-08 01:29:27,708 - __main__ - INFO - Loaded 'andhra_pradesh.json' (24 rows)
+2025-11-08 01:29:27,716 - __main__ - INFO - Loaded 'bihar.json' (24 rows)
+2025-11-08 01:29:27,718 - __main__ - INFO - Loaded 'MP.json' (24 rows)
+2025-11-08 01:29:27,720 - __main__ - INFO - Loaded 'punjab.json' (24 rows)
+2025-11-08 01:29:27,725 - __main__ - INFO - Loaded 'UP.json' (24 rows)
+2025-11-08 01:29:27,730 - __main__ - INFO - Loaded 'all_india.json' (30 rows)
+2025-11-08 01:29:27,730 - __main__ - INFO - Step 2: Creating row-based chunks with metadata...
+2025-11-08 01:29:27,762 - __main__ - INFO - Created 150 total chunks from 6 files.
+2025-11-08 01:29:27,763 - __main__ - INFO - Step 3: Embedding chunks and building FAISS index...
+2025-11-08 01:29:27,772 - __main__ - INFO - All files unchanged, can use cache
+2025-11-08 01:29:27,773 - __main__ - INFO - Loading embeddings and index from cache...
+2025-11-08 01:29:27,774 - __main__ - INFO - Loading embeddings and index from cache...
+2025-11-08 01:29:27,775 - __main__ - INFO - FAISS index loaded: 150 vectors
+2025-11-08 01:29:27,777 - __main__ - INFO - Embeddings loaded: shape (150, 384)
+2025-11-08 01:29:27,780 - __main__ - INFO - Chunks loaded: 150 chunks
+2025-11-08 01:29:27,781 - __main__ - INFO - Model name: all-MiniLM-L6-v2
+2025-11-08 01:29:27,781 - __main__ - INFO - All cache files loaded successfully
+2025-11-08 01:29:27,781 - __main__ - INFO - Using cached embeddings and index
+2025-11-08 01:29:27,785 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-08 01:29:27,785 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2

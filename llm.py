@@ -18,6 +18,7 @@ from datetime import datetime
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    encoding='utf-8',
     handlers=[
         logging.FileHandler('llm.log'),
         logging.StreamHandler()
@@ -155,7 +156,7 @@ def save_embeddings_and_index(index, embeddings, chunks, model_name, file_paths)
             json.dump(metadata, f, indent=2)
         logger.info("Cache metadata saved successfully")
         
-        logger.info("✅ All cache files saved successfully")
+        logger.info("All cache files saved successfully")
         
     except Exception as e:
         logger.error(f"Error saving cache: {e}")
@@ -194,7 +195,7 @@ def load_embeddings_and_index():
             model_name = f.read().strip()
         logger.info(f"Model name: {model_name}")
         
-        logger.info("✅ All cache files loaded successfully")
+        logger.info("All cache files loaded successfully")
         return index, embeddings, chunks, model_name
         
     except Exception as e:
@@ -250,7 +251,7 @@ def load_tables_from_files(file_paths):
                 "dataframe": df,
                 "source_file": path.name
             })
-            logger.info(f"✅ Loaded '{path.name}' ({len(df)} rows)")
+            logger.info(f"Loaded '{path.name}' ({len(df)} rows)")
 
         except Exception as e:
             logger.error(f"Error loading '{path.name}': {e}")
@@ -287,7 +288,7 @@ def create_chunks(tables):
 
             chunks.append({"serialized_text": serialized_text, "metadata": metadata})
 
-    logger.info(f"✅ Created {len(chunks)} total chunks from {len(tables)} files.")
+    logger.info(f"Created {len(chunks)} total chunks from {len(tables)} files.")
     return chunks
 
 
@@ -327,7 +328,7 @@ def embed_and_index(chunks, model_name='all-MiniLM-L6-v2', file_paths=None, use_
                 if index is not None and embeddings is not None and cached_chunks is not None:
                     # Verify model name matches
                     if cached_model_name == model_name:
-                        logger.info("✅ Using cached embeddings and index")
+                        logger.info("Using cached embeddings and index")
                         model = SentenceTransformer(model_name)
                         return index, model, embeddings, cached_chunks
                     else:
@@ -349,7 +350,7 @@ def embed_and_index(chunks, model_name='all-MiniLM-L6-v2', file_paths=None, use_
     index = faiss.IndexFlatL2(embeddings.shape[1])
     index.add(embeddings)
 
-    logger.info(f"✅ FAISS index built with {index.ntotal} vectors (dimension: {embeddings.shape[1]})")
+    logger.info(f"FAISS index built with {index.ntotal} vectors (dimension: {embeddings.shape[1]})")
     
     # Save to cache if file_paths provided
     if file_paths:
@@ -382,7 +383,7 @@ def retrieve_results(query, index, model, chunks, top_k=3):
     logger.info(f"Retrieved {len(retrieved)} chunks:")
     for idx, chunk in enumerate(retrieved):
         distance = distances[0][idx] if len(distances) > 0 and len(distances[0]) > idx else "N/A"
-        logger.info(f"  🔹 [{idx+1}] From {chunk['metadata']['source_file']} | Row {chunk['metadata']['row_index']} | Distance: {distance:.4f}")
+        logger.info(f"  [{idx+1}] From {chunk['metadata']['source_file']} | Row {chunk['metadata']['row_index']} | Distance: {distance:.4f}")
 
     return retrieved
 
@@ -442,7 +443,7 @@ def get_llm_answer(prompt, model="gemini-2.0-flash"):
             model=model,
             contents=prompt
         )
-        logger.info("✅ Received response from LLM")
+        logger.info("Received response from LLM")
         return response.text
     except Exception as e:
         logger.error(f"Error getting LLM answer: {e}")
@@ -453,15 +454,44 @@ if __name__ == "__main__":
     logger.info("=" * 60)
     logger.info("Starting LLM RAG Pipeline")
     logger.info("=" * 60)
-    
-    logger.info("Calling LLM for answer...")
-    answer = get_llm_answer(final_prompt)
+
+    # Define the user query and file paths
+    user_query = "What are the major schemes in Andhra Pradesh?"
+    file_paths = ["andhra_pradesh.json", "bihar.json", "MP.json", "punjab.json", "UP.json", "all_india.json"]
+
+    # --- Full RAG Pipeline ---
+    # 1. Load tables
+    tables = load_tables_from_files(file_paths)
+
+    if tables:
+        # 2. Create chunks
+        chunks = create_chunks(tables)
+
+        # 3. Embed and index chunks
+        index, model, embeddings, chunks = embed_and_index(
+            chunks,
+            model_name='all-MiniLM-L6-v2',
+            file_paths=file_paths,
+            use_cache=True
+        )
+
+        # 4. Retrieve relevant chunks
+        retrieved_chunks = retrieve_results(user_query, index, model, chunks, top_k=5)
+
+        # 5. Generate the final prompt
+        final_prompt = generate_llm_prompt(retrieved_chunks, user_query)
+
+        # 6. Get the answer from the LLM
+        logger.info("Calling LLM for answer...")
+        answer = get_llm_answer(final_prompt)
         
-    logger.info("\n" + "=" * 60)
-    logger.info("FINAL RESULTS")
-    logger.info("=" * 60)
-    print("\n--- FINAL LLM PROMPT ---")
-    print(final_prompt)
-    print("\n--- GEMINI RESPONSE ---")
-    print(answer)
-    logger.info("Pipeline completed successfully")
+        logger.info("\n" + "=" * 60)
+        logger.info("FINAL RESULTS")
+        logger.info("=" * 60)
+        print("\n--- FINAL LLM PROMPT ---")
+        print(final_prompt)
+        print("\n--- GEMINI RESPONSE ---")
+        print(answer)
+        logger.info("Pipeline completed successfully")
+    else:
+        logger.error("No tables were loaded. Halting execution.")
