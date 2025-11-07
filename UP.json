@@ -1,0 +1,376 @@
+[
+    {
+        "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
+        "description": "Provides 2024 enrollment data for children in Uttar Pradesh, detailing the percentage in government, private, other schools, or not in school, broken down by age group and sex (Table 1). It also includes historical trends from 2006-2024 for children not in school, specified by age group (11-14, 15-16) and sex (Chart 1), and trends in government school enrollment for Std I-V and Std VI-VIII from 2018-2024, also by sex (Chart 2).",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
+            "| Age 6-14: All | 49.1 | 45.5 | 1.5 | 3.9 | 100 |",
+            "| Age 7-16: All | 45.8 | 48.2 | 1.4 | 4.6 | 100 |",
+            "| Age 7-10: All | 54.1 | 42.0 | 1.6 | 2.4 | 100 |",
+            "| Age 7-10: Boys | 50.1 | 46.1 | 1.5 | 2.2 | 100 |",
+            "| Age 7-10: Girls | 58.2 | 37.6 | 1.6 | 2.6 | 100 |",
+            "| Age 11-14: All | 43.6 | 51.0 | 1.4 | 4.0 | 100 |",
+            "| Age 11-14: Boys | 41.0 | 54.2 | 1.3 | 3.5 | 100 |",
+            "| Age 11-14: Girls | 46.3 | 47.7 | 1.5 | 4.7 | 100 |",
+            "| Age 15-16: All | 28.1 | 58.2 | 0.7 | 13.0 | 100 |",
+            "| Age 15-16: Boys | 28.8 | 59.9 | 0.6 | 10.7 | 100 |",
+            "| Age 15-16: Girls | 27.6 | 56.6 | 0.8 | 15.0 | 100 |",
+            "| Chart 1: Trends over time",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Chart 1: Trends over time",
+            "|  | 2006 | 2008 | 2010 | 2012 | 2014 | 2016 | 2018 | 2022 | 2024 |",
+            "| 11-14: Boys | 7.3 | 6.8 | 7.4 | 8.8 | 6.4 | 6.7 | 5.0 | 2.8 | 3.5 |",
+            "| 11-14: Girls | 11.1 | 10.2 | 9.7 | 11.5 | 9.2 | 9.9 | 7.4 | 4.1 | 4.7 |",
+            "| 15-16: Boys | 20.6 | 19.8 | 20.2 | 22.0 | 19.4 | 18.5 | 16.0 | 9.4 | 10.7 |",
+            "| 15-16: Girls | 25.6 | 26.6 | 23.6 | 26.5 | 22.7 | 24.7 | 22.2 | 15.0 | 15.0 |",
+            "| Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "| Year | Std I-V | Std I-V | Std VI-VIII | Std VI-VIII |",
+            "| Year | Boys | Girls | Boys | Girls |",
+            "| 2018 | 45.6 | 54.1 | 44.7 | 53.2 |",
+            "| 2022 | 62.4 | 68.9 | 57.6 | 63.7 |",
+            "| 2024 | 49.5 | 58.0 | 48.5 | 56.2 |"
+        ]
+    },
+    {
+        "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
+        "description": "Details the enrollment status of young children (ages 3-8) in Uttar Pradesh for the year 2022. It breaks down the percentages of children in different types of pre-school (Anganwadi, Govt pre-primary, Pvt LKG/UKG), different types of school (Govt, Pvt, Other), or not enrolled in any institution.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 35.6 | 0.6 | 9.1 | 2.1 | 0.7 | 0.1 | 51.9 | 100 |",
+            "| Age 4 | 38.7 | 1.0 | 19.8 | 5.3 | 2.0 | 0.2 | 33.0 | 100 |",
+            "| Age 5 | 23.6 | 1.3 | 28.1 | 25.5 | 8.6 | 1.1 | 11.9 | 100 |",
+            "| Age 6 | 6.9 | 0.7 | 19.5 | 51.2 | 15.6 | 1.2 | 5.0 | 100 |",
+            "| Age 7 | 1.8 | 0.5 | 10.9 | 59.5 | 24.2 | 1.1 | 2.1 | 100 |",
+            "| Age 8 | 0.6 | 0.2 | 4.5 | 61.3 | 30.8 | 1.1 | 1.5 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
+        "description": "Provides the 2024 enrollment data for young children (ages 3-8) in Uttar Pradesh. It shows the percentage distribution across various pre-school options (Anganwadi, Govt pre-primary, Pvt LKG/UKG), school types (Govt, Pvt, Other), and those not enrolled in any pre-school or school.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/ UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 34.7 | 0.6 | 11.0 | 0.9 | 0.8 | 0.1 | 52.1 | 100 |",
+            "| Age 4 | 38.5 | 1.1 | 25.2 | 2.4 | 2.5 | 0.3 | 30.0 | 100 |",
+            "| Age 5 | 28.3 | 1.0 | 33.8 | 12.4 | 8.8 | 0.8 | 14.9 | 100 |",
+            "| Age 6 | 10.0 | 0.5 | 25.2 | 35.0 | 20.4 | 1.2 | 7.7 | 100 |",
+            "| Age 7 | 2.3 | 0.3 | 16.0 | 45.0 | 31.7 | 1.1 | 3.7 | 100 |",
+            "| Age 8 | 0.6 | 0.2 | 6.0 | 50.1 | 39.5 | 1.7 | 2.0 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 4: % Children by grade and reading level. All children. 2024",
+        "description": "Assesses the foundational reading levels of all children in Uttar Pradesh for 2024, broken down by standard (grade). It shows the percentage of students in Std I through VIII at different reading proficiency levels, from 'Not even letter' to 'Std II level text'.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
+            "| I | 29.8 | 42.3 | 14.4 | 7.5 | 6.0 | 100 |",
+            "| II | 12.5 | 31.3 | 20.6 | 16.2 | 19.5 | 100 |",
+            "| III | 7.7 | 21.5 | 17.6 | 19.0 | 34.3 | 100 |",
+            "| IV | 4.4 | 13.7 | 12.5 | 20.3 | 49.2 | 100 |",
+            "| V | 3.9 | 10.8 | 10.6 | 18.4 | 56.4 | 100 |",
+            "| VI | 2.8 | 9.6 | 7.7 | 16.7 | 63.3 | 100 |",
+            "| VII | 1.9 | 8.6 | 6.1 | 14.2 | 69.1 | 100 |",
+            "| VIII | 1.6 | 6.2 | 5.4 | 11.7 | 75.1 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 5: Trends over time",
+        "description": "Tracks historical trends from 2014 to 2024 in the reading ability of Standard III students in Uttar Pradesh. It compares the percentage of students in government schools, private schools, and both combined who are able to read a Standard II level text.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 6.0 | 36.0 | 21.7 |",
+            "| 2016 | 7.2 | 36.6 | 22.6 |",
+            "| 2018 | 12.3 | 45.4 | 28.3 |",
+            "| 2022 | 16.4 | 38.5 | 24.0 |",
+            "| 2024 | 27.9 | 43.0 | 34.4 |"
+        ]
+    },
+    {
+        "title": "Table 6: Trends over time",
+        "description": "Shows longitudinal data on reading proficiency for older students in Uttar Pradesh. It tracks the percentage of students in Standard V and Standard VIII who can read a Standard II level text, comparing government, private, and combined school types from 2014 to 2024 (Table 6). It also includes a specific comparison by sex for Standards III, V, and VIII between 2022 and 2024 (Chart 3).",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 26.8 | 61.4 | 44.6 | 59.3 | 81.9 | 70.9 |",
+            "| 2016 | 24.3 | 61.2 | 43.1 | 56.3 | 78.6 | 67.9 |",
+            "| 2018 | 36.2 | 68.8 | 52.4 | 62.0 | 85.0 | 73.8 |",
+            "| 2022 | 38.3 | 63.2 | 46.4 | 62.6 | 82.8 | 70.7 |",
+            "| 2024 | 50.5 | 65.6 | 56.5 | 67.3 | 84.4 | 75.1 |",
+            "| Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 |",
+            "|  | Std III | Std III | Std V | Std V | Std VIII | Std VIII |",
+            "|  | Boys | Girls | Boys | Girls | Boys | Girls |",
+            "| 2022 | 25.0 | 22.8 | 46.2 | 46.3 | 71.6 | 69.6 |",
+            "| 2024 | 33.2 | 35.4 | 56.4 | 56.4 | 74.6 | 75.6 |"
+        ]
+    },
+    {
+        "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
+        "description": "Evaluates the basic arithmetic skills of all children in Uttar Pradesh for 2024, categorized by standard (grade). It presents the percentage of students from Std I to VIII at various numeracy levels, from recognizing numbers (1-9 or 10-99) to performing subtraction and division.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even",
+            "| Std | Not even",
+            "| I | 24.1 | 42.0 | 25.6 | 6.6 | 1.8 | 100 |",
+            "| II | 8.1 | 33.3 | 35.2 | 16.9 | 6.6 | 100 |",
+            "| III | 5.3 | 23.0 | 31.2 | 24.2 | 16.4 | 100 |",
+            "| IV | 2.5 | 16.1 | 26.3 | 25.7 | 29.4 | 100 |",
+            "| V | 2.1 | 11.4 | 23.9 | 23.2 | 39.4 | 100 |",
+            "| VI | 1.5 | 9.2 | 23.8 | 21.6 | 44.0 | 100 |",
+            "| VII | 1.0 | 6.6 | 22.2 | 20.0 | 50.2 | 100 |",
+            "| VIII | 0.9 | 5.5 | 19.6 | 18.9 | 55.2 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 8: Trends over time",
+        "description": "Tracks historical trends from 2014 to 2024 in the basic arithmetic ability of Standard III students in Uttar Pradesh. It compares the percentage of students in government schools, private schools, and both combined who are able to perform at least subtraction.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 6.6 | 38.5 | 23.3 |",
+            "| 2016 | 7.9 | 37.5 | 23.4 |",
+            "| 2018 | 11.2 | 43.7 | 26.9 |",
+            "| 2022 | 19.7 | 46.8 | 29.0 |",
+            "| 2024 | 31.6 | 52.6 | 40.7 |"
+        ]
+    },
+    {
+        "title": "Table 9: Trends over time",
+        "description": "Provides trend data on higher-level arithmetic skills for older students in Uttar Pradesh. It tracks the percentage of students in Standard V and Standard VIII who can perform division, comparing government, private, and combined school types from 2014 to 2024 (Table 9). It also includes a specific comparison by sex for Standards V and VIII between 2022 and 2024 (Chart 4).",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
+            "| Year | Govt | Govt | Pvt | Pvt | Govt & Pvt* | Govt & Pvt* | Govt | Govt | Pvt | Pvt | Govt & Pvt* |",
+            "| 2014 | 12.1 | 12.1 | 38.7 | 38.7 | 25.8 | 25.8 | 30.5 | 30.5 | 56.6 | 56.6 | 43.9 |",
+            "| 2016 | 10.4 | 10.4 | 34.6 | 34.6 | 22.7 | 22.7 | 25.5 | 25.5 | 48.4 | 48.4 | 37.4 |",
+            "| 2018 | 17.0 | 17.0 | 42.9 | 42.9 | 29.8 | 29.8 | 32.0 | 32.0 | 56.5 | 56.5 | 44.6 |",
+            "| 2022 | 24.5 | 24.5 | 46.7 | 46.7 | 31.7 | 31.7 | 41.7 | 41.7 | 60.9 | 60.9 | 49.4 |",
+            "| 2024 | 31.8 | 31.8 | 51.2 | 51.2 | 39.5 | 39.5 | 45.6 | 45.6 | 66.8 | 66.8 | 55.3 |",
+            "| Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 |",
+            "| Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 |",
+            "|  |  | Std V | Std V | Std V | Std V | Std VIII | Std VIII | Std VIII | Std VIII |",
+            "|  |  | Boys | Boys | Girls | Girls | Boys | Boys | Girls | Girls |",
+            "| 2022 | 2022 | 34.7 | 34.7 | 28.2 | 28.2 | 54.8 | 54.8 | 44.4 | 44.4 |",
+            "| 2024 | 2024 | 41.7 | 41.7 | 37.1 | 37.1 | 60.6 | 60.6 | 50.2 | 50.2 |"
+        ]
+    },
+    {
+        "title": "Table 10: Smartphone availability and use. By age. 2024",
+        "description": "Summarizes smartphone access and usage among teenagers (ages 14-16) in Uttar Pradesh for 2024. It details the percentage who have a smartphone at home, could bring one for tasks, can use one, and the percentage of users who own their own device, broken down by individual age.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Age | Have a smart-phone at home | Could bring a smartphone to do digital tasks* | Can use a smartphone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| 14 | 86.9 | 58.3 | 78.6 | 43.0 |",
+            "| 15 | 86.4 | 59.5 | 80.8 | 46.1 |",
+            "| 16 | 87.3 | 66.3 | 84.0 | 52.1 |",
+            "| All | 86.8 | 60.8 | 80.8 | 46.6 |"
+        ]
+    },
+    {
+        "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
+        "description": "Compares smartphone access and usage between boys and girls aged 14-16 in Uttar Pradesh for 2024. It provides a gender breakdown for metrics like having a smartphone at home, ability to bring/use a smartphone, and personal ownership among users.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Sex | Have a smartphone at home | Could bring a smartphone to do digital tasks* | Can use a smart-phone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Boys | 88.0 | 66.0 | 84.7 | 50.5 |",
+            "| Girls | 85.7 | 56.2 | 77.2 | 42.7 |",
+            "| All | 86.8 | 60.8 | 80.8 | 46.6 |"
+        ]
+    },
+    {
+        "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
+        "description": "Investigates the specific smartphone activities of users aged 14-16 in Uttar Pradesh for 2024. It shows the percentage who used their phone for educational activities and social media in the reference week, and among social media users, the percentage familiar with safety features like blocking, making profiles private, and changing passwords, broken down by age.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/report a profile | Make a profile private | Change password |",
+            "| 14 | 50.4 | 72.6 | 52.0 | 43.2 | 46.9 |",
+            "| 15 | 51.7 | 73.3 | 56.4 | 48.0 | 52.3 |",
+            "| 16 | 54.1 | 77.4 | 63.8 | 56.1 | 59.8 |",
+            "| All | 51.9 | 74.1 | 56.9 | 48.5 | 52.5 |"
+        ]
+    },
+    {
+        "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
+        "description": "Provides a gender-based comparison of smartphone activities for users aged 14-16 in Uttar Pradesh for 2024. It breaks down by sex the percentage who used their phone for education and social media, and details their knowledge of key safety features (blocking, privacy settings, password changes).",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/ report a profile | Make a profile private | Change password |",
+            "| Boys | 53.2 | 78.4 | 60.8 | 53.9 | 60.5 |",
+            "| Girls | 50.5 | 69.9 | 52.6 | 42.7 | 43.6 |",
+            "| All | 51.9 | 74.1 | 56.9 | 48.5 | 52.5 |"
+        ]
+    },
+    {
+        "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
+        "description": "Assesses the digital competency of children aged 14-16 in Uttar Pradesh for 2024, broken down by age and sex. It first shows the percentage who could bring a smartphone for tasks, and then, for that group, the percentage who could successfully perform tasks like setting an alarm, browsing for information, finding a YouTube video, and sharing it.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Setting an alarm | Setting an alarm | Setting an alarm | Browsing for information | Browsing for information | Browsing for information | Finding YouTube video | Finding YouTube video | Finding YouTube video | Of those who found video, % able to share it | Of those who found video, % able to share it | Of those who found video, % able to share it |",
+            "| Age | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All |",
+            "| 14 | 60.8 | 55.7 | 58.3 | 76.7 | 62.0 | 69.7 | 78.7 | 75.8 | 77.3 | 86.5 | 82.1 | 84.4 | 90.0 | 83.9 | 87.1 |",
+            "| 15 | 66.0 | 53.8 | 59.5 | 77.5 | 68.0 | 72.9 | 81.5 | 79.9 | 80.7 | 88.2 | 85.1 | 86.7 | 92.3 | 85.6 | 89.1 |",
+            "| 16 | 74.5 | 59.7 | 66.3 | 81.3 | 70.0 | 75.7 | 83.0 | 79.9 | 81.5 | 89.9 | 85.3 | 87.6 | 94.4 | 90.5 | 92.5 |",
+            "| All | 66.0 | 56.2 | 60.8 | 78.3 | 66.4 | 72.5 | 80.9 | 78.4 | 79.7 | 88.0 | 84.0 | 86.1 | 92.1 | 86.5 | 89.4 |"
+        ]
+    },
+    {
+        "title": "Table 15: Trends over time",
+        "description": "Shows the trend in the number and type of schools visited for the survey in Uttar Pradesh over selected years (2010, 2018, 2022, 2024), distinguishing between primary, upper primary, and the total number of schools visited.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| Primary schools* | 1633 | 1606 | 1357 | 1338 |",
+            "| Upper primary schools* | 263 | 392 | 673 | 692 |",
+            "| Total schools visited | 1896 | 1998 | 2030 | 2030 |"
+        ]
+    },
+    {
+        "title": "Table 16: Trends over time",
+        "description": "Tracks average attendance rates in Uttar Pradesh schools from 2010 to 2024. It compares the percentage of enrolled children present and the percentage of teachers present on the day of the visit for both primary and upper primary schools.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Primary schools | 2010 | 2018 | 2022 | 2024 |",
+            "| % Enrolled children present (Average) | 57.6 | 59.9 | 57.1 | 71.4 |",
+            "| % Teachers present (Average) | 81.0 | 85.2 | 79.5 | 85.5 |",
+            "| Upper primary schools | 2010 | 2018 | 2022 | 2024 |",
+            "| % Enrolled children present (Average) | 57.6 | 59.5 | 54.4 | 69.1 |",
+            "| % Teachers present (Average) | 79.8 | 87.0 | 80.4 | 84.5 |"
+        ]
+    },
+    {
+        "title": "Table 17: Trends over time",
+        "description": "Tracks a specific, unlabeled percentage metric for primary schools and upper primary schools in Uttar Pradesh, showing its change over the years 2010, 2018, 2022, and 2024. (The specific metric being measured is not defined in the table headers).",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| Primary schools | 5.3 | 12.4 | 11.4 | 25.5 |",
+            "| Upper primary schools | 0.4 | 2.3 | 0.8 | 2.1 |"
+        ]
+    },
+    {
+        "title": "Table 18: Multigrade classes. 2024",
+        "description": "Shows the prevalence of multigrade classrooms in Uttar Pradesh for 2024. It details the percentage of primary and upper primary schools where Standard I and Standard II children were observed sitting with students from another standard.",
+        "data": [
+            "| --- | --- | --- |",
+            "| % Schools | Std I children  observed sitting with any other Std | Std II children  observed sitting with any other Std |",
+            "| Primary schools | 50.6 | 51.4 |",
+            "| Upper primary schools | 36.9 | 38.3 |"
+        ]
+    },
+    {
+        "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
+        "description": "Reports on the availability and use of Teaching Learning Materials (TLM) in Uttar Pradesh classrooms for 2024. It shows the percentage of primary and upper primary schools where TLM (beyond textbooks) was observed for Std I and II, and of those schools, the percentage that also displayed student work.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
+            "| % Schools | Std I | Std II | Std I | Std II |",
+            "| Primary schools | 96.4 | 95.8 | 78.4 | 80.4 |",
+            "| Upper primary schools | 95.0 | 95.2 | 78.4 | 81.5 |"
+        ]
+    },
+    {
+        "title": "Table 20: Trends over time",
+        "description": "Provides a comprehensive overview of school infrastructure and facility trends in Uttar Pradesh from 2010 to 2024. It covers the availability and usability of mid-day meals, drinking water, toilets (general and for girls), libraries, electricity, and computers for student use.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
+            "| Mid-day meal | Mid-day meal served in school on the day of visit | Mid-day meal served in school on the day of visit | Mid-day meal served in school on the day of visit | 71.3 | 93.3 | 94.2 | 95.4 |",
+            "| Mid-day meal | Kitchen/shed for cooking mid-day meal | Kitchen/shed for cooking mid-day meal | Kitchen/shed for cooking mid-day meal | 89.3 | 95.4 | 94.0 | 91.3 |",
+            "| Drinking water | No facility for drinking water | No facility for drinking water | No facility for drinking water | 6.9 | 3.3 | 3.3 | 5.5 |",
+            "| Drinking water | Facility but no drinking water available | Facility but no drinking water available | Facility but no drinking water available | 10.9 | 11.5 | 8.7 | 6.0 |",
+            "| Drinking water | Drinking water available | Drinking water available | Drinking water available | 82.2 | 85.1 | 88.0 | 88.5 |",
+            "| Drinking water | Total | Total | Total | 100 | 100 | 100 | 100 |",
+            "| Toilet | No toilet facility | No toilet facility | No toilet facility | 6.7 | 3.0 | 1.2 | 0.5 |",
+            "| Toilet | Facility but toilet not useable | Facility but toilet not useable | Facility but toilet not useable | 45.9 | 24.4 | 16.9 | 9.6 |",
+            "| Toilet | Toilet usable | Toilet usable | Toilet usable | 47.4 | 72.7 | 82.0 | 89.9 |",
+            "| Toilet | Total | Total | Total | 100 | 100 | 100 | 100 |",
+            "| Girls' toilet | No separate provision for girls' toilet | No separate provision for girls' toilet | No separate provision for girls' toilet | 24.9 | 8.4 | 3.5 | 1.7 |",
+            "| Girls' toilet | Separate provision but locked | Separate provision but locked | Separate provision but locked | 25.3 | 6.5 | 3.2 | 2.1 |",
+            "| Girls' toilet | Separate provision, unlocked but not useable | Separate provision, unlocked but not useable | Separate provision, unlocked but not useable | 15.9 | 17.9 | 15.3 | 7.9 |",
+            "| Girls' toilet | Separate provision, unlocked and useable | Separate provision, unlocked and useable | Separate provision, unlocked and useable | 33.9 | 67.2 | 78.0 | 88.3 |",
+            "| Girls' toilet | Total | Total | Total | 100 | 100 | 100 | 100 |",
+            "| Library | No library | No library | No library | 51.4 | 36.9 | 6.6 | 1.5 |",
+            "| Library | Library but no books being used by children on the day of visit | Library but no books being used by children on the day of visit | Library but no books being used by children on the day of visit | 25.8 | 27.5 | 25.9 | 20.8 |",
+            "| Library | Library books being used by children on the day of visit | Library books being used by children on the day of visit | Library books being used by children on the day of visit | 22.9 | 35.7 | 67.5 | 77.6 |",
+            "| Library | Total | Total | Total | 100 | 100 | 100 | 100 |",
+            "| Electricity | Electricity connection | Electricity connection | Electricity connection |  | 66.5 | 94.8 | 97.1 |",
+            "| Electricity | Of schools with electricity connection, % schools with electricity available on the day of visit | Of schools with electricity connection, % schools with electricity available on the day of visit | Of schools with electricity connection, % schools with electricity available on the day of visit |  | 55.2 | 75.8 | 85.9 |",
+            "| Computer | No computer available for children to use | No computer available for children to use | No computer available for children to use | 98.6 | 96.7 | 94.0 | 89.1 |",
+            "| Computer | Computer available but not being used by children on the day of visit | Computer available but not being used by children on the day of visit | Computer available but not being used by children on the day of visit | 1.1 | 2.6 | 4.9 | 7.7 |",
+            "| Computer | Computer being used by children on the day of visit | Computer being used by children on the day of visit | Computer being used by children on the day of visit | 0.3 | 0.7 | 1.2 | 3.2 |",
+            "| Computer | Total | Total | Total | 100 | 100 | 100 | 100 |",
+            "|  |  |  |  |  |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
+        "description": "Details the implementation of Foundational Literacy and Numeracy (FLN) initiatives in Uttar Pradesh schools. It compares the current (2024-2025) and previous (2023-2024) academic years, showing the percentage of primary and upper primary schools that received directives, FLN training for teachers (offline/online), TLM, and funds, and held a School Readiness Programme.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | Offline | Online | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| Current academic year (2024-2025) | Primary schools* | 95.4 | 97.5 | 89.5 | 87.6 | 63.9 | 96.3 |",
+            "| Current academic year (2024-2025) | Upper primary schools* | 95.7 | 96.2 | 89.0 | 88.3 | 65.1 | 94.2 |",
+            "| Previous academic year (2023-2024) | Primary schools | 95.3 | 97.9 | 94.6 | 88.9 | 72.6 | 96.7 |",
+            "| Previous academic year (2023-2024) | Upper primary schools | 97.1 | 98.0 | 93.2 | 90.9 | 71.6 | 96.3 |"
+        ]
+    },
+    {
+        "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
+        "description": "Compares the distribution of language and math textbooks in Uttar Pradesh schools between 2022 and 2024. It shows the percentage of primary and upper primary schools that distributed textbooks to all, some, or no grades, and the percentage that provided funds as an alternative.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed | If not distributed in grades, then % schools where funds given |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in grades, then % schools where funds given |",
+            "| Primary schools | 2022 | 68.8 | 21.8 | 9.4 | 100 | 7.6 |",
+            "| Primary schools | 2024 | 96.7 | 3.1 | 0.2 | 100 |  |",
+            "| Upper primary schools | 2022 | 64.6 | 25.1 | 10.3 | 100 | 7.4 |",
+            "| Upper primary schools | 2024 | 97.7 | 2.3 | 0.0 | 100 |  |"
+        ]
+    },
+    {
+        "title": "Table 23: Distribution of uniforms. 2022, 2024",
+        "description": "Compares the distribution of school uniforms in Uttar Pradesh for 2022 and 2024. It details the percentage of primary and upper primary schools that distributed uniforms to all, some, or no grades, and the high percentage that provided funds instead.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in all grades, then % schools where funds given |",
+            "| Primary schools | 2022 | 21.9 | 19.8 | 58.3 | 100 | 94.0 |",
+            "| Primary schools | 2024 | 20.2 | 27.0 | 52.8 | 100 | 99.4 |",
+            "| Upper primary schools | 2022 | 20.8 | 18.0 | 61.3 | 100 | 95.6 |",
+            "| Upper primary schools | 2024 | 17.4 | 26.1 | 56.5 | 100 | 99.0 |"
+        ]
+    },
+    {
+        "title": "Table 24: Physical education. 2018, 2022 and 2024",
+        "description": "Tracks trends in physical education provisions in Uttar Pradesh schools from 2018 to 2024. It compares primary and upper primary schools on metrics like having allotted time for PE, the type of teacher responsible (dedicated, other, or none), the availability of a playground, and the availability of sports equipment.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | Primary schools | Primary schools | Primary schools | Upper primary schools | Upper primary schools | Upper primary schools |",
+            "| % Schools with | % Schools with | 2018 | 2022 | 2024 | 2018 | 2022 | 2024 |",
+            "| Weekly time allotted for physical education for every class | Weekly time allotted for physical education for every class |  | 87.1 | 93.4 |  | 92.0 | 95.1 |",
+            "| Physical education teacher | Separate teacher | 5.0 | 3.7 | 4.4 | 15.6 | 25.5 | 23.6 |",
+            "| Physical education teacher | Any other teacher | 72.9 | 77.1 | 78.6 | 66.9 | 61.1 | 64.8 |",
+            "| Physical education teacher | No teacher | 22.1 | 19.2 | 17.1 | 17.5 | 13.5 | 11.6 |",
+            "| Physical education teacher | Total | 100 | 100 | 100 | 100 | 100 | 100 |",
+            "| Playground in the school | Playground in the school | 69.0 | 68.0 | 66.2 | 80.8 | 81.8 | 80.6 |",
+            "| Sports equipment available | Sports equipment available | 55.2 | 95.5 | 95.8 | 64.8 | 96.3 | 98.5 |"
+        ]
+    }
+]
