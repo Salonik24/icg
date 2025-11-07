@@ -427,3 +427,32 @@
 2025-11-08 01:33:16,979 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
 2025-11-08 01:33:18,481 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
 2025-11-08 01:33:18,497 - llm - INFO - Received response from LLM
+2025-11-08 01:56:13,880 - llm - INFO - Step 1: Loading tables from 6 files...
+2025-11-08 01:56:13,885 - llm - INFO - Loaded 'punjab.json' (24 rows)
+2025-11-08 01:56:13,888 - llm - INFO - Loaded 'all_india.json' (30 rows)
+2025-11-08 01:56:13,893 - llm - INFO - Loaded 'andhra_pradesh.json' (24 rows)
+2025-11-08 01:56:13,895 - llm - INFO - Loaded 'bihar.json' (24 rows)
+2025-11-08 01:56:13,899 - llm - INFO - Loaded 'UP.json' (24 rows)
+2025-11-08 01:56:13,902 - llm - INFO - Loaded 'MP.json' (24 rows)
+2025-11-08 01:56:13,903 - llm - INFO - Step 2: Creating row-based chunks with metadata...
+2025-11-08 01:56:13,926 - llm - INFO - Created 150 total chunks from 6 files.
+2025-11-08 01:56:13,927 - llm - INFO - Step 3: Embedding chunks and building FAISS index...
+2025-11-08 01:56:13,933 - llm - INFO - All files unchanged, can use cache
+2025-11-08 01:56:13,933 - llm - INFO - Loading embeddings and index from cache...
+2025-11-08 01:56:13,933 - llm - INFO - Loading embeddings and index from cache...
+2025-11-08 01:56:13,936 - llm - INFO - FAISS index loaded: 150 vectors
+2025-11-08 01:56:13,939 - llm - INFO - Embeddings loaded: shape (150, 384)
+2025-11-08 01:56:13,949 - llm - INFO - Chunks loaded: 150 chunks
+2025-11-08 01:56:13,950 - llm - INFO - Model name: all-MiniLM-L6-v2
+2025-11-08 01:56:13,950 - llm - INFO - All cache files loaded successfully
+2025-11-08 01:56:13,950 - llm - INFO - Using cached embeddings and index
+2025-11-08 01:56:13,956 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-08 01:56:13,956 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-08 01:56:24,268 - llm - INFO - Step 4: Retrieving top 3 results for: 'hey'
+2025-11-08 01:56:24,340 - llm - INFO - Retrieved 3 chunks:
+2025-11-08 01:56:24,341 - llm - INFO -   [1] From punjab.json | Row 13 | Distance: 1.8518
+2025-11-08 01:56:24,341 - llm - INFO -   [2] From bihar.json | Row 13 | Distance: 1.8641
+2025-11-08 01:56:24,341 - llm - INFO -   [3] From punjab.json | Row 10 | Distance: 1.8648
+2025-11-08 01:56:24,341 - llm - INFO - Step 5: Generating final LLM prompt...
+2025-11-08 01:56:24,342 - llm - INFO - Step 6: Getting answer from LLM (model: gemini-pro)...
+2025-11-08 01:56:24,342 - llm - ERROR - Error getting LLM answer: module 'google.genai' has no attribute 'configure'
