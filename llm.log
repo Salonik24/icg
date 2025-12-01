@@ -633,3 +633,680 @@
 2025-11-08 03:21:32,517 - llm - INFO - Step 5: Generating final LLM prompt...
 2025-11-08 03:21:32,519 - llm - INFO - Step 6: Getting answer from LLM (model: gemini-2.5-flash)...
 2025-11-08 03:21:38,703 - llm - INFO - Received response from LLM
+2025-12-01 07:23:10,523 - llm - INFO - Step 1: Loading tables from 6 files...
+2025-12-01 07:23:10,534 - llm - INFO - Loaded 'punjab.json' (24 rows)
+2025-12-01 07:23:10,537 - llm - INFO - Loaded 'all_india.json' (30 rows)
+2025-12-01 07:23:10,543 - llm - INFO - Loaded 'andhra_pradesh.json' (24 rows)
+2025-12-01 07:23:10,547 - llm - INFO - Loaded 'bihar.json' (24 rows)
+2025-12-01 07:23:10,562 - llm - INFO - Loaded 'UP.json' (24 rows)
+2025-12-01 07:23:10,562 - llm - INFO - Loaded 'MP.json' (24 rows)
+2025-12-01 07:23:10,562 - llm - INFO - Step 2: Creating row-based chunks with metadata...
+2025-12-01 07:23:10,751 - llm - INFO - Created 150 total chunks from 6 files.
+2025-12-01 07:23:10,758 - llm - INFO - Step 3: Embedding chunks and building FAISS index...
+2025-12-01 07:23:10,818 - llm - INFO - All files unchanged, can use cache
+2025-12-01 07:23:10,826 - llm - INFO - Loading embeddings and index from cache...
+2025-12-01 07:23:10,828 - llm - INFO - Loading embeddings and index from cache...
+2025-12-01 07:23:10,843 - llm - INFO - FAISS index loaded: 150 vectors
+2025-12-01 07:23:10,856 - llm - INFO - Embeddings loaded: shape (150, 384)
+2025-12-01 07:23:10,869 - llm - INFO - Chunks loaded: 150 chunks
+2025-12-01 07:23:10,875 - llm - INFO - Model name: all-MiniLM-L6-v2
+2025-12-01 07:23:10,877 - llm - INFO - All cache files loaded successfully
+2025-12-01 07:23:10,883 - llm - INFO - Using cached embeddings and index
+2025-12-01 07:23:10,891 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-01 07:23:10,891 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-01 07:23:30,250 - llm - INFO - Step 4: Retrieving top 3 results for: 'hi'
+2025-12-01 07:23:30,654 - llm - INFO - Retrieved 3 chunks:
+2025-12-01 07:23:30,654 - llm - INFO -   [1] From MP.json | Row 14 | Distance: 1.7430
+2025-12-01 07:23:30,657 - llm - INFO -   [2] From UP.json | Row 19 | Distance: 1.7566
+2025-12-01 07:23:30,657 - llm - INFO -   [3] From MP.json | Row 12 | Distance: 1.7580
+2025-12-01 07:23:30,657 - llm - INFO - Step 5: Generating final LLM prompt...
+2025-12-01 07:23:30,658 - llm - INFO - Step 6: Getting answer from LLM (model: gemini-2.5-flash)...
+2025-12-01 07:23:33,111 - llm - INFO - Received response from LLM
+2025-12-01 07:55:56,697 - __main__ - ERROR - Error in query decomposition: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 2.934635081s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 2
+}
+]
+2025-12-01 07:57:25,708 - __main__ - ERROR - Error in query decomposition: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 33.963425288s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-12-01 07:57:26,447 - __main__ - ERROR - Error answering sub-query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 33.296338898s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-12-01 07:59:16,603 - __main__ - ERROR - Error in query decomposition: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 43.137134705s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 43
+}
+]
+2025-12-01 07:59:17,154 - __main__ - ERROR - Error answering sub-query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 42.506098062s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 42
+}
+]
+2025-12-01 07:59:17,502 - __main__ - ERROR - Error combining answers: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 42.214977921s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 42
+}
+]
+2025-12-01 07:59:17,801 - __main__ - ERROR - Error in query decomposition: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 41.967223642s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 41
+}
+]
+2025-12-01 07:59:18,469 - __main__ - ERROR - Error answering sub-query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 41.253268706s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 41
+}
+]
+2025-12-01 07:59:18,809 - __main__ - ERROR - Error combining answers: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 40.926179435s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-12-01 07:59:19,508 - __main__ - ERROR - Error processing simple query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 40.176284068s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-12-01 08:00:18,112 - __main__ - ERROR - Error in query decomposition: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:18,834 - __main__ - ERROR - Error answering sub-query: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:19,212 - __main__ - ERROR - Error combining answers: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:19,394 - __main__ - ERROR - Error in query decomposition: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:20,419 - __main__ - ERROR - Error answering sub-query: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:20,927 - __main__ - ERROR - Error combining answers: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:21,743 - __main__ - ERROR - Error processing simple query: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:52,315 - __main__ - ERROR - Error in query decomposition: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:52,782 - __main__ - ERROR - Error answering sub-query: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:53,050 - __main__ - ERROR - Error combining answers: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:53,275 - __main__ - ERROR - Error in query decomposition: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:53,766 - __main__ - ERROR - Error answering sub-query: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:54,248 - __main__ - ERROR - Error combining answers: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:00:54,824 - __main__ - ERROR - Error processing simple query: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 08:01:47,207 - __main__ - ERROR - Error answering sub-query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2, model: gemini-2.5-pro
+Please retry in 12.583460803s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, retry_delay {
+  seconds: 12
+}
+]
+2025-12-01 08:01:47,764 - __main__ - ERROR - Error answering sub-query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2, model: gemini-2.5-pro
+Please retry in 11.901621754s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, retry_delay {
+  seconds: 11
+}
+]
+2025-12-01 08:01:48,137 - __main__ - ERROR - Error combining answers: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2, model: gemini-2.5-pro
+Please retry in 11.557390018s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, retry_delay {
+  seconds: 11
+}
+]
+2025-12-01 08:01:48,377 - __main__ - ERROR - Error in query decomposition: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2, model: gemini-2.5-pro
+Please retry in 11.341861031s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, retry_delay {
+  seconds: 11
+}
+]
+2025-12-01 08:01:49,410 - __main__ - ERROR - Error answering sub-query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2, model: gemini-2.5-pro
+Please retry in 10.348512684s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, retry_delay {
+  seconds: 10
+}
+]
+2025-12-01 08:01:49,591 - __main__ - ERROR - Error combining answers: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2, model: gemini-2.5-pro
+Please retry in 10.048732073s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, retry_delay {
+  seconds: 10
+}
+]
+2025-12-01 08:01:50,282 - __main__ - ERROR - Error processing simple query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2, model: gemini-2.5-pro
+Please retry in 9.363802374s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, retry_delay {
+  seconds: 9
+}
+]
+2025-12-01 08:38:58,887 - llm - ERROR - Error embedding batch 1: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2025-12-01 08:42:21,467 - llm - ERROR - Error embedding batch 1: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2025-12-01 08:51:12,296 - llm - ERROR - Error embedding batch 1: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-12-01 09:00:36,960 - llm - ERROR - Error embedding batch 1: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[1].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[2].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[3].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[4].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[5].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[6].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[7].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[8].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[9].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[10].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[11].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[12].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[13].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[14].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[15].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[16].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[17].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[18].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[19].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[20].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[21].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[22].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[23].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[24].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[25].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[26].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[27].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[28].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[29].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[30].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[31].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[32].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[33].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[34].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[35].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[36].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[37].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[38].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[39].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[40].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[41].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[42].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[43].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[44].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[45].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[46].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[47].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[48].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[49].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[50].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[51].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[52].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[53].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[54].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[55].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[56].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[57].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[58].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[59].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[60].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[61].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[62].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[63].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[64].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[65].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[66].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[67].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[68].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[69].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[70].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[71].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[72].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[73].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[74].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[75].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[76].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[77].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[78].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[79].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[80].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[81].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[82].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[83].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[84].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[85].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[86].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[87].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[88].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[89].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[90].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[91].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[92].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[93].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[94].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[95].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[96].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[97].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[98].model: unexpected model name format
+* BatchEmbedContentsRequest.requests[99].model: unexpected model name format
+
+2025-12-01 09:12:52,326 - llm - ERROR - Error generating LLM response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-12-01 09:35:36,100 - llm - ERROR - Error generating LLM response: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.

@@ -126,8 +126,6 @@ if 'rag_components' not in st.session_state:
     st.session_state.rag_components = None
 
 
-
-
 @st.cache_resource(show_spinner="🚀 Initializing AI system...")
 def initialize_rag_system():
     """Initialize the RAG system once and cache it"""
@@ -139,7 +137,7 @@ def initialize_rag_system():
         chunks = create_chunks(tables)
         index, model, embeddings, chunks = embed_and_index(
             chunks,
-            model_name='all-MiniLM-L6-v2',
+            model_name='models/text-embedding-004',  # ✅ FIXED: Changed to Gemini embedding model
             file_paths=FILES_TO_PROCESS,
             use_cache=True
         )
