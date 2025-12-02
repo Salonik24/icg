@@ -1,0 +1,358 @@
+[
+    {
+        "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
+        "description": "This table presents the 2024 school enrollment data for Gujarat, categorized by age groups (6-14, 7-16, 7-10, 11-14, 15-16) and gender. It details the percentage of children attending government, private, and other schools, as well as the percentage of children not currently enrolled.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
+            "| Age 6-14: All | 86.5 | 12.4 | 0.1 | 1.0 | 100 |",
+            "| Age 7-16: All | 83.8 | 14.0 | 0.1 | 2.1 | 100 |",
+            "| Age 7-10: All | 88.1 | 11.4 | 0.1 | 0.5 | 100 |",
+            "| Age 7-10: Boys | 86.4 | 12.9 | 0.1 | 0.5 | 100 |",
+            "| Age 7-10: Girls | 89.7 | 9.8 | 0.0 | 0.5 | 100 |",
+            "| Age 11-14: All | 84.8 | 13.7 | 0.1 | 1.4 | 100 |",
+            "| Age 11-14: Boys | 83.4 | 15.5 | 0.1 | 1.0 | 100 |",
+            "| Age 11-14: Girls | 86.1 | 11.9 | 0.1 | 1.9 | 100 |",
+            "| Age 15-16: All | 66.0 | 23.9 | 0.1 | 10.0 | 100 |",
+            "| Age 15-16: Boys | 64.5 | 26.1 | 0.1 | 9.4 | 100 |",
+            "| Age 15-16: Girls | 67.3 | 22.1 | 0.1 | 10.5 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
+        "description": "Enrollment statistics for children aged 3 to 8 in Gujarat for the year 2022. The data distinguishes between pre-school types (Anganwadi, Government pre-primary, Private LKG/UKG) and formal schooling, along with the percentage of children not enrolled in any institution.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 80.8 | 0.4 | 1.5 | 0.2 | 0.0 | 0.0 | 17.2 | 100 |",
+            "| Age 4 | 81.5 | 5.0 | 4.5 | 0.8 | 0.2 | 0.0 | 8.1 | 100 |",
+            "| Age 5 | 40.2 | 1.6 | 4.2 | 50.4 | 1.2 | 0.0 | 2.5 | 100 |",
+            "| Age 6 | 2.9 | 0.2 | 1.9 | 87.7 | 6.8 | 0.0 | 0.5 | 100 |",
+            "| Age 7 | 0.1 | 0.0 | 0.0 | 92.6 | 6.7 | 0.0 | 0.6 | 100 |",
+            "| Age 8 | 0.1 | 0.0 | 0.0 | 92.1 | 7.3 | 0.0 | 0.6 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
+        "description": "Enrollment statistics for children aged 3 to 8 in Gujarat for the year 2024. This table allows for comparison with 2022 data, detailing enrollment in Anganwadis, government and private pre-schools, and formal schools.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/ UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 87.6 | 4.1 | 3.2 | 0.3 | 0.2 | 0.0 | 4.7 | 100 |",
+            "| Age 4 | 80.2 | 7.4 | 8.5 | 1.2 | 0.2 | 0.0 | 2.5 | 100 |",
+            "| Age 5 | 54.4 | 23.8 | 14.5 | 4.9 | 1.0 | 0.0 | 1.3 | 100 |",
+            "| Age 6 | 13.1 | 29.8 | 11.6 | 40.7 | 4.1 | 0.0 | 0.7 | 100 |",
+            "| Age 7 | 0.8 | 8.3 | 2.6 | 77.4 | 10.6 | 0.1 | 0.4 | 100 |",
+            "| Age 8 | 0.0 | 0.4 | 0.2 | 87.0 | 11.7 | 0.1 | 0.5 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 4: % Children by grade and reading level. All children. 2024",
+        "description": "2024 reading proficiency assessment for children in Gujarat, covering Grades I through VIII. It shows the percentage of students at various reading levels: 'Not even letter', 'Letter', 'Word', 'Std I level text', and 'Std II level text'.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
+            "| I | 24.9 | 37.3 | 22.2 | 9.2 | 6.5 | 100 |",
+            "| II | 18.3 | 23.7 | 29.1 | 17.9 | 11.0 | 100 |",
+            "| III | 9.3 | 16.7 | 24.7 | 23.4 | 25.8 | 100 |",
+            "| IV | 4.7 | 12.5 | 17.1 | 23.8 | 41.9 | 100 |",
+            "| V | 3.6 | 11.2 | 14.1 | 24.7 | 46.3 | 100 |",
+            "| VI | 2.8 | 7.0 | 9.5 | 21.0 | 59.7 | 100 |",
+            "| VII | 1.7 | 4.6 | 7.1 | 18.2 | 68.3 | 100 |",
+            "| VIII | 1.5 | 3.8 | 4.8 | 14.0 | 75.9 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 5: Trends over time",
+        "description": "Historical analysis (2014-2024) of reading skills for Standard III students in Gujarat. The table tracks the percentage of children capable of reading Standard II level text, broken down by government and private schools.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 17.6 | 41.8 | 20.3 |",
+            "| 2016 | 21.6 |  | 23.0 |",
+            "| 2018 | 32.3 | 39.3 | 33.3 |",
+            "| 2022 | 23.2 |  | 23.8 |",
+            "| 2024 | 24.7 | 36.2 | 25.9 |"
+        ]
+    },
+    {
+        "title": "Table 6: Trends over time",
+        "description": "Longitudinal data from 2014 to 2024 showing the percentage of students in Standard V and Standard VIII in Gujarat who can read Standard II level text. The data is segmented by government and private school enrollment.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 44.6 | 64.1 | 46.6 | 76.4 | 84.2 | 77.6 |",
+            "| 2016 | 52.3 |  | 52.9 | 75.7 |  | 76.6 |",
+            "| 2018 | 52.0 |  | 53.8 | 72.5 |  | 73.3 |",
+            "| 2022 | 33.9 |  | 34.2 | 52.1 |  | 52.4 |",
+            "| 2024 | 44.6 | 61.7 | 46.3 | 74.7 | 84.5 | 75.8 |"
+        ]
+    },
+    {
+        "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
+        "description": "2024 numeracy data for Gujarat schools, detailing the arithmetic proficiency of students in Grades I-VIII. The table shows percentages for 'Not even 1-9', 'Number recognition (1-9 and 10-99)', 'Subtraction', and 'Division'.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even",
+            "| Std | Not even",
+            "| I | 24.9 | 49.0 | 23.3 | 2.1 | 0.7 | 100 |",
+            "| II | 15.9 | 43.2 | 30.6 | 8.1 | 2.2 | 100 |",
+            "| III | 9.2 | 32.6 | 39.1 | 17.3 | 1.8 | 100 |",
+            "| IV | 4.6 | 22.9 | 41.1 | 23.8 | 7.6 | 100 |",
+            "| V | 3.4 | 21.1 | 39.1 | 22.1 | 14.3 | 100 |",
+            "| VI | 3.4 | 13.2 | 36.3 | 26.7 | 20.4 | 100 |",
+            "| VII | 1.8 | 10.8 | 34.8 | 27.4 | 25.3 | 100 |",
+            "| VIII | 2.2 | 7.9 | 32.5 | 26.9 | 30.5 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 8: Trends over time",
+        "description": "Trends from 2014 to 2024 tracking the ability of Standard III students in Gujarat to perform subtraction. The table provides a comparison between government and private schools.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 12.4 | 35.2 | 14.9 |",
+            "| 2016 | 18.3 |  | 19.6 |",
+            "| 2018 | 22.8 | 43.1 | 25.7 |",
+            "| 2022 | 22.9 |  | 23.2 |",
+            "| 2024 | 16.5 | 41.2 | 19.0 |"
+        ]
+    },
+    {
+        "title": "Table 9: Trends over time",
+        "description": "Historical trend analysis (2014-2024) of division skills among students in Standard V and Standard VIII in Gujarat, broken down by school type (Government vs. Private).",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 13.9 | 34.8 | 16.1 | 29.3 | 50.4 | 32.6 |",
+            "| 2016 | 14.5 |  | 16.1 | 33.9 |  | 34.8 |",
+            "| 2018 | 18.4 |  | 20.2 | 35.8 |  | 35.6 |",
+            "| 2022 | 14.5 |  | 14.7 | 31.3 |  | 31.8 |",
+            "| 2024 | 13.1 | 25.2 | 14.3 | 28.3 | 46.5 | 30.3 |"
+        ]
+    },
+    {
+        "title": "Table 10: Smartphone availability and use. By age. 2024",
+        "description": "2024 survey data regarding smartphone accessibility for children aged 14-16 in Gujarat. It covers availability at home, the ability to use the device for digital tasks, and personal ownership percentages.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Age | Have a smart-phone at home | Could bring a smartphone to do digital tasks* | Can use a smartphone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| 14 | 95.8 | 64.4 | 80.1 | 13.6 |",
+            "| 15 | 95.9 | 72.2 | 83.4 | 19.2 |",
+            "| 16 | 96.4 | 72.8 | 84.6 | 25.9 |",
+            "| All | 96.0 | 69.1 | 82.3 | 18.6 |"
+        ]
+    },
+    {
+        "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
+        "description": "A 2024 comparison of smartphone availability, usage proficiency, and ownership between boys and girls aged 14-16 in Gujarat.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Sex | Have a smartphone at home | Could bring a smartphone to do digital tasks* | Can use a smart-phone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Boys | 96.2 | 71.6 | 85.6 | 24.6 |",
+            "| Girls | 95.8 | 66.9 | 79.5 | 12.9 |",
+            "| All | 96.0 | 69.1 | 82.3 | 18.6 |"
+        ]
+    },
+    {
+        "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
+        "description": "Data on smartphone usage habits (education vs. social media) and digital safety knowledge (blocking, private profiles, passwords) among children aged 14-16 in Gujarat for the year 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/report a profile | Make a profile private | Change password |",
+            "| 14 | 58.8 | 68.5 | 56.5 | 45.6 | 53.4 |",
+            "| 15 | 61.6 | 75.7 | 59.9 | 50.1 | 52.2 |",
+            "| 16 | 63.1 | 77.6 | 75.6 | 69.3 | 69.4 |",
+            "| All | 60.8 | 73.2 | 62.8 | 53.6 | 57.3 |"
+        ]
+    },
+    {
+        "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
+        "description": "2024 statistics on digital safety proficiency and smartphone usage purposes for boys and girls aged 14-16 in Gujarat.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/ report a profile | Make a profile private | Change password |",
+            "| Boys | 59.4 | 76.4 | 66.7 | 59.0 | 66.3 |",
+            "| Girls | 62.1 | 70.2 | 58.8 | 48.0 | 48.0 |",
+            "| All | 60.8 | 73.2 | 62.8 | 53.6 | 57.3 |"
+        ]
+    },
+    {
+        "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
+        "description": "Percentage of children in Gujarat (2024) capable of performing specific digital tasks like setting alarms, browsing for information, finding YouTube videos, and sharing content, categorized by age (14-16) and sex.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Setting an alarm | Setting an alarm | Setting an alarm | Browsing for information | Browsing for information | Browsing for information | Finding YouTube video | Finding YouTube video | Finding YouTube video | Of those who found video, % able to share it | Of those who found video, % able to share it | Of those who found video, % able to share it |",
+            "| Age | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All |",
+            "| 14 | 66.3 | 62.5 | 64.4 | 77.1 | 72.1 | 74.6 | 72.1 | 75.4 | 73.7 | 88.0 | 82.1 | 85.1 | 90.8 | 89.7 | 90.3 |",
+            "| 15 | 75.9 | 69.2 | 72.2 | 82.0 | 78.5 | 80.1 | 75.7 | 80.1 | 77.9 | 85.3 | 88.4 | 86.9 | 94.6 | 92.9 | 93.7 |",
+            "| 16 | 75.4 | 70.5 | 72.8 | 87.5 | 82.0 | 84.6 | 81.3 | 75.2 | 78.1 | 90.2 | 85.0 | 87.5 | 96.8 | 93.7 | 95.2 |",
+            "| All | 71.6 | 66.9 | 69.1 | 81.4 | 77.1 | 79.2 | 75.7 | 77.0 | 76.3 | 87.6 | 85.1 | 86.3 | 93.7 | 91.9 | 92.8 |"
+        ]
+    },
+    {
+        "title": "Table 15: Trends over time",
+        "description": "Sample size details regarding the number of primary and upper primary schools visited in Gujarat for ASER surveys across the years 2010, 2018, 2022, and 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| Primary schools* | 66 | 105 | 36 | 88 |",
+            "| Upper primary schools* | 557 | 539 | 675 | 560 |",
+            "| Total schools visited | 623 | 644 | 711 | 648 |"
+        ]
+    },
+    {
+        "title": "Table 16: Trends over time",
+        "description": "Trends in average student and teacher attendance rates in Gujarat schools for the years 2010, 2018, 2022, and 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| All schools** | 2010 | 2018 | 2022 | 2024 |",
+            "| % Enrolled children present (Average) | 84.7 | 85.6 | 84.3 | 86.4 |",
+            "| % Teachers present (Average) | 95.8 | 92.3 | 96.9 | 95.9 |"
+        ]
+    },
+    {
+        "title": "Table 17: Trends over time",
+        "description": "Trends regarding the percentage of small schools (with total enrollment of 60 or fewer students) in Gujarat from 2010 to 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| All schools | 4.6 | 12.8 | 12.2 | 14.4 |"
+        ]
+    },
+    {
+        "title": "Table 18: Multigrade classes. 2024",
+        "description": "2024 data on the prevalence of multigrade classrooms in Gujarat, specifically showing the percentage of schools where Std I and II students were observed sitting with other grades.",
+        "data": [
+            "| --- | --- | --- |",
+            "| % Schools | Std I children  observed sitting with any other Std | Std II children  observed sitting with any other Std |",
+            "| All schools | 59.8 | 55.3 |"
+        ]
+    },
+    {
+        "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
+        "description": "Classroom observations from 2024 regarding the presence of Teaching Learning Materials (TLM) and displayed student work in Gujarat schools (Std I and II).",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
+            "| % Schools | Std I | Std II | Std I | Std II |",
+            "| All schools | 95.6 | 93.4 | 87.8 | 87.3 |"
+        ]
+    },
+    {
+        "title": "Table 20: Trends over time",
+        "description": "Comprehensive infrastructure survey of Gujarat schools (2010-2024) covering trends in mid-day meals, drinking water availability, toilet facilities (general and girls'), libraries, electricity, and computer availability.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
+            "| Mid-day meal | Mid-day meal served in school on the day of visit | 96.2 | 94.1 | 82.6 | 98.6 |",
+            "| Mid-day meal | Kitchen/shed for cooking mid-day meal | 88.3 | 90.4 | 69.0 | 90.6 |",
+            "| Drinking water | No facility for drinking water | 14.2 | 6.4 | 18.5 | 8.7 |",
+            "| Drinking water | Facility but no drinking water available | 6.5 | 5.6 | 9.7 | 7.8 |",
+            "| Drinking water | Drinking water available | 79.4 | 88.0 | 71.8 | 83.5 |",
+            "| Drinking water | Total | 100 | 100 | 100 | 100 |",
+            "| Toilet | No toilet facility | 2.6 | 0.2 | 0.0 | 0.2 |",
+            "| Toilet | Facility but toilet not useable | 32.6 | 8.5 | 4.2 | 22.4 |",
+            "| Toilet | Toilet usable | 64.8 | 91.3 | 95.8 | 77.4 |",
+            "| Toilet | Total | 100 | 100 | 100 | 100 |",
+            "| Girls' toilet | No separate provision for girls' toilet | 12.7 | 2.6 | 1.1 | 1.9 |",
+            "| Girls' toilet | Separate provision but locked | 20.7 | 1.1 | 0.4 | 4.0 |",
+            "| Girls' toilet | Separate provision, unlocked but not useable | 16.7 | 8.8 | 4.3 | 18.5 |",
+            "| Girls' toilet | Separate provision, unlocked and useable | 49.9 | 87.4 | 94.2 | 75.6 |",
+            "| Girls' toilet | Total | 100 | 100 | 100 | 100 |",
+            "| Library | No library | 16.2 | 14.7 | 10.9 | 16.4 |",
+            "| Library | Library but no books being used by children on the day of visit | 35.2 | 44.8 | 16.8 | 28.2 |",
+            "| Library | Library books being used by children on the day of visit | 48.5 | 40.5 | 72.3 | 55.4 |",
+            "| Library | Total | 100 | 100 | 100 | 100 |",
+            "| Electricity | Electricity connection |  | 99.4 | 96.2 | 99.4 |",
+            "| Electricity | Of schools with electricity connection, % schools with electricity available on the day of visit |  | 96.5 | 93.7 | 97.3 |",
+            "| Computer | No computer available for children to use | 47.8 | 33.1 | 38.6 | 25.4 |",
+            "| Computer | Computer available but not being used by children on the day of visit | 24.3 | 42.9 | 20.5 | 34.6 |",
+            "| Computer | Computer being used by children on the day of visit | 27.9 | 24.0 | 40.9 | 40.0 |",
+            "| Computer | Total | 100 | 100 | 100 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
+        "description": "Implementation status of Foundational Literacy and Numeracy (FLN) directives, training, and materials in Gujarat schools for the academic years 2023-2024 and 2024-2025.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | Offline | Online | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| All schools* | Current academic year (2024-2025) | 94.2 | 77.9 | 85.1 | 88.7 | 52.4 | 96.3 |",
+            "| All schools* | Previous academic year (202-2024) | 92.6 | 79.4 | 86.8 | 85.1 | 51.1 | 96.1 |"
+        ]
+    },
+    {
+        "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
+        "description": "Comparison of language and mathematics textbook distribution rates in Gujarat schools between 2022 and 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total |",
+            "| All schools | 2022 | 87.5 | 12.2 | 0.3 | 100 |",
+            "| All schools | 2024 | 98.8 | 1.1 | 0.2 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 23: Distribution of uniforms. 2022, 2024",
+        "description": "Data on school uniform distribution (2022 vs 2024) and physical education resources in Gujarat. This section also contains Charts 1-4 illustrating trends in enrollment, reading, and division skills.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in all grades, then % schools where funds given |",
+            "| All schools | 2022 | 49.0 | 24.7 | 26.3 | 100 | 96.6 |",
+            "| All schools | 2024 | 64.7 | 6.6 | 28.8 | 100 | 91.6 |",
+            "| % Schools with | % Schools with | All schools | All schools | All schools |",
+            "| --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | 2018 | 2022 | 2024 |",
+            "| Weekly time allotted for physical education for every class | Weekly time allotted for physical education for every class |  | 91.4 | 92.6 |",
+            "| Physical education teacher | Separate teacher | 29.7 | 45.7 | 19.9 |",
+            "| Physical education teacher | Any other teacher | 56.0 | 43.1 | 65.2 |",
+            "| Physical education teacher | No teacher | 14.3 | 11.2 | 14.8 |",
+            "| Physical education teacher | Total | 100 | 100 | 100 |",
+            "| Playground in the school | Playground in the school | 82.5 | 75.8 | 80.3 |",
+            "| Sports equipment available | Sports equipment available | 81.0 | 86.1 | 83.8 |",
+            "| Chart 1: Trends over time",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Chart 1: Trends over time",
+            "|  | 2006 | 2008 | 2010 | 2012 | 2014 | 2016 | 2018 | 2022 | 2024 |  |",
+            "| 11-14: Boys | 6.9 | 5.7 | 5.6 | 4.2 | 3.6 | 3.0 | 2.6 | 0.9 | 1.0 |  |",
+            "| 11-14: Girls | 11.7 | 10.9 | 8.0 | 7.1 | 7.2 | 4.9 | 3.6 | 2.0 | 1.9 |  |",
+            "| 15-16: Boys | 19.1 | 20.3 | 19.2 | 16.4 | 16.8 | 18.7 | 15.4 | 4.2 | 9.4 |  |",
+            "| 15-16: Girls | 27.3 | 29.6 | 29.1 | 30.1 | 30.2 | 23.5 | 24.9 | 8.0 | 10.5 |  |",
+            "| Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                       2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                       2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                       2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                       2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                       2018, 2022, 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "| Year | Std I-V | Std I-V | Std VI-VIII | Std VI-VIII |",
+            "| Year | Boys | Girls | Boys | Girls |",
+            "| 2018 | 84.6 | 89.6 | 88.3 | 91.8 |",
+            "| 2022 | 93.8 | 92.5 | 92.3 | 93.0 |",
+            "| 2024 | 87.3 | 90.1 | 85.9 | 90.1 |",
+            "| Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 |  |",
+            "|  | Std III | Std III | Std V | Std V | Std VIII | Std VIII |  |",
+            "|  | Boys | Girls | Boys | Girls | Boys | Girls |  |",
+            "| 2022 | 22.9 | 24.9 | 33.5 | 34.9 | 55.7 | 49.0 |  |",
+            "| 2024 | 22.2 | 29.3 | 43.0 | 49.7 | 70.9 | 80.2 |  |",
+            "| Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "| Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 |  |",
+            "|  | Std V | Std V | Std VIII | Std VIII |  |",
+            "|  | Boys | Girls | Boys | Girls |  |",
+            "| 2022 | 14.5 | 14.8 | 34.1 | 29.4 |  |",
+            "| 2024 | 14.5 | 14.1 | 30.6 | 30.3 |  |"
+        ]
+    }
+]

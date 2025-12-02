@@ -672,7 +672,14 @@ if __name__ == "__main__":
         "telangana.json",
         "tripura.json",
         "Uttarakhand.json",
-        "Uttar_Pradesh.json"
+        "Uttar_Pradesh.json",
+        "Arunachal_pradesh.json",
+        "Assam.json",
+        "Chhattisgarh.json",
+        "Gujarat.json",
+        "Harayan.json",
+        "Himachal_pradesh.json"
+
     ]
 
     # Load tables

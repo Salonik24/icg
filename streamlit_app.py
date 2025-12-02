@@ -44,19 +44,25 @@ st.markdown("""
 
 # Constants
 FILES_TO_PROCESS = [
-    "andhra_pradesh.json",
-    "bihar.json",
-    "MP.json",
-    "punjab.json",
-    "all_india.json",
-    "odisha.json",
-    "Rajasthan.json",
-    "Sikkim.json",
-    "tamil_nadu.json",
-    "telangana.json",
-    "tripura.json",
-    "Uttarakhand.json",
-    "Uttar_Pradesh.json"
+    "andhra_pradesh .json",
+        "bihar .json",
+        "Madhya_pradesh.json",
+        "punjab .json",
+        "all_india .json",
+        "odisha.json",
+        "Rajasthan.json",
+        "Sikkim.json",
+        "tamil_nadu.json",
+        "telangana.json",
+        "tripura.json",
+        "Uttarakhand.json",
+        "Uttar_Pradesh.json",
+        "Arunachal_pradesh.json",
+        "Assam.json",
+        "Chhattisgarh.json",
+        "Gujarat.json",
+        "Harayan.json",
+        "Himachal_pradesh.json"
 
 ]
 

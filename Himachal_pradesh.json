@@ -1,0 +1,364 @@
+[
+    {
+        "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
+        "description": "This table presents 2024 school enrollment statistics for children in Himachal Pradesh, categorized by age groups (6-14, 7-16, 7-10, 11-14, 15-16) and sex. It details the percentage distribution of students across government schools, private schools, and other educational institutions, as well as the percentage of children not currently enrolled in school.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
+            "| Age 6-14: All | 58.6 | 41.0 | 0.0 | 0.4 | 100 |",
+            "| Age 7-16: All | 61.8 | 37.5 | 0.0 | 0.8 | 100 |",
+            "| Age 7-10: All | 55.7 | 44.1 | 0.0 | 0.2 | 100 |",
+            "| Age 7-10: Boys | 54.0 | 45.8 | 0.0 | 0.3 | 100 |",
+            "| Age 7-10: Girls | 57.6 | 42.2 | 0.0 | 0.2 | 100 |",
+            "| Age 11-14: All | 63.5 | 36.1 | 0.0 | 0.4 | 100 |",
+            "| Age 11-14: Boys | 60.4 | 39.5 | 0.0 | 0.2 | 100 |",
+            "| Age 11-14: Girls | 66.6 | 32.8 | 0.0 | 0.6 | 100 |",
+            "| Age 15-16: All | 71.7 | 25.3 | 0.0 | 3.0 | 100 |",
+            "| Age 15-16: Boys | 70.2 | 26.5 | 0.0 | 3.3 | 100 |",
+            "| Age 15-16: Girls | 73.1 | 24.3 | 0.0 | 2.6 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
+        "description": "Data from 2022 showing the educational status of young children (ages 3 to 8) in Himachal Pradesh. It breaks down enrollment into pre-school categories (Anganwadi, Govt pre-primary, Pvt LKG/UKG), formal schooling (Govt, Pvt, Other), and those not enrolled in any institution.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 44.2 | 12.3 | 23.2 | 1.9 | 0.9 | 0.0 | 17.7 | 100 |",
+            "| Age 4 | 24.9 | 20.4 | 46.1 | 2.7 | 0.7 | 0.0 | 5.4 | 100 |",
+            "| Age 5 | 7.5 | 12.3 | 32.6 | 31.0 | 14.4 | 0.0 | 2.1 | 100 |",
+            "| Age 6 | 1.8 | 1.6 | 7.0 | 55.6 | 33.6 | 0.0 | 0.4 | 100 |",
+            "| Age 7 | 0.0 | 0.0 | 0.7 | 60.7 | 38.2 | 0.1 | 0.2 | 100 |",
+            "| Age 8 | 0.1 | 0.1 | 0.0 | 60.1 | 39.3 | 0.1 | 0.3 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
+        "description": "Data from 2024 showing the educational status of young children (ages 3 to 8) in Himachal Pradesh. It breaks down enrollment into pre-school categories (Anganwadi, Govt pre-primary, Pvt LKG/UKG), formal schooling (Govt, Pvt, Other), and those not enrolled in any institution, allowing for comparison with 2022 data.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/ UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 44.5 | 20.9 | 22.0 | 1.0 | 1.3 | 0.0 | 10.2 | 100 |",
+            "| Age 4 | 17.4 | 25.8 | 49.9 | 1.2 | 1.9 | 0.0 | 3.8 | 100 |",
+            "| Age 5 | 7.4 | 27.9 | 50.1 | 6.2 | 7.1 | 0.0 | 1.3 | 100 |",
+            "| Age 6 | 3.4 | 8.0 | 14.4 | 32.6 | 41.0 | 0.0 | 0.6 | 100 |",
+            "| Age 7 | 0.0 | 0.1 | 1.5 | 52.1 | 46.0 | 0.0 | 0.4 | 100 |",
+            "| Age 8 | 0.1 | 0.0 | 0.2 | 52.5 | 46.9 | 0.0 | 0.3 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 4: % Children by grade and reading level. All children. 2024",
+        "description": "A 2024 assessment of reading proficiency for children in Himachal Pradesh across Grades I through VIII. The table displays the percentage of students at different reading milestones: recognizing letters, reading words, reading Standard I level text, and reading Standard II level text.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
+            "| I | 12.8 | 34.4 | 29.2 | 14.6 | 9.0 | 100 |",
+            "| II | 6.6 | 18.5 | 19.6 | 30.8 | 24.6 | 100 |",
+            "| III | 3.1 | 9.9 | 11.4 | 27.9 | 47.6 | 100 |",
+            "| IV | 1.7 | 5.1 | 9.8 | 25.7 | 57.8 | 100 |",
+            "| V | 1.3 | 4.1 | 5.9 | 21.8 | 66.8 | 100 |",
+            "| VI | 0.4 | 2.3 | 3.0 | 15.9 | 78.4 | 100 |",
+            "| VII | 0.5 | 2.2 | 3.1 | 16.2 | 78.0 | 100 |",
+            "| VIII | 0.1 | 1.8 | 2.1 | 11.7 | 84.2 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 5: Trends over time",
+        "description": "Longitudinal trend analysis (2014-2024) of reading skills for Standard III students in Himachal Pradesh. It specifically tracks the percentage of children who can read Standard II level text, comparing performance in Government versus Private schools over the decade.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 43.6 | 51.3 | 46.6 |",
+            "| 2016 | 45.0 | 49.0 | 47.0 |",
+            "| 2018 | 47.4 | 48.0 | 47.7 |",
+            "| 2022 | 23.0 | 37.1 | 28.4 |",
+            "| 2024 | 46.6 | 49.4 | 47.7 |"
+        ]
+    },
+    {
+        "title": "Table 6: Trends over time",
+        "description": "Multi-year comparison (2014-2024) of foundational reading abilities for students in Standard V and Standard VIII in Himachal Pradesh. The table shows the percentage of students in these higher grades who can read Standard II level text, segmented by Government and Private school enrollment.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 71.5 | 82.5 | 75.3 | 90.5 | 94.8 | 91.9 |",
+            "| 2016 | 65.3 | 78.0 | 70.5 | 84.9 | 94.9 | 87.9 |",
+            "| 2018 | 74.5 | 80.4 | 76.9 | 87.4 | 95.4 | 89.9 |",
+            "| 2022 | 60.2 | 63.1 | 61.3 | 87.6 | 89.3 | 88.0 |",
+            "| 2024 | 65.8 | 68.7 | 67.0 | 84.3 | 83.9 | 84.2 |"
+        ]
+    },
+    {
+        "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
+        "description": "A 2024 numeracy assessment for students in Grades I through VIII in Himachal Pradesh. It categorizes children based on their highest arithmetic capability, ranging from number recognition (1-9, 10-99) to performing subtraction and division.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even",
+            "| Std | Not even",
+            "| I | 9.0 | 19.2 | 62.6 | 6.9 | 2.4 | 100 |",
+            "| II | 3.7 | 18.4 | 44.3 | 30.1 | 3.6 | 100 |",
+            "| III | 1.5 | 11.8 | 31.5 | 37.4 | 17.8 | 100 |",
+            "| IV | 0.9 | 6.0 | 28.7 | 28.0 | 36.5 | 100 |",
+            "| V | 1.0 | 4.8 | 21.8 | 25.4 | 47.0 | 100 |",
+            "| VI | 0.3 | 2.8 | 21.5 | 22.0 | 53.3 | 100 |",
+            "| VII | 0.1 | 3.0 | 23.8 | 24.0 | 49.2 | 100 |",
+            "| VIII | 0.0 | 2.8 | 24.8 | 20.6 | 51.8 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 8: Trends over time",
+        "description": "Historical trend data (2014-2024) regarding the arithmetic skills of Standard III students in Himachal Pradesh. It tracks the percentage of children capable of doing at least subtraction, broken down by government and private school sectors.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 40.6 | 70.6 | 52.4 |",
+            "| 2016 | 48.4 | 66.7 | 57.4 |",
+            "| 2018 | 42.4 | 58.7 | 50.1 |",
+            "| 2022 | 31.3 | 58.3 | 41.6 |",
+            "| 2024 | 46.7 | 67.5 | 55.4 |"
+        ]
+    },
+    {
+        "title": "Table 9: Trends over time",
+        "description": "Time-series data (2014-2024) illustrating the division competency of Standard V and Standard VIII students in Himachal Pradesh. The table compares the percentage of students who can perform division in government versus private schools over time.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 37.9 | 63.9 | 46.9 | 55.9 | 74.2 | 61.8 |",
+            "| 2016 | 47.4 | 63.0 | 53.7 | 50.4 | 79.5 | 59.2 |",
+            "| 2018 | 51.5 | 64.0 | 56.6 | 54.7 | 74.4 | 61.0 |",
+            "| 2022 | 38.1 | 50.5 | 42.6 | 48.2 | 65.2 | 52.3 |",
+            "| 2024 | 44.0 | 51.8 | 47.2 | 44.0 | 65.4 | 51.6 |"
+        ]
+    },
+    {
+        "title": "Table 10: Smartphone availability and use. By age. 2024",
+        "description": "Digital access statistics for 2024 in Himachal Pradesh, focusing on smartphone availability at home, accessibility for digital tasks, and personal smartphone ownership among adolescents aged 14, 15, and 16.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Age | Have a smart-phone at home | Could bring a smartphone to do digital tasks* | Can use a smartphone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| 14 | 97.4 | 83.1 | 94.1 | 24.3 |",
+            "| 15 | 96.1 | 83.1 | 93.4 | 34.9 |",
+            "| 16 | 96.5 | 84.3 | 95.7 | 47.9 |",
+            "| All | 96.7 | 83.4 | 94.3 | 35.0 |"
+        ]
+    },
+    {
+        "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
+        "description": "Gender-based comparison of smartphone access and ownership for adolescents aged 14-16 in Himachal Pradesh (2024). It highlights disparities between boys and girls regarding home availability, ability to use devices for digital tasks, and personal ownership.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Sex | Have a smartphone at home | Could bring a smartphone to do digital tasks* | Can use a smart-phone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Boys | 96.1 | 83.3 | 93.8 | 40.5 |",
+            "| Girls | 97.2 | 83.5 | 94.7 | 30.3 |",
+            "| All | 96.7 | 83.4 | 94.3 | 35.0 |"
+        ]
+    },
+    {
+        "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
+        "description": "Survey of usage patterns and digital safety awareness among smartphone-using children aged 14-16 in Himachal Pradesh (2024). It covers engagement in educational activities and social media, as well as knowledge of safety features like blocking profiles, private settings, and changing passwords.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/report a profile | Make a profile private | Change password |",
+            "| 14 | 65.4 | 90.5 | 65.3 | 66.0 | 67.4 |",
+            "| 15 | 62.9 | 89.1 | 79.0 | 78.2 | 77.2 |",
+            "| 16 | 66.5 | 91.1 | 77.3 | 82.0 | 83.8 |",
+            "| All | 64.8 | 90.2 | 73.7 | 75.0 | 75.7 |"
+        ]
+    },
+    {
+        "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
+        "description": "Gender-disaggregated data on smartphone usage purposes (education vs. social media) and digital safety proficiency among 14-16 year olds in Himachal Pradesh (2024). It compares boys and girls on their ability to block profiles, make profiles private, and change passwords.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/ report a profile | Make a profile private | Change password |",
+            "| Boys | 62.3 | 89.6 | 76.2 | 76.0 | 79.7 |",
+            "| Girls | 66.7 | 90.7 | 71.7 | 74.1 | 72.4 |",
+            "| All | 64.8 | 90.2 | 73.7 | 75.0 | 75.7 |"
+        ]
+    },
+    {
+        "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
+        "description": "This table details the digital proficiency of adolescents in Himachal Pradesh (2024). It shows the percentage of boys and girls aged 14-16 who can perform specific tasks such as setting alarms, browsing for information, finding YouTube videos, and sharing content.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Setting an alarm | Setting an alarm | Setting an alarm | Browsing for information | Browsing for information | Browsing for information | Finding YouTube video | Finding YouTube video | Finding YouTube video | Of those who found video, % able to share it | Of those who found video, % able to share it | Of those who found video, % able to share it |",
+            "| Age | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All |",
+            "| 14 | 78.3 | 87.1 | 83.1 | 92.1 | 84.2 | 87.6 | 93.8 | 93.0 | 93.3 | 96.1 | 95.1 | 95.5 | 97.2 | 94.3 | 95.6 |",
+            "| 15 | 86.3 | 80.5 | 83.1 | 91.5 | 83.9 | 87.5 | 92.8 | 90.6 | 91.6 | 95.7 | 97.1 | 96.5 | 98.2 | 95.4 | 96.7 |",
+            "| 16 | 86.0 | 83.0 | 84.3 | 97.6 | 91.5 | 94.2 | 91.7 | 91.4 | 91.5 | 97.8 | 95.5 | 96.6 | 100.0 | 98.0 | 98.9 |",
+            "| All | 83.3 | 83.5 | 83.4 | 93.4 | 86.2 | 89.4 | 92.8 | 91.7 | 92.2 | 96.4 | 96.0 | 96.2 | 98.4 | 95.7 | 96.9 |"
+        ]
+    },
+    {
+        "title": "Table 15: Trends over time",
+        "description": "Sample size details for school surveys conducted in Himachal Pradesh across selected years (2010, 2018, 2022, 2024), categorized by the number of primary and upper primary schools visited.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| Primary schools* | 195 | 284 | 259 | 264 |",
+            "| Upper primary schools* | 66 | 9 | 4 | 4 |",
+            "| Total schools visited | 261 | 293 | 263 | 268 |"
+        ]
+    },
+    {
+        "title": "Table 16: Trends over time",
+        "description": "Trends in student and teacher attendance rates in Himachal Pradesh schools, comparing average presence percentages across survey years from 2010 to 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| All schools** | 2010 | 2018 | 2022 | 2024 |",
+            "| % Enrolled children present (Average) | 90.0 | 83.4 | 83.3 | 85.2 |",
+            "| % Teachers present (Average) | 88.0 | 75.8 | 82.8 | 81.2 |"
+        ]
+    },
+    {
+        "title": "Table 17: Trends over time",
+        "description": "Trends regarding the prevalence of small schools in Himachal Pradesh (2010-2024), tracking changes in school size classifications over time.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| All schools | 48.6 | 83.1 | 81.4 | 86.9 |"
+        ]
+    },
+    {
+        "title": "Table 18: Multigrade classes. 2024",
+        "description": "Prevalence of multigrade classroom environments in Himachal Pradesh (2024), showing the percentage of schools where Standard I and II students were observed sitting with students from other grades.",
+        "data": [
+            "| --- | --- | --- |",
+            "| % Schools | Std I children observed sitting with any other Std | Std II children observed sitting with any other Std |",
+            "| All schools | 78.0 | 77.7 |"
+        ]
+    },
+    {
+        "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
+        "description": "Observational data from 2024 on the presence of Teaching Learning Materials (TLM) and the display of student work in Standard I and II classrooms in Himachal Pradesh schools.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
+            "| % Schools | Std I | Std II | Std I | Std II |",
+            "| All schools | 90.1 | 87.2 | 67.0 | 69.9 |"
+        ]
+    },
+    {
+        "title": "Table 20: Trends over time",
+        "description": "Comprehensive infrastructure survey of Himachal Pradesh schools (2010-2024), tracking the availability and usability of facilities including mid-day meals, drinking water, toilets (general and girls'), libraries, electricity, and computers.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
+            "| Mid-day meal | Mid-day meal served in school on the day of visit | 98.0 | 93.1 | 91.1 | 95.5 |",
+            "| Mid-day meal | Kitchen/shed for cooking mid-day meal | 82.5 | 99.3 | 99.2 | 97.8 |",
+            "| Drinking water | No facility for drinking water | 12.5 | 5.5 | 3.8 | 5.8 |",
+            "| Drinking water | Facility but no drinking water available | 4.3 | 5.1 | 7.3 | 3.9 |",
+            "| Drinking water | Drinking water available | 83.2 | 89.4 | 88.9 | 90.4 |",
+            "| Drinking water | Total | 100 | 100 | 100 | 100 |",
+            "| Toilet | No toilet facility | 10.8 | 0.3 | 1.1 | 1.1 |",
+            "| Toilet | Facility but toilet not useable | 33.2 | 5.5 | 11.8 | 9.0 |",
+            "| Toilet | Toilet usable | 56.0 | 94.2 | 87.1 | 89.9 |",
+            "| Toilet | Total | 100 | 100 | 100 | 100 |",
+            "| Girls' toilet | No separate provision for girls' toilet | 31.1 | 5.5 | 8.0 | 7.1 |",
+            "| Girls' toilet | Separate provision but locked | 10.6 | 2.1 | 11.4 | 6.0 |",
+            "| Girls' toilet | Separate provision, unlocked but not useable | 19.6 | 6.2 | 4.2 | 5.2 |",
+            "| Girls' toilet | Separate provision, unlocked and useable | 38.7 | 86.3 | 76.4 | 81.7 |",
+            "| Girls' toilet | Total | 100 | 100 | 100 | 100 |",
+            "| Library | No library | 19.7 | 2.7 | 4.9 | 3.8 |",
+            "| Library | Library but no books being used by children on the day of visit | 39.0 | 73.0 | 58.6 | 63.7 |",
+            "| Library | Library books being used by children on the day of visit | 41.3 | 24.3 | 36.5 | 32.6 |",
+            "| Library | Total | 100 | 100 | 100 | 100 |",
+            "| Electricity | Electricity connection |  | 94.5 | 98.5 | 99.3 |",
+            "| Electricity | Of schools with electricity connection, % schools with electricity available on the day of visit |  | 86.0 | 92.6 | 94.7 |",
+            "| Computer | No computer available for children to use | 93.3 | 93.5 | 88.7 | 82.8 |",
+            "| Computer | Computer available but not being used by children on the day of visit | 3.5 | 4.5 | 9.0 | 15.0 |",
+            "| Computer | Computer being used by children on the day of visit | 3.2 | 2.1 | 2.3 | 2.3 |",
+            "| Computer | Total | 100 | 100 | 100 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
+        "description": "Implementation status of Foundational Literacy and Numeracy (FLN) initiatives in Himachal Pradesh (2024). This table covers government directives, teacher training, material distribution (TLM), and school readiness programs for the current and previous academic years.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | Offline | Online | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| All schools* | Current academic year (2024-2025) | 82.8 | 32.8 | 21.1 | 53.4 | 28.8 | 78.6 |",
+            "| All schools* | Previous academic year (2023-2024) | 91.4 | 83.2 | 52.6 | 70.8 | 79.8 | 83.5 |"
+        ]
+    },
+    {
+        "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
+        "description": "Comparison of language and mathematics textbook distribution rates in Himachal Pradesh schools between 2022 and 2024, showing the percentage of schools where textbooks were distributed to all, some, or no grades.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed | If not distributed in all grades, then % schools where funds given |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in all grades, then % schools where funds given |",
+            "| All schools | 2022 | 95.8 | 3.0 | 1.1 | 100 | 0.0 |",
+            "| All schools | 2024 | 97.8 | 2.2 | 0.0 | 100 |  |"
+        ]
+    },
+    {
+        "title": "Table 23: Distribution of uniforms. All schools. 2022, 2024",
+        "description": "Statistics on the provision of school uniforms to students in Himachal Pradesh, comparing distribution coverage (all grades vs. some grades) in 2022 versus 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in all grades, then % schools where funds given |",
+            "| All schools | 2022 | 82.4 | 10.7 | 6.9 | 100 |  |",
+            "| All schools | 2024 | 6.0 | 21.4 | 72.6 | 100 | 69.2 |"
+        ]
+    },
+    {
+        "title": "Table 24: Physical education. 2018, 2022 and 2024",
+        "description": "Data on physical education resources in Himachal Pradesh schools (2018-2024), including PE teachers and equipment. This entry also includes Chart 1 (enrollment trends 2006-2024), Chart 2 (Govt school enrollment trends), Chart 3 (Reading Std II level text trends), and Chart 4 (Division skills trends).",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | All schools | All schools | All schools |",
+            "| % Schools with | % Schools with | 2018 | 2022 | 2024 |",
+            "| Weekly time allotted for physical education for every class | Weekly time allotted for physical education for every class |  | 65.0 | 88.8 |",
+            "| Physical education teacher | Separate teacher | 2.8 | 1.2 | 0.4 |",
+            "| Physical education teacher | Any other teacher | 74.2 | 65.6 | 85.3 |",
+            "| Physical education teacher | No teacher | 23.0 | 33.2 | 14.3 |",
+            "| Physical education teacher | Total | 100 | 100 | 100 |",
+            "| Playground in the school | Playground in the school | 81.8 | 82.8 | 84.2 |",
+            "| Sports equipment available | Sports equipment available | 69.9 | 95.4 | 92.9 |",
+            "| Chart 1: Trends over time",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Chart 1: Trends over time",
+            "|  | 2006 | 2008 | 2010 | 2012 | 2014 | 2016 | 2018 | 2022 | 2024 |  |",
+            "| 11-14: Boys | 1.1 | 1.2 | 1.0 | 1.0 | 0.4 | 0.3 | 0.7 | 0.4 | 0.2 |  |",
+            "| 11-14: Girls | 2.7 | 1.0 | 0.4 | 1.8 | 0.5 | 0.4 | 0.5 | 0.5 | 0.6 |  |",
+            "| 15-16: Boys | 4.7 | 4.3 | 3.3 | 3.3 | 3.2 | 4.0 | 2.4 | 3.4 | 3.3 |  |",
+            "| 15-16: Girls | 5.6 | 5.6 | 3.8 | 3.8 | 3.2 | 3.6 | 2.0 | 2.3 | 2.6 |  |",
+            "| Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex 2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex 2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex 2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex 2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex 2018, 2022, 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "| Year | Std I-V | Std I-V | Std VI-VIII | Std VI-VIII |",
+            "| Year | Boys | Girls | Boys | Girls |",
+            "| 2018 | 49.6 | 55.7 | 61.6 | 66.6 |",
+            "| 2022 | 59.6 | 66.7 | 68.2 | 72.2 |",
+            "| 2024 | 50.9 | 56.0 | 58.3 | 64.7 |",
+            "| Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 |  |",
+            "|  | Std III | Std III | Std V | Std V | Std VIII | Std VIII |  |",
+            "|  | Boys | Girls | Boys | Girls | Boys | Girls |  |",
+            "| 2022 | 26.1 | 31.4 | 57.5 | 65.9 | 83.1 | 93.6 |  |",
+            "| 2024 | 41.7 | 55.1 | 62.7 | 71.2 | 80.3 | 87.7 |  |",
+            "| Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "| Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 |  |",
+            "|  | Std V | Std V | Std VIII | Std VIII |  |",
+            "|  | Boys | Girls | Boys | Girls |  |",
+            "| 2022 | 42.9 | 42.0 | 50.6 | 54.3 |  |",
+            "| 2024 | 45.0 | 49.1 | 55.9 | 48.1 |  |"
+        ]
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
+        "description": "This table presents 2024 enrollment statistics for children in Arunachal Pradesh, categorized by age groups (6-14, 7-16, 15-16) and sex. It details the percentage distribution of students across government schools, private schools, and other educational institutions, as well as the percentage of children not currently enrolled in school.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
+            "| Age 6-14: All | 56.3 | 39.3 | 1.6 | 2.8 | 100 |",
+            "| Age 7-16: All | 59.6 | 35.4 | 1.5 | 3.5 | 100 |",
+            "| Age 7-10: All | 51.1 | 45.3 | 1.5 | 2.1 | 100 |",
+            "| Age 7-10: Boys | 48.3 | 48.0 | 1.1 | 2.6 | 100 |",
+            "| Age 7-10: Girls | 53.6 | 42.8 | 1.9 | 1.7 | 100 |",
+            "| Age 11-14: All | 64.0 | 31.6 | 1.9 | 2.6 | 100 |",
+            "| Age 11-14: Boys | 61.0 | 35.2 | 1.7 | 2.1 | 100 |",
+            "| Age 11-14: Girls | 66.5 | 28.4 | 2.0 | 3.1 | 100 |",
+            "| Age 15-16: All | 72.0 | 17.6 | 0.6 | 9.9 | 100 |",
+            "| Age 15-16: Boys | 68.4 | 21.0 | 0.3 | 10.4 | 100 |",
+            "| Age 15-16: Girls | 75.7 | 13.9 | 0.9 | 9.4 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
+        "description": "Data from 2022 showing the educational status of young children (ages 3 to 8) in Arunachal Pradesh. It breaks down enrollment into pre-school categories (Anganwadi, Govt pre-primary, Pvt LKG/UKG), formal schooling (Govt, Pvt, Other), and those not enrolled in any institution.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 42.7 | 6.5 | 11.7 | 3.5 | 0.1 | 0.0 | 35.6 | 100 |",
+            "| Age 4 | 29.8 | 8.6 | 28.2 | 9.1 | 2.5 | 0.0 | 21.7 | 100 |",
+            "| Age 5 | 13.5 | 10.8 | 32.8 | 23.7 | 8.2 | 0.2 | 10.8 | 100 |",
+            "| Age 6 | 6.9 | 6.7 | 20.6 | 39.9 | 21.3 | 0.6 | 4.1 | 100 |",
+            "| Age 7 | 1.8 | 3.7 | 8.5 | 49.0 | 32.5 | 1.4 | 3.2 | 100 |",
+            "| Age 8 | 1.3 | 1.0 | 1.8 | 55.1 | 36.9 | 1.7 | 2.2 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
+        "description": "Data from 2024 showing the educational status of young children (ages 3 to 8) in Arunachal Pradesh. It breaks down enrollment into pre-school categories (Anganwadi, Govt pre-primary, Pvt LKG/UKG), formal schooling (Govt, Pvt, Other), and those not enrolled in any institution, allowing for comparison with 2022 data.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/ UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 43.0 | 9.4 | 16.3 | 1.5 | 1.2 | 0.0 | 28.7 | 100 |",
+            "| Age 4 | 27.5 | 12.5 | 35.0 | 3.9 | 2.8 | 0.0 | 18.3 | 100 |",
+            "| Age 5 | 13.9 | 16.3 | 36.7 | 14.4 | 6.7 | 0.1 | 11.8 | 100 |",
+            "| Age 6 | 4.1 | 13.3 | 25.7 | 25.7 | 26.3 | 0.5 | 4.3 | 100 |",
+            "| Age 7 | 1.5 | 6.8 | 10.5 | 38.8 | 39.6 | 0.9 | 1.9 | 100 |",
+            "| Age 8 | 0.5 | 2.9 | 3.8 | 43.6 | 46.1 | 0.7 | 2.4 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 4: % Children by grade and reading level. All children. 2024",
+        "description": "A 2024 assessment of reading proficiency for children in Arunachal Pradesh across Grades I through VIII. The table displays the percentage of students at different reading milestones: recognizing letters, reading words, reading Standard I level text, and reading Standard II level text.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
+            "| I | 23.2 | 50.1 | 21.9 | 3.7 | 1.2 | 100 |",
+            "| II | 8.7 | 43.5 | 29.8 | 12.7 | 5.4 | 100 |",
+            "| III | 2.9 | 29.9 | 26.9 | 20.9 | 19.4 | 100 |",
+            "| IV | 2.6 | 20.3 | 26.4 | 28.3 | 22.4 | 100 |",
+            "| V | 2.5 | 12.8 | 18.8 | 24.9 | 41.0 | 100 |",
+            "| VI | 3.7 | 7.8 | 13.0 | 23.8 | 51.7 | 100 |",
+            "| VII | 2.7 | 3.9 | 13.3 | 13.3 | 66.8 | 100 |",
+            "| VIII | 0.0 | 2.0 | 12.1 | 9.9 | 76.1 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 5: Trends over time",
+        "description": "Longitudinal trend analysis (2014-2024) of reading skills for Standard III students in Arunachal Pradesh. It specifically tracks the percentage of children who can read Standard II level text, comparing performance in Government versus Private schools over the decade.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 5.8 | 24.9 | 10.3 |",
+            "| 2016 | 2.3 | 33.5 | 11.8 |",
+            "| 2018 | 4.8 |  | 18.7 |",
+            "| 2022 | 3.5 | 25.1 | 10.8 |",
+            "| 2024 | 7.2 | 34.0 | 19.5 |"
+        ]
+    },
+    {
+        "title": "Table 6: Trends over time",
+        "description": "Multi-year comparison (2014-2024) of foundational reading abilities for students in Standard V and Standard VIII in Arunachal Pradesh. The table shows the percentage of students in these higher grades who can read Standard II level text, segmented by Government and Private school enrollment.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 43.4 |  | 44.5 | 70.5 |  | 72.5 |",
+            "| 2016 | 16.7 | 52.6 | 25.3 | 63.1 |  | 68.1 |",
+            "| 2018 | 22.1 |  | 37.0 | 64.1 |  | 70.1 |",
+            "| 2022 | 30.5 | 55.6 | 37.8 | 69.6 |  | 73.3 |",
+            "| 2024 | 27.5 | 61.7 | 41.4 | 72.5 |  | 76.1 |"
+        ]
+    },
+    {
+        "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
+        "description": "A 2024 numeracy assessment for students in Grades I through VIII in Arunachal Pradesh. It categorizes children based on their highest arithmetic capability, ranging from number recognition (1-9, 10-99) to performing subtraction and division.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even",
+            "| Std | Not even",
+            "| I | 18.8 | 25.2 | 50.6 | 5.1 | 0.3 | 100 |",
+            "| II | 7.9 | 12.4 | 60.8 | 17.3 | 1.7 | 100 |",
+            "| III | 3.2 | 7.4 | 49.5 | 31.8 | 8.1 | 100 |",
+            "| IV | 1.0 | 3.3 | 41.8 | 36.1 | 17.9 | 100 |",
+            "| V | 2.7 | 2.7 | 28.1 | 35.8 | 30.7 | 100 |",
+            "| VI | 2.6 | 0.3 | 28.7 | 34.6 | 33.7 | 100 |",
+            "| VII | 1.9 | 0.6 | 24.3 | 28.1 | 45.1 | 100 |",
+            "| VIII | 0.0 | 0.9 | 17.6 | 33.9 | 47.6 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 8: Trends over time",
+        "description": "Historical trend data (2014-2024) regarding the arithmetic skills of Standard III students in Arunachal Pradesh. It tracks the percentage of children capable of doing at least subtraction, broken down by government and private school sectors.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 34.0 | 47.3 | 37.1 |",
+            "| 2016 | 22.2 | 53.2 | 31.6 |",
+            "| 2018 | 23.5 |  | 33.5 |",
+            "| 2022 | 29.4 | 48.1 | 35.8 |",
+            "| 2024 | 30.2 | 50.8 | 39.7 |"
+        ]
+    },
+    {
+        "title": "Table 9: Trends over time",
+        "description": "Time-series data (2014-2024) illustrating the division competency of Standard V and Standard VIII students in Arunachal Pradesh. The table compares the percentage of students who can perform division in government versus private schools over time.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 35.6 |  | 35.8 | 59.7 |  | 59.5 |",
+            "| 2016 | 11.7 | 41.2 | 18.7 | 52.5 |  | 55.5 |",
+            "| 2018 | 22.1 |  | 27.1 | 42.6 |  | 49.3 |",
+            "| 2022 | 19.5 | 31.0 | 22.9 | 40.2 |  | 45.9 |",
+            "| 2024 | 22.6 | 42.5 | 30.7 | 42.8 |  | 47.7 |"
+        ]
+    },
+    {
+        "title": "Table 10: Smartphone availability and use. By age. 2024",
+        "description": "Digital access statistics for 2024 in Arunachal Pradesh, focusing on smartphone availability at home, accessibility for digital tasks, and personal smartphone ownership among adolescents aged 14, 15, and 16.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Age | Have a smart-phone at home | Could bring a smartphone to do digital tasks* | Can use a smartphone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| 14 | 96.9 | 76.7 | 87.0 | 23.3 |",
+            "| 15 | 97.2 | 80.0 | 86.7 | 37.2 |",
+            "| 16 | 98.3 | 91.4 | 92.8 | 64.2 |",
+            "| All | 97.4 | 82.0 | 88.6 | 40.1 |"
+        ]
+    },
+    {
+        "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
+        "description": "Gender-based comparison of smartphone access and ownership for children aged 14-16 in Arunachal Pradesh (2024). It highlights disparities between boys and girls regarding home availability, ability to use devices for digital tasks, and personal ownership.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Sex | Have a smartphone at home | Could bring a smartphone to do digital tasks* | Can use a smart-phone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Boys | 97.1 | 82.1 | 89.1 | 47.6 |",
+            "| Girls | 97.7 | 82.0 | 88.0 | 32.7 |",
+            "| All | 97.4 | 82.0 | 88.6 | 40.1 |"
+        ]
+    },
+    {
+        "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
+        "description": "Survey of usage patterns and digital safety awareness among smartphone-using children aged 14-16 in Arunachal Pradesh (2024). It covers engagement in educational activities and social media, as well as knowledge of safety features like blocking profiles, private settings, and changing passwords.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/report a profile | Make a profile private | Change password |",
+            "| 14 | 57.5 | 73.0 | 61.0 | 62.8 | 62.5 |",
+            "| 15 | 60.1 | 79.4 | 74.5 | 72.7 | 70.0 |",
+            "| 16 | 66.7 | 88.7 | 79.4 | 81.8 | 78.3 |",
+            "| All | 61.2 | 79.8 | 71.5 | 72.3 | 70.2 |"
+        ]
+    },
+    {
+        "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
+        "description": "Gender-disaggregated data on smartphone usage purposes (education vs. social media) and digital safety proficiency among 14-16 year olds in Arunachal Pradesh (2024). It compares boys and girls on their ability to block profiles, make profiles private, and change passwords.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/ report a profile | Make a profile private | Change password |",
+            "| Boys | 57.8 | 79.3 | 72.8 | 76.0 | 75.0 |",
+            "| Girls | 64.6 | 80.2 | 70.2 | 68.8 | 65.5 |",
+            "| All | 61.2 | 79.8 | 71.5 | 72.3 | 70.2 |"
+        ]
+    },
+    {
+        "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
+        "description": "This table details the proficiency of children in Arunachal Pradesh (2024) in performing specific digital tasks. It shows the percentage of boys and girls aged 14-16 who can set alarms, browse for information, find YouTube videos, and share content.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Setting an alarm | Setting an alarm | Setting an alarm | Browsing for information | Browsing for information | Browsing for information | Browsing for information | Finding YouTube video | Finding YouTube video | Finding YouTube video | Finding YouTube video | Of those who found video, % able to share it | Of those who found video, % able to share it | Of those who found video, % able to share it | Of those who found video, % able to share it |",
+            "| Age | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Boys | Girls | All | Boys | Boys | Girls | All |",
+            "| 14 | 77.5 | 76.0 | 76.7 |  |  | 79.5 |  |  | 83.2 |  |  |  | 89.8 |  |  |  | 91.7 |",
+            "| 15 | 78.3 | 81.5 | 80.0 |  |  | 87.1 |  |  | 83.7 |  |  |  | 90.9 |  |  |  | 94.1 |",
+            "| 16 | 90.9 | 92.1 | 91.4 |  |  | 89.6 |  |  | 86.0 |  |  |  | 93.1 |  |  |  | 97.7 |",
+            "| All | 82.1 | 82.0 | 82.0 |  |  | 85.1 |  |  | 84.3 |  |  |  | 91.2 |  |  |  | 94.4 |"
+        ]
+    },
+    {
+        "title": "Table 15: Trends over time",
+        "description": "Sample size details for school surveys conducted in Arunachal Pradesh across selected years (2010, 2018, 2022, 2024), categorized by the number of primary and upper primary schools visited.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| Primary schools* | 152 | 58 | 90 | 71 |",
+            "| Upper primary schools* | 107 | 101 | 148 | 111 |",
+            "| Total schools visited | 259 | 159 | 238 | 182 |"
+        ]
+    },
+    {
+        "title": "Table 16: Trends over time",
+        "description": "Trends in student and teacher attendance rates in Arunachal Pradesh schools, comparing average presence percentages across survey years from 2010 to 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| All schools** | 2010 | 2018 | 2022 | 2024 |",
+            "| % Enrolled children present (Average) | 82.5 | 77.7 | 76.1 | 74.6 |",
+            "| % Teachers present (Average) | 85.3 | 71.1 | 76.7 | 77.0 |"
+        ]
+    },
+    {
+        "title": "Table 17: Trends over time",
+        "description": "Trends regarding school size in Arunachal Pradesh (2010-2024), specifically tracking the percentage of schools meeting specific small-enrollment criteria over time.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| All schools | 33.9 | 49.0 | 55.8 | 61.1 |"
+        ]
+    },
+    {
+        "title": "Table 18: Multigrade classes. 2024",
+        "description": "Prevalence of multigrade classroom environments in Arunachal Pradesh (2024), showing the percentage of schools where Standard I and II students were observed sitting with students from other grades.",
+        "data": [
+            "| --- | --- | --- |",
+            "| % Schools | Std I children observed sitting with any other Std | Std II children observed sitting with any other Std |",
+            "| All schools | 45.0 | 43.8 |"
+        ]
+    },
+    {
+        "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
+        "description": "Observational data from 2024 on the presence of Teaching Learning Materials (TLM) and the display of student work in Standard I and II classrooms in Arunachal Pradesh schools.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
+            "| % Schools | Std I | Std II | Std I | Std II |",
+            "| All schools | 64.0 | 60.3 | 52.6 | 54.3 |"
+        ]
+    },
+    {
+        "title": "Table 20: Trends over time",
+        "description": "Comprehensive infrastructure survey of Arunachal Pradesh schools (2010-2024), tracking the availability and usability of facilities including mid-day meals, drinking water, toilets (general and girls'), libraries, electricity, and computers.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
+            "| Mid-day meal | Mid-day meal served in school on the day of visit | 47.1 | 36.2 | 51.3 | 57.2 |",
+            "| Mid-day meal | Kitchen/shed for cooking mid-day meal | 64.0 | 57.4 | 57.1 | 59.8 |",
+            "| Drinking water | No facility for drinking water | 36.9 | 35.9 | 24.4 | 26.9 |",
+            "| Drinking water | Facility but no drinking water available | 9.9 | 19.5 | 13.7 | 14.3 |",
+            "| Drinking water | Drinking water available | 53.2 | 44.7 | 62.0 | 58.8 |",
+            "| Drinking water | Total | 100 | 100 | 100 | 100 |",
+            "| Toilet | No toilet facility | 20.8 | 12.0 | 13.0 | 7.7 |",
+            "| Toilet | Facility but toilet not useable | 53.9 | 38.0 | 26.9 | 37.0 |",
+            "| Toilet | Toilet usable | 25.3 | 50.0 | 60.1 | 55.3 |",
+            "| Toilet | Total | 100 | 100 | 100 | 100 |",
+            "| Girls' toilet | No separate provision for girls' toilet | 60.4 | 42.3 | 35.6 | 31.5 |",
+            "| Girls' toilet | Separate provision but locked | 11.3 | 16.8 | 10.2 | 15.8 |",
+            "| Girls' toilet | Separate provision, unlocked but not useable | 16.2 | 12.8 | 10.7 | 15.2 |",
+            "| Girls' toilet | Separate provision, unlocked and useable | 12.2 | 28.2 | 43.6 | 37.6 |",
+            "| Girls' toilet | Total | 100 | 100 | 100 | 100 |",
+            "| Library | No library | 87.0 | 76.0 | 78.0 | 77.5 |",
+            "| Library | Library but no books being used by children on the day of visit | 6.7 | 19.6 | 16.1 | 13.2 |",
+            "| Library | Library books being used by children on the day of visit | 6.3 | 4.4 | 5.9 | 9.3 |",
+            "| Library | Total | 100 | 100 | 100 | 100 |",
+            "| Electricity | Electricity connection |  | 62.8 | 79.3 | 82.8 |",
+            "| Electricity | Of schools with electricity connection, % schools with electricity available on the day of visit |  | 46.2 | 68.6 | 65.1 |",
+            "| Computer | No computer available for children to use | 85.7 | 92.3 | 86.3 | 83.5 |",
+            "| Computer | Computer available but not being used by children on the day of visit | 6.4 | 6.4 | 9.8 | 10.4 |",
+            "| Computer | Computer being used by children on the day of visit | 8.0 | 1.3 | 3.9 | 6.0 |",
+            "| Computer | Total | 100 | 100 | 100 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
+        "description": "Implementation status of Foundational Literacy and Numeracy (FLN) initiatives in Arunachal Pradesh (2024). This table covers government directives, teacher training (online and offline), material distribution (TLM), and school readiness programs.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | Offline | Online | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| All schools* | Current academic year (2024-2025) | 46.4 | 43.8 | 33.1 | 45.8 | 18.8 | 65 |",
+            "| All schools* | Previous academic year (2023-2024) | 49.1 | 46 | 44.9 | 53.3 | 21.8 | 57.8 |"
+        ]
+    },
+    {
+        "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
+        "description": "Comparison of language and mathematics textbook distribution rates in Arunachal Pradesh schools between 2022 and 2024, showing the percentage of schools where textbooks were distributed to all, some, or no grades.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed | If not distributed in all grades, then % schools where funds given |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in all grades, then % schools where funds given |",
+            "| All schools | 2022 | 89.0 | 7.6 | 3.4 | 100 |  |",
+            "| All schools | 2024 | 86.8 | 9.9 | 3.3 | 100 |  |"
+        ]
+    },
+    {
+        "title": "Table 23: Distribution of uniforms. All schools. 2022, 2024",
+        "description": "Statistics on the provision of school uniforms to students in Arunachal Pradesh, comparing distribution coverage (all grades vs. some grades) in 2022 versus 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in all grades, then % schools where funds given |",
+            "| All schools | 2022 | 73.7 | 9.3 | 17.0 | 100 |  |",
+            "| All schools | 2024 | 60.2 | 14.4 | 25.4 | 100 |  |"
+        ]
+    },
+    {
+        "title": "Table 23: Physical education. 2018, 2022 and 2024",
+        "description": "Data on the availability of physical education resources in Arunachal Pradesh schools (2018-2024), detailing allotted weekly time, presence of separate PE teachers, and availability of playgrounds and sports equipment.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | All schools | All schools | All schools |",
+            "| % Schools with | % Schools with | 2018 | 2022 | 2024 |",
+            "| Weekly time allotted for physical education for every class | Weekly time allotted for physical education for every class |  | 30.0 | 49.7 |",
+            "| Physical education teacher | Separate teacher | 16.2 | 16.6 | 11.4 |",
+            "| Physical education teacher | Any other teacher | 12.2 | 14.4 | 23.3 |",
+            "| Physical education teacher | No teacher | 71.6 | 69.1 | 65.3 |",
+            "| Physical education teacher | Total | 100 | 100 | 100 |",
+            "| Playground in the school | Playground in the school | 54.4 | 76.4 | 81.3 |",
+            "| Sports equipment available | Sports equipment available | 28.9 | 56.7 | 63.5 |",
+            "| Chart 1: Trends over time",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Chart 1: Trends over time",
+            "|  | 2006 | 2008 | 2010 | 2012 | 2014 | 2016 | 2018 | 2022 | 2024 |  |",
+            "| 11-14: Boys | 7.6 | 5.1 | 3.1 | 4.2 | 3.2 | 2.2 | 4.3 | 3.1 | 2.1 |  |",
+            "| 11-14: Girls | 8.7 | 5.6 | 4.0 | 4.0 | 1.7 | 2.2 | 2.9 | 3.0 | 3.1 |  |",
+            "| 15-16: Boys | 18.2 | 13.2 | 13.6 | 14.5 | 8.0 | 7.7 | 11.5 | 7.8 | 10.4 |  |",
+            "| 15-16: Girls | 20.2 | 10.2 | 12.7 | 10.9 | 7.4 | 6.3 | 8.6 | 6.4 | 9.5 |  |",
+            "| Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "| Year | Std I-V | Std I-V | Std VI-VIII | Std VI-VIII |",
+            "| Year | Boys | Girls | Boys | Girls |",
+            "| 2018 | 61.3 | 64.5 | 66.9 | 70.9 |",
+            "| 2022 | 64.6 | 66.5 | 69.1 | 71.5 |",
+            "| 2024 | 55.0 | 58.6 | 65.1 | 71.0 |",
+            "| Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "|  | Std III | Std III | Std V | Std V | Std VIII | Std VIII |",
+            "|  | Boys | Girls | Boys | Girls | Boys | Girls |",
+            "| 2022 | 10.0 | 11.6 | 37.4 | 38.1 | 77.0 | 70.4 |",
+            "| 2024 | 17.8 | 20.8 | 46.1 | 36.6 | 75.9 | 76.1 |",
+            "| Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "|  | Std V |  | Std VIII |  |",
+            "|  | Boys | Girls | Boys | Girls |",
+            "| 2022 | 22.4 | 23.4 | 54.3 | 40.6 |",
+            "| 2024 | 36.9 | 25.5 | 44.0 | 51.1 |"
+        ]
+    }
+]
