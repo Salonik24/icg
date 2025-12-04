@@ -1,0 +1,361 @@
+[
+    {
+        "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
+        "description": "Enrollment statistics for children in Meghalaya in 2024, categorized by age groups (6-14, 7-16, 7-10, 11-14, 15-16) and gender. The table compares enrollment percentages in Government, Private, and Other schools, as well as the percentage of children currently not in school.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
+            "| Age 6-14: All | 38.4 | 57.6 | 0.0 | 4.1 | 100 |",
+            "| Age 7-16: All | 38.3 | 56.6 | 0.0 | 5.1 | 100 |",
+            "| Age 7-10: All | 36.3 | 60.9 | 0.0 | 2.8 | 100 |",
+            "| Age 7-10: Boys | 38.4 | 58.2 | 0.0 | 3.4 | 100 |",
+            "| Age 7-10: Girls | 34.2 | 63.6 | 0.0 | 2.2 | 100 |",
+            "| Age 11-14: All | 41.1 | 54.4 | 0.0 | 4.5 | 100 |",
+            "| Age 11-14: Boys | 43.1 | 50.6 | 0.0 | 6.4 | 100 |",
+            "| Age 11-14: Girls | 39.0 | 58.4 | 0.0 | 2.6 | 100 |",
+            "| Age 15-16: All | 35.7 | 50.4 | 0.0 | 13.9 | 100 |",
+            "| Age 15-16: Boys | 34.7 | 45.2 | 0.0 | 20.0 | 100 |",
+            "| Age 15-16: Girls | 36.5 | 54.8 | 0.0 | 8.8 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
+        "description": "Detailed breakdown of educational enrollment for young children (ages 3 to 8) in Meghalaya for the year 2022. It distinguishes between various pre-school types (Anganwadi, Government pre-primary, Private LKG/UKG) and formal school types (Government, Private, Other), including data on children not attending any institution.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 10.1 | 24.4 | 20.9 | 0.5 | 0.7 | 0.0 | 43.4 | 100 |",
+            "| Age 4 | 5.1 | 21.9 | 44.4 | 2.5 | 0.7 | 0.0 | 25.4 | 100 |",
+            "| Age 5 | 3.7 | 30.5 | 48.6 | 5.2 | 6.7 | 0.0 | 5.3 | 100 |",
+            "| Age 6 | 2.1 | 24.0 | 35.8 | 13.9 | 21.4 | 0.0 | 2.9 | 100 |",
+            "| Age 7 | 0.1 | 13.6 | 17.5 | 24.6 | 42.8 | 0.2 | 1.4 | 100 |",
+            "| Age 8 | 0.5 | 10.2 | 6.6 | 34.5 | 46.3 | 0.4 | 1.5 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
+        "description": "Detailed breakdown of educational enrollment for young children (ages 3 to 8) in Meghalaya for the year 2022. It distinguishes between various pre-school types (Anganwadi, Government pre-primary, Private LKG/UKG) and formal school types (Government, Private, Other), including data on children not attending any institution.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 10.1 | 24.4 | 20.9 | 0.5 | 0.7 | 0.0 | 43.4 | 100 |",
+            "| Age 4 | 5.1 | 21.9 | 44.4 | 2.5 | 0.7 | 0.0 | 25.4 | 100 |",
+            "| Age 5 | 3.7 | 30.5 | 48.6 | 5.2 | 6.7 | 0.0 | 5.3 | 100 |",
+            "| Age 6 | 2.1 | 24.0 | 35.8 | 13.9 | 21.4 | 0.0 | 2.9 | 100 |",
+            "| Age 7 | 0.1 | 13.6 | 17.5 | 24.6 | 42.8 | 0.2 | 1.4 | 100 |",
+            "| Age 8 | 0.5 | 10.2 | 6.6 | 34.5 | 46.3 | 0.4 | 1.5 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 4: % Children by grade and reading level. All children. 2024",
+        "description": "Assessment of foundational reading skills for children in Meghalaya in 2024, arranged by grade level (Standard I through VIII). The table categorizes students by their highest reading ability: Not even letter, Letter, Word, Standard I level text, or Standard II level text.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
+            "| I | 10.8 | 46.3 | 35.6 | 4.8 | 2.6 | 100 |",
+            "| II | 5.5 | 29.2 | 38.2 | 18.6 | 8.6 | 100 |",
+            "| III | 2.4 | 15.5 | 36.5 | 26.1 | 19.5 | 100 |",
+            "| IV | 3.4 | 10.8 | 29.8 | 25.0 | 31.1 | 100 |",
+            "| V | 0.9 | 7.9 | 16.3 | 32.2 | 42.8 | 100 |",
+            "| VI | 0.6 | 4.4 | 12.5 | 35.6 | 46.9 | 100 |",
+            "| VII | 0.3 | 1.6 | 4.8 | 26.6 | 66.7 | 100 |",
+            "| VIII | 0.0 | 2.0 | 4.9 | 17.6 | 75.5 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 5: Trends over time",
+        "description": "Longitudinal trends (2014, 2016, 2018, 2022, 2024) showing the percentage of Standard III children in Meghalaya capable of reading Standard II level text. The data is broken down by Government and Private schools.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 23.2 | 25.2 | 24.3 |",
+            "| 2016 | 16.9 | 22.1 | 19.6 |",
+            "| 2018 | 19.6 | 28.0 | 24.7 |",
+            "| 2022 | 10.7 | 21.3 | 16.2 |",
+            "| 2024 | 15.6 | 22.2 | 19.5 |"
+        ]
+    },
+    {
+        "title": "Table 6: Trends over time",
+        "description": "Historical data (2014-2024) illustrating reading proficiency trends for Standard V and Standard VIII students in Meghalaya. The table displays the percentage of students in Government and Private schools who can read Standard II level text.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 46.1 | 69.1 | 58.3 |  | 88.6 | 88.0 |",
+            "| 2016 | 41.3 | 53.0 | 47.6 |  | 87.2 | 86.0 |",
+            "| 2018 | 38.9 | 58.1 | 50.2 |  | 85.5 | 82.5 |",
+            "| 2022 | 29.1 | 47.6 | 38.9 |  | 77.4 | 75.7 |",
+            "| 2024 | 36.6 | 46.9 | 42.7 |  | 79.2 | 75.4 |"
+        ]
+    },
+    {
+        "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
+        "description": "Assessment of foundational arithmetic skills for children in Meghalaya in 2024, arranged by grade level (Standard I through VIII). The table tracks proficiency levels including number recognition (1-9, 11-99), subtraction, and division.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even",
+            "| Std | Not even",
+            "| I | 12.3 | 32.8 | 51.8 | 3.0 | 0.1 | 100 |",
+            "| II | 6.1 | 16.7 | 66.9 | 10.1 | 0.2 | 100 |",
+            "| III | 2.5 | 9.4 | 65.3 | 19.2 | 3.6 | 100 |",
+            "| IV | 2.6 | 8.1 | 46.9 | 31.5 | 11.0 | 100 |",
+            "| V | 0.4 | 6.1 | 46.1 | 31.3 | 16.1 | 100 |",
+            "| VI | 0.4 | 1.6 | 52.7 | 29.7 | 15.7 | 100 |",
+            "| VII | 0.0 | 0.2 | 42.2 | 36.6 | 21.0 | 100 |",
+            "| VIII | 0.0 | 0.2 | 37.4 | 43.1 | 19.2 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 8: Trends over time",
+        "description": "Longitudinal trends (2014-2024) showing the percentage of Standard III children in Meghalaya who can perform at least subtraction. The data is categorized by Government and Private schools.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 23.1 | 33.8 | 28.8 |",
+            "| 2016 | 21.6 | 23.0 | 22.3 |",
+            "| 2018 | 14.2 | 22.6 | 19.3 |",
+            "| 2022 | 15.3 | 20.5 | 18.0 |",
+            "| 2024 | 18.9 | 25.6 | 22.8 |"
+        ]
+    },
+    {
+        "title": "Table 9: Trends over time",
+        "description": "Historical trends (2014-2024) of arithmetic proficiency in Meghalaya, specifically measuring the percentage of Standard V and Standard VIII students who can perform division, compared across Government and Private schools.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 5.9 | 15.4 | 10.9 |  | 49.6 | 48.3 |",
+            "| 2016 | 11.4 | 10.0 | 10.6 |  | 33.9 | 32.2 |",
+            "| 2018 | 4.7 | 8.8 | 7.1 |  | 30.3 | 27.9 |",
+            "| 2022 | 10.1 | 13.0 | 11.6 |  | 35.0 | 28.3 |",
+            "| 2024 | 15.2 | 16.7 | 16.1 |  | 23.1 | 19.2 |"
+        ]
+    },
+    {
+        "title": "Table 10: Smartphone availability and use. By age. 2024",
+        "description": "Digital access statistics for children aged 14, 15, and 16 in Meghalaya for 2024. The table covers smartphone availability at home, the ability to bring a phone for digital tasks, usability skills, and personal ownership of smartphones.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Age | Have a smart-phone at home | Could bring a smartphone to do digital tasks* | Can use a smartphone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| 14 | 94.4 | 46.1 | 47.4 | 4.9 |",
+            "| 15 | 93.9 | 48.9 | 58.0 | 10.3 |",
+            "| 16 | 95.4 | 56.4 |  |  |",
+            "| All | 94.5 | 49.8 | 53.6 | 13.8 |"
+        ]
+    },
+    {
+        "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
+        "description": "Gender-based comparison of smartphone availability and usage for 14-16 year olds in Meghalaya (2024). It includes data on access at home, ability to use smartphones for digital tasks, and personal ownership rates for Boys vs Girls.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Sex | Have a smartphone at home | Could bring a smartphone to do digital tasks* | Can use a smart-phone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Boys | 95.1 | 50.9 | 50.9 | 15.9 |",
+            "| Girls | 94.0 | 49.0 | 55.7 | 12.3 |",
+            "| All | 94.5 | 49.8 | 53.6 | 13.8 |"
+        ]
+    },
+    {
+        "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
+        "description": "Digital literacy and online safety report for children aged 14-16 in Meghalaya (2024). The table details engagement in educational activities and social media, as well as proficiency in safety features like blocking profiles, making profiles private, and changing passwords.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/report a profile | Make a profile private | Change password |",
+            "| 14 | 31.1 | 68.1 | 59.2 | 58.5 | 48.2 |",
+            "| 15 | 42.0 | 74.1 | 64.2 | 67.6 | 65.1 |",
+            "| 16 |  |  |  |  |  |",
+            "| All | 38.4 | 74.1 | 63.5 | 68.5 | 60.3 |"
+        ]
+    },
+    {
+        "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
+        "description": "Comparison of digital habits between boys and girls (aged 14-16) in Meghalaya for 2024. The data covers participation in educational activities, social media usage, and knowledge of online safety measures (blocking, privacy settings, password management).",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/ report a profile | Make a profile private | Change password |",
+            "| Boys | 28.3 | 71.6 | 71.5 | 73.9 | 67.7 |",
+            "| Girls | 45.8 | 76.0 | 58.0 | 64.8 | 55.2 |",
+            "| All | 38.4 | 74.1 | 63.5 | 68.5 | 60.3 |"
+        ]
+    },
+    {
+        "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
+        "description": "Breakdown of specific digital capabilities for children in Meghalaya (2024), aggregated by age and sex. It measures the ability to perform tasks such as setting alarms, browsing for information, finding YouTube videos, and sharing videos.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Setting an alarm | Setting an alarm | Setting an alarm | Browsing for information | Browsing for information | Browsing for information | Finding YouTube video | Finding YouTube video | Finding YouTube video | Of those who found video, % able to share it | Of those who found video, % able to share it | Of those who found video, % able to share it |",
+            "| Age | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All |",
+            "| 14 | 46.7 | 45.7 | 46.1 |  |  |  |  |  |  |  |  |  |  |  |  |",
+            "| 15 | 49.0 | 48.8 | 48.9 |  |  |  |  |  |  |  |  |  |  |  |  |",
+            "| 16 |  | 54.0 | 56.4 |  |  |  |  |  |  |  |  |  |  |  |  |",
+            "| All | 50.9 | 49.0 | 49.8 | 70.6 | 71.0 | 70.8 | 67.6 | 74.2 | 71.3 | 78.2 | 82.3 | 80.5 | 91.0 | 91.5 | 91.3 |"
+        ]
+    },
+    {
+        "title": "Table 15: Trends over time",
+        "description": "Survey data showing the number of Primary and Upper Primary schools visited in Meghalaya during the years 2010, 2018, 2022, and 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| Primary schools* | 101 | 127 | 110 | 110 |",
+            "| Upper primary schools* | 9 | 16 | 7 | 12 |",
+            "| Total schools visited | 110 | 143 | 117 | 122 |"
+        ]
+    },
+    {
+        "title": "Table 16: Trends over time",
+        "description": "Attendance trends in Meghalaya schools for the years 2010, 2018, 2022, and 2024. The table displays the average percentage of enrolled children present and the average percentage of teachers present.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| All schools** | 2010 | 2018 | 2022 | 2024 |",
+            "| % Enrolled children present (Average) | 75.5 | 74.9 | 74.4 | 77.8 |",
+            "| % Teachers present (Average) | 93.0 | 86.6 | 92.7 | 88.4 |"
+        ]
+    },
+    {
+        "title": "Table 17: Trends over time",
+        "description": "A longitudinal metric for 'All schools' in Meghalaya, tracking a specific percentage indicator across 2010, 2018, 2022, and 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| All schools | 71.0 | 69.0 | 75.4 | 79.5 |"
+        ]
+    },
+    {
+        "title": "Table 18: Multigrade classes. 2024",
+        "description": "Data on multigrade classroom observations in Meghalaya for 2024, specifically showing the percentage of schools where Standard I and Standard II children were observed sitting with other grades.",
+        "data": [
+            "| --- | --- | --- |",
+            "| % Schools | Std I children observed sitting with any other Std | Std II children observed sitting with any other Std |",
+            "| All schools | 79.5 | 81.8 |"
+        ]
+    },
+    {
+        "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
+        "description": "2024 observational data regarding the presence of Teaching Learning Materials (TLM) in Meghalaya classrooms (Std I and Std II) and whether student work was displayed.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
+            "| % Schools | Std I | Std II | Std I | Std I | Std II |",
+            "| All schools | 60.7 | 59.0 |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 20: Trends over time",
+        "description": "Comprehensive school infrastructure and facility trends in Meghalaya (2010-2024). The table tracks the availability and status of mid-day meals, drinking water, toilets (including separate girls' toilets), libraries, electricity connections, and computers.",
+        "data": [
+            "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
+            "| Mid-day meal | Mid-day meal served in school on the day of visit | 51.9 | 47.9 | 49.1 | 61.5 |",
+            "| Mid-day meal | Kitchen/shed for cooking mid-day meal | 60.6 | 84.5 | 92.1 | 92.6 |",
+            "| Drinking water | No facility for drinking water | 70.6 | 76.1 | 74.4 | 65.6 |",
+            "| Drinking water | Facility but no drinking water available | 5.5 | 8.5 | 9.4 | 10.7 |",
+            "| Drinking water | Drinking water available | 23.9 | 15.5 | 16.2 | 23.8 |",
+            "| Drinking water | Total | 100 | 100 | 100 | 100 |",
+            "| Toilet | No toilet facility | 34.9 | 7.0 | 21.4 | 6.6 |",
+            "| Toilet | Facility but toilet not useable | 40.6 | 48.3 | 34.2 | 31.2 |",
+            "| Toilet | Toilet usable | 24.5 | 44.8 | 44.4 | 62.3 |",
+            "| Toilet | Total | 100 | 100 | 100 | 100 |",
+            "| Girls' toilet | No separate provision for girls' toilet | 64.8 | 37.3 | 44.7 | 46.7 |",
+            "| Girls' toilet | Separate provision but locked | 9.1 | 20.9 | 17.5 | 11.5 |",
+            "| Girls' toilet | Separate provision, unlocked but not useable | 11.4 | 11.9 | 7.9 | 10.7 |",
+            "| Girls' toilet | Separate provision, unlocked and useable | 14.8 | 29.9 | 29.8 | 31.2 |",
+            "| Girls' toilet | Total | 100 | 100 | 100 | 100 |",
+            "| Library | No library | 78.0 | 89.4 | 83.8 | 73.0 |",
+            "| Library | Library but no books being used by children on the day of visit | 6.4 | 7.8 | 5.1 | 9.8 |",
+            "| Library | Library books being used by children on the day of visit | 15.6 | 2.8 | 11.1 | 17.2 |",
+            "| Library | Total | 100 | 100 | 100 | 100 |",
+            "| Electricity | Electricity connection |  | 15.9 | 20.4 | 28.7 |",
+            "| Electricity | Of schools with electricity connection, % schools with electricity available on the day of visit |  | 80.0 | 76.2 | 57.1 |",
+            "| Computer | No computer available for children to use | 97.3 | 97.9 | 98.3 | 96.7 |",
+            "| Computer | Computer available but not being used by children on the day of visit | 1.8 | 1.4 | 1.7 | 1.6 |",
+            "| Computer | Computer being used by children on the day of visit | 0.9 | 0.7 | 0.0 | 1.6 |",
+            "| Computer | Total | 100 | 100 | 100 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
+        "description": "Status of Foundational Literacy and Numeracy (FLN) implementation in Meghalaya schools for 2024 and the previous academic year. It covers government directives, online/offline teacher training, TLM receipt, funds receipt, and School Readiness Programs.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | Offline | Online | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| All schools* | Current academic year (2024-2025) | 33.3 | 24.2 | 21.3 | 63.9 | 27.1 | 34.2 |",
+            "| All schools* | Previous academic year (2023-2024) | 28.3 | 26.2 | 28.7 | 46.7 | 26.7 | 30.3 |"
+        ]
+    },
+    {
+        "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
+        "description": "Comparison of language and math textbook distribution in Meghalaya schools between 2022 and 2024. The data indicates the percentage of schools distributing books to all grades, some grades, or no grades.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed | If not distributed in all grades, then % schools where funds given |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in all grades, then % schools where funds given |",
+            "| All schools | 2022 | 65.2 | 28.7 | 6.1 | 100 |  |",
+            "| All schools | 2024 | 58.2 | 35.3 | 6.6 | 100 |  |"
+        ]
+    },
+    {
+        "title": "Table 23: Distribution of uniforms. All schools. 2022, 2024",
+        "description": "Statistics on the distribution of school uniforms in Meghalaya for the years 2022 and 2024, showing the percentage of schools covering all grades, some grades, or no grades.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in all grades, then % schools where funds given |",
+            "| All schools | 2022 | 73.5 | 13.7 | 12.8 | 100 |  |",
+            "| All schools | 2024 | 52.5 | 19.7 | 27.9 | 100 |  |"
+        ]
+    },
+    {
+        "title": "Table 24: Physical education. 2018, 2022 and 2024",
+        "description": "Trends regarding physical education resources in Meghalaya schools (2018, 2022, 2024), covering weekly time allocation, the presence of specialized PE teachers, playgrounds, and sports equipment availability.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | All schools | All schools | All schools |",
+            "| % Schools with | % Schools with | 2018 | 2022 | 2024 |",
+            "| Weekly time allotted for physical education for every class | Weekly time allotted for physical education for every class |  | 44.4 | 62.0 |",
+            "| Physical education teacher | Separate teacher | 6.8 | 10.8 | 12.4 |",
+            "| Physical education teacher | Any other teacher | 15.8 | 25.2 | 38.0 |",
+            "| Physical education teacher | No teacher | 77.4 | 64.0 | 49.6 |",
+            "| Physical education teacher | Total | 100 | 100 | 100 |",
+            "| Playground in the school | Playground in the school | 54.7 | 58.1 | 69.7 |",
+            "| Sports equipment available | Sports equipment available | 19.7 | 41.9 | 42.6 |",
+            "| Chart 1: Trends over time",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Chart 1: Trends over time",
+            "|  | 2006 | 2008 | 2010 | 2012 | 2014 | 2016 | 2018 | 2022 | 2024 |  |",
+            "| 11-14: Boys | 11.0 | 4.4 | 12.3 | 7.4 | 8.2 | 5.3 | 7.3 | 4.7 | 6.4 |  |",
+            "| 11-14: Girls | 5.4 | 2.7 | 6.8 | 5.0 | 4.9 | 2.6 | 2.0 | 1.6 | 2.6 |  |",
+            "| 15-16: Boys | 22.2 | 11.8 | 27.2 | 22.4 | 16.6 | 14.2 | 15.9 | 14.3 | 20.0 |  |",
+            "| 15-16: Girls | 17.1 | 10.5 | 16.7 | 13.7 | 15.4 | 8.7 | 9.2 | 5.1 | 8.8 |  |",
+            "| Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "| Year | Std I-V | Std I-V | Std VI-VIII | Std VI-VIII |",
+            "| Year | Boys | Girls | Boys | Girls |",
+            "| 2018 | 39.6 | 40.1 | 38.3 | 34.7 |",
+            "| 2022 | 48.4 | 47.0 | 43.3 | 43.4 |",
+            "| 2024 | 44.8 | 39.3 | 39.9 | 35.9 |",
+            "| Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "|  | Std III | Std III | Std V | Std V | Std VIII | Std VIII |",
+            "|  | Boys | Girls | Boys | Girls | Boys | Girls |",
+            "| 2022 | 14.3 | 18.0 | 32.0 | 45.0 |  |  |",
+            "| 2024 | 16.8 | 22.2 | 37.6 | 47.5 |  |  |",
+            "| Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "|  | Std V | Std V | Std VIII | Std VIII |",
+            "|  | Boys | Girls | Boys | Girls |",
+            "| 2022 | 12.3 | 11.4 |  |  |",
+            "| 2024 | 16.3 | 15.8 |  |  |"
+        ]
+    }
+]

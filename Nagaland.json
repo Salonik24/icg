@@ -1,0 +1,374 @@
+[
+    {
+        "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
+        "description": "Enrollment statistics for children in Nagaland for the year 2024, categorized by age groups (6-16) and gender. The table provides a percentage breakdown of students enrolled in Government, Private, and Other schools, as well as those not currently in school. It also includes longitudinal trends (2006-2024) for out-of-school children aged 11-16 and enrollment shifts in government schools.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
+            "| Age 6-14: All | 45.5 | 53.0 | 0.0 | 1.4 | 100 |",
+            "| Age 7-16: All | 46.7 | 50.6 | 0.0 | 2.7 | 100 |",
+            "| Age 7-10: All | 40.7 | 58.7 | 0.0 | 0.7 | 100 |",
+            "| Age 7-10: Boys | 40.2 | 58.8 | 0.0 | 1.0 | 100 |",
+            "| Age 7-10: Girls | 41.1 | 58.5 | 0.0 | 0.4 | 100 |",
+            "| Age 11-14: All | 51.9 | 45.9 | 0.0 | 2.2 | 100 |",
+            "| Age 11-14: Boys | 47.4 | 49.7 | 0.1 | 2.8 | 100 |",
+            "| Age 11-14: Girls | 56.2 | 42.3 | 0.0 | 1.6 | 100 |",
+            "| Age 15-16: All | 53.8 | 33.5 | 0.1 | 12.6 | 100 |",
+            "| Age 15-16: Boys | 49.2 | 32.8 | 0.2 | 17.9 | 100 |",
+            "| Age 15-16: Girls | 57.9 | 34.1 | 0.0 | 8.0 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
+        "description": "Data on the enrollment distribution of children aged 3 to 8 years in Nagaland for 2022. The table shows the percentage of children attending various pre-school institutions (Anganwadi, Government pre-primary, Private LKG/UKG) and schools (Government, Private, Other), as well as those not in any school.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 23.1 | 19.4 | 10.6 | 0.4 | 0.0 | 0.0 | 46.5 | 100 |",
+            "| Age 4 | 3.9 | 48.6 | 37.5 | 0.9 | 2.1 | 0.0 | 7.1 | 100 |",
+            "| Age 5 | 0.9 | 47.9 | 41.8 | 4.3 | 3.9 | 0.0 | 1.2 | 100 |",
+            "| Age 6 | 0.5 | 30.2 | 27.5 | 22.5 | 19.2 | 0.0 | 0.1 | 100 |",
+            "| Age 7 | 0.0 | 10.7 | 6.2 | 38.1 | 44.8 | 0.0 | 0.1 | 100 |",
+            "| Age 8 | 0.1 | 2.4 | 1.6 | 47.5 | 48.1 | 0.0 | 0.4 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
+        "description": "Detailed enrollment statistics for children aged 3 to 8 years in Nagaland for 2024. This table covers participation rates in pre-schooling (Anganwadi, Govt pre-primary, Private LKG/UKG) and formal schooling (Government, Private, Other), including the percentage of out-of-school children.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/ UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 24.6 | 24.9 | 12.7 | 0.2 | 0.6 | 0.0 | 37.0 | 100 |",
+            "| Age 4 | 6.4 | 43.4 | 39.2 | 0.8 | 0.3 | 0.0 | 9.8 | 100 |",
+            "| Age 5 | 1.2 | 37.5 | 52.3 | 4.1 | 3.0 | 0.0 | 1.9 | 100 |",
+            "| Age 6 | 0.8 | 23.6 | 32.7 | 17.7 | 24.2 | 0.0 | 1.0 | 100 |",
+            "| Age 7 | 0.3 | 9.5 | 7.6 | 29.2 | 52.8 | 0.0 | 0.6 | 100 |",
+            "| Age 8 | 0.0 | 3.5 | 1.3 | 39.0 | 55.9 | 0.0 | 0.4 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 4: % Children by grade and reading level. All children. 2024",
+        "description": "Reading proficiency assessment results for children in grades I through VIII in Nagaland (2024). The table categorizes students by their highest reading level: 'Not even letter', 'Letter', 'Word', 'Std I level text', or 'Std II level text'.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
+            "| I | 8.1 | 36.9 | 38.9 | 13.2 | 2.9 | 100 |",
+            "| II | 3.3 | 22.6 | 39.1 | 24.0 | 11.0 | 100 |",
+            "| III | 1.6 | 14.8 | 31.3 | 31.9 | 20.4 | 100 |",
+            "| IV | 0.7 | 6.3 | 25.5 | 31.2 | 36.3 | 100 |",
+            "| V | 0.3 | 4.0 | 15.8 | 30.6 | 49.2 | 100 |",
+            "| VI | 0.4 | 3.6 | 11.7 | 25.7 | 58.6 | 100 |",
+            "| VII | 0.0 | 1.3 | 6.3 | 22.7 | 69.8 | 100 |",
+            "| VIII | 0.0 | 0.4 | 5.2 | 14.8 | 79.7 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 5: Trends over time",
+        "description": "Historical trends (2014-2024) in reading outcomes for Standard III children in Nagaland. The table tracks the percentage of students capable of reading Standard II level text, with a breakdown by school type (Government vs. Private).",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 4.6 | 17.6 | 9.1 |",
+            "| 2016 | 7.9 | 27.1 | 15.6 |",
+            "| 2018 | 7.4 | 39.0 | 22.6 |",
+            "| 2022 | 9.1 | 36.6 | 21.2 |",
+            "| 2024 | 7.1 | 31.8 | 20.3 |"
+        ]
+    },
+    {
+        "title": "Table 6: Trends over time",
+        "description": "Trends in advanced reading skills for students in Standard V and Standard VIII in Nagaland (2014-2024). Data displays the percentage of children who can read Standard II level text, categorized by Government and Private schooling.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 27.4 | 60.7 | 41.6 | 86.3 | 95.1 | 90.3 |",
+            "| 2016 | 37.8 | 64.9 | 50.1 | 82.4 | 93.9 | 88.0 |",
+            "| 2018 | 31.7 | 67.3 | 48.1 | 76.3 | 90.8 | 83.8 |",
+            "| 2022 | 28.9 | 68.9 | 48.2 | 79.1 | 92.7 | 86.4 |",
+            "| 2024 | 27.1 | 66.1 | 49.2 | 71.4 | 89.8 | 79.7 |"
+        ]
+    },
+    {
+        "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
+        "description": "Arithmetic proficiency data for students in grades I-VIII in Nagaland for 2024. The table categorizes children by their highest arithmetic ability, including number recognition, subtraction, and division.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even",
+            "| Std | Not even",
+            "| I | 6.3 | 17.0 | 71.5 | 5.1 | 0.1 | 100 |",
+            "| II | 2.3 | 8.8 | 70.7 | 17.4 | 0.9 | 100 |",
+            "| III | 1.1 | 5.5 | 55.5 | 34.9 | 3.0 | 100 |",
+            "| IV | 0.8 | 1.2 | 44.9 | 42.2 | 10.9 | 100 |",
+            "| V | 0.8 | 0.9 | 35.4 | 42.4 | 20.6 | 100 |",
+            "| VI | 0.3 | 1.1 | 31.4 | 45.0 | 22.2 | 100 |",
+            "| VII | 0.0 | 0.2 | 28.0 | 45.8 | 26.1 | 100 |",
+            "| VIII | 0.0 | 0.5 | 23.8 | 35.4 | 40.2 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 8: Trends over time",
+        "description": "Longitudinal analysis (2014-2024) of basic arithmetic skills for Standard III students in Nagaland. The table tracks the percentage of children capable of performing subtraction, comparing Government and Private schools.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 35.4 | 49.3 | 40.2 |",
+            "| 2016 | 39.2 | 48.1 | 42.8 |",
+            "| 2018 | 26.3 | 48.5 | 37.0 |",
+            "| 2022 | 27.7 | 41.4 | 33.8 |",
+            "| 2024 | 31.4 | 43.5 | 37.9 |"
+        ]
+    },
+    {
+        "title": "Table 9: Trends over time",
+        "description": "Historical data on division-level arithmetic proficiency for Standard V and Standard VIII students in Nagaland (2014-2024). The table compares the performance of students in Government versus Private schools.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 18.3 | 35.3 | 25.6 | 66.6 | 74.5 | 70.2 |",
+            "| 2016 | 13.0 | 31.1 | 21.2 | 60.2 | 71.5 | 65.7 |",
+            "| 2018 | 19.3 | 33.5 | 25.8 | 40.7 | 61.6 | 51.5 |",
+            "| 2022 | 8.9 | 22.3 | 15.3 | 37.3 | 61.7 | 50.3 |",
+            "| 2024 | 12.7 | 26.7 | 20.6 | 29.3 | 53.9 | 40.3 |"
+        ]
+    },
+    {
+        "title": "Table 10: Smartphone availability and use. By age. 2024",
+        "description": "Survey data on smartphone accessibility and usage for adolescents (ages 14-16) in Nagaland for 2024. Metrics include home availability, ability to use smartphones for digital tasks, general usage, and personal ownership.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Age | Have a smart-phone at home | Could bring a smartphone to do digital tasks* | Can use a smartphone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| 14 | 95.3 | 79.1 | 79.9 | 9.7 |",
+            "| 15 | 94.4 | 85.1 | 84.3 | 17.2 |",
+            "| 16 | 95.4 | 85.1 | 85.9 | 29.4 |",
+            "| All | 95.0 | 82.7 | 82.9 | 17.3 |"
+        ]
+    },
+    {
+        "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
+        "description": "Gender-disaggregated data on smartphone availability and use for 14-16 year olds in Nagaland (2024). The table compares Boys and Girls on home access, ability to perform digital tasks, usage rates, and smartphone ownership.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Sex | Have a smartphone at home | Could bring a smartphone to do digital tasks* | Can use a smart-phone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Boys | 94.3 | 81.4 | 81.3 | 19.6 |",
+            "| Girls | 95.6 | 83.7 | 84.2 | 15.4 |",
+            "| All | 95.0 | 82.7 | 82.9 | 17.3 |"
+        ]
+    },
+    {
+        "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
+        "description": "Digital literacy and online safety statistics for smartphone-using children (ages 14-16) in Nagaland (2024). The table covers participation in educational activities vs. social media, and knowledge of safety features like blocking profiles, making profiles private, and changing passwords.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/report a profile | Make a profile private | Change password |",
+            "| 14 | 45.7 | 70.9 | 52.5 | 50.8 | 54.7 |",
+            "| 15 | 57.1 | 77.7 | 71.5 | 69.7 | 71.4 |",
+            "| 16 | 51.7 | 81.9 | 71.3 | 75.3 | 73.3 |",
+            "| All | 51.3 | 76.1 | 64.5 | 64.3 | 65.8 |"
+        ]
+    },
+    {
+        "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
+        "description": "Comparison of digital behavior and safety awareness between Boys and Girls (ages 14-16) in Nagaland (2024). Includes percentages for educational usage, social media usage, and proficiency in online safety features (blocking, privacy settings, password changes).",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/ report a profile | Make a profile private | Change password |",
+            "| Boys | 48.4 | 76.8 | 62.3 | 61.5 | 64.0 |",
+            "| Girls | 53.7 | 75.5 | 66.3 | 66.6 | 67.2 |",
+            "| All | 51.3 | 76.1 | 64.5 | 64.3 | 65.8 |"
+        ]
+    },
+    {
+        "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
+        "description": "Assessment of specific digital skills among children in Nagaland (2024), broken down by age (14-16) and sex. Tasks include setting an alarm, browsing for information, finding YouTube videos, and sharing videos.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Setting an alarm | Setting an alarm | Setting an alarm | Browsing for information | Browsing for information | Browsing for information | Finding YouTube video | Finding YouTube video | Finding YouTube video | Of those who found video, % able to share it | Of those who found video, % able to share it | Of those who found video, % able to share it | Of those who found video, % able to share it |",
+            "| Age | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All |",
+            "| 14 | 75.0 | 82.6 | 79.1 |  |  | 76.1 |  |  | 81.8 |  |  | 86.9 |  |  | 85.6 |",
+            "| 15 | 85.0 | 85.2 | 85.1 |  |  | 83.7 |  |  | 85.8 |  |  | 94.7 |  |  | 87.3 |",
+            "| 16 | 87.0 | 83.2 | 85.1 |  |  | 86.7 |  |  | 86.1 |  |  | 91.2 |  |  | 88.2 |",
+            "| All | 81.4 | 83.7 | 82.7 |  |  | 81.5 |  |  | 84.3 |  |  | 90.8 |  |  | 86.9 |"
+        ]
+    },
+    {
+        "title": "Table 15: Trends over time",
+        "description": "Information on the sample size of the school survey in Nagaland, detailing the number of Primary and Upper Primary schools visited in 2010, 2018, 2022, and 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| Primary schools* | 202 | 159 | 105 | 114 |",
+            "| Upper primary schools* | 21 | 130 | 111 | 133 |",
+            "| Total schools visited | 223 | 289 | 216 | 247 |"
+        ]
+    },
+    {
+        "title": "Table 16: Trends over time",
+        "description": "Attendance trends for children and teachers in Nagaland schools across the years 2010, 2018, 2022, and 2024, showing the average percentage of enrolled staff and students present on the day of the visit.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Primary schools | 2010 | 2018 | 2022 | 2024 |",
+            "| % Enrolled children present (Average) | 81.9 | 77.2 | 85.2 | 80.7 |",
+            "| % Teachers present (Average) | 87.2 | 82.9 | 89.8 | 83.7 |",
+            "| Upper primary schools | 2010 | 2018 | 2022 | 2024 |",
+            "| % Enrolled children present (Average) | 83.0 | 79.4 | 84.1 | 86.6 |",
+            "| % Teachers present (Average) | 86.3 | 74.9 | 87.1 | 86.0 |"
+        ]
+    },
+    {
+        "title": "Table 17: Trends over time",
+        "description": "Trends in school facility or enrollment characteristics in Nagaland from 2010 to 2024. The data likely indicates the percentage of schools meeting specific criteria (e.g., small schools or specific infrastructure status) over time.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| Primary schools | 50.3 | 81.8 | 91.4 | 89.8 |",
+            "| Upper primary schools | 0.0 | 36.9 | 48.6 | 57.9 |"
+        ]
+    },
+    {
+        "title": "Table 18: Multigrade classes. 2024",
+        "description": "Statistics on multigrade classroom practices in Nagaland for 2024, showing the percentage of schools where children in Standard I and Standard II were observed sitting with students from other grades.",
+        "data": [
+            "| --- | --- | --- |",
+            "| % Schools | Std I children  observed sitting with any other Std | Std II children  observed sitting with any other Std |",
+            "| Primary schools | 17.1 | 14.3 |",
+            "| Upper primary schools | 10.5 | 11.6 |"
+        ]
+    },
+    {
+        "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
+        "description": "Classroom observation data for 2024 regarding the availability and use of Teaching Learning Materials (TLM) in Nagaland schools. It tracks whether TLM was observed in Std I and II classrooms and if student work was displayed.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
+            "| % Schools | Std I | Std II | Std I | Std II |",
+            "| Primary schools | 66.7 | 66.7 |  |  |",
+            "| Upper primary schools | 72.7 | 73.3 |  |  |"
+        ]
+    },
+    {
+        "title": "Table 20: Trends over time",
+        "description": "Comprehensive trends in school infrastructure and Right to Education (RTE) indicators in Nagaland (2010-2024). The table covers the availability and condition of mid-day meals, drinking water, toilets (including separate girls' toilets), libraries, electricity, and computers.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
+            "| Mid-day meal | Mid-day meal served in school on the day of visit | 31.9 | 27.4 | 27.2 | 44.8 |",
+            "| Mid-day meal | Kitchen/shed for cooking mid-day meal | 81.7 | 83.0 | 85.9 | 81.4 |",
+            "| Drinking water | No facility for drinking water | 56.9 | 63.8 | 61.4 | 44.1 |",
+            "| Drinking water | Facility but no drinking water available | 6.0 | 8.9 | 12.9 | 16.1 |",
+            "| Drinking water | Drinking water available | 37.0 | 27.3 | 25.7 | 39.8 |",
+            "| Drinking water | Total | 100 | 100 | 100 | 100 |",
+            "| Toilet | No toilet facility | 13.8 | 5.9 | 3.7 | 3.8 |",
+            "| Toilet | Facility but toilet not useable | 32.3 | 32.3 | 31.9 | 28.2 |",
+            "| Toilet | Toilet usable | 53.9 | 61.8 | 64.4 | 68.1 |",
+            "| Toilet | Total | 100 | 100 | 100 | 100 |",
+            "| Girls' toilet | No separate provision for girls' toilet | 47.8 | 26.9 | 27.1 | 27.9 |",
+            "| Girls' toilet | Separate provision but locked | 9.4 | 18.1 | 16.7 | 17.3 |",
+            "| Girls' toilet | Separate provision, unlocked but not useable | 12.2 | 8.0 | 7.6 | 8.9 |",
+            "| Girls' toilet | Separate provision, unlocked and useable | 30.6 | 47.0 | 48.6 | 46.0 |",
+            "| Girls' toilet | Total | 100 | 100 | 100 | 100 |",
+            "| Library | No library | 86.7 | 87.2 | 44.9 | 25.9 |",
+            "| Library | Library but no books being used by children on the day of visit | 4.1 | 5.9 | 30.1 | 42.7 |",
+            "| Library | Library books being used by children on the day of visit | 9.2 | 6.9 | 25.0 | 31.4 |",
+            "| Library | Total | 100 | 100 | 100 | 100 |",
+            "| Electricity | Electricity connection |  | 72.0 | 87.7 | 96.5 |",
+            "| Electricity | Of schools with electricity connection, % schools with electricity available on the day of visit |  | 71.2 | 82.7 | 82.7 |",
+            "| Computer | No computer available for children to use | 85.3 | 86.8 | 69.5 | 62.6 |",
+            "| Computer | Computer available but not being used by children on the day of visit | 11.1 | 10.8 | 23.9 | 32.8 |",
+            "| Computer | Computer being used by children on the day of visit | 3.7 | 2.4 | 6.6 | 4.6 |",
+            "| Computer | Total | 100 | 100 | 100 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
+        "description": "Status of Foundational Literacy and Numeracy (FLN) implementation in Nagaland schools for 2023-2024 and 2024-2025. The table includes data on government directives, teacher training (offline/online), availability of FLN materials, and School Readiness Programmes.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | Offline | Online | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| Current academic year (2024-2025) | Primary schools* | 92.0 | 86.7 | 70.2 | 95.6 | 26.6 | 51.8 |",
+            "| Current academic year (2024-2025) | Upper primary schools* | 92.4 | 79.2 | 71.5 | 91.5 | 18.3 | 43.1 |",
+            "| Previous academic year (2023-2024) | Primary schools | 61.6 | 62.7 | 60.9 | 74.3 | 21.4 | 43.5 |",
+            "| Previous academic year (2023-2024) | Upper primary schools | 62.5 | 52.4 | 66.7 | 65.6 | 21.8 | 32.0 |"
+        ]
+    },
+    {
+        "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
+        "description": "Percentage of schools in Nagaland that distributed language and math textbooks to students in 2022 and 2024. Categories include distribution to all grades, some grades, or no grades.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total |",
+            "| Primary schools | 2022 | 95.2 | 1.9 | 2.9 | 100 |",
+            "| Primary schools | 2024 | 98.2 | 1.8 | 0.0 | 100 |",
+            "| Upper primary schools | 2022 | 91.8 | 7.3 | 0.9 | 100 |",
+            "| Upper primary schools | 2024 | 91.7 | 8.3 | 0.0 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 23: Distribution of uniforms. 2022, 2024",
+        "description": "Data on the distribution of school uniforms in Nagaland for 2022 and 2024. The table details the percentage of schools distributing uniforms to all or some grades, and those providing funds instead.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in all grades, then % schools where funds given |",
+            "| Primary schools | 2022 | 86.5 | 10.6 | 2.9 | 100 |  |",
+            "| Primary schools | 2024 | 98.2 | 0.9 | 0.9 | 100 |  |",
+            "| Upper primary schools | 2022 | 85.6 | 13.5 | 0.9 | 100 |  |",
+            "| Upper primary schools | 2024 | 95.5 | 3.8 | 0.8 | 100 |  |"
+        ]
+    },
+    {
+        "title": "Table 24: Physical education. 2018, 2022 and 2024",
+        "description": "Availability of physical education resources in Nagaland schools (2018, 2022, 2024), covering time allotment, PE teachers, and equipment. The table also contains appended charts: Chart 1 (Trends in out-of-school children), Chart 2 (Trends in Government school enrollment), Chart 3 (Reading proficiency trends by grade/sex), and Chart 4 (Division proficiency trends by grade/sex).",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | Primary schools | Primary schools | Primary schools | Upper primary schools | Upper primary schools | Upper primary schools |",
+            "| % Schools with | % Schools with | 2018 | 2022 | 2024 | 2018 | 2022 | 2024 |",
+            "| Weekly time allotted for physical education for every class | Weekly time allotted for physical education for every class |  | 13.3 | 28.3 |  | 34.2 | 39.4 |",
+            "| Physical education teacher | Separate teacher | 4.7 | 1.0 | 4.6 | 24.4 | 23.9 | 18.9 |",
+            "| Physical education teacher | Any other teacher | 8.0 | 10.8 | 13.6 | 3.9 | 23.9 | 15.0 |",
+            "| Physical education teacher | No teacher | 87.3 | 88.2 | 81.8 | 71.7 | 52.3 | 66.1 |",
+            "| Physical education teacher | Total | 100 | 100 | 100 | 100 | 100 | 100 |",
+            "| Playground in the school | Playground in the school | 42.0 | 52.0 | 63.6 | 64.6 | 55.5 | 68.3 |",
+            "| Sports equipment available | Sports equipment available | 27.5 | 48.5 | 66.4 | 61.2 | 69.4 | 73.4 |",
+            "| Chart 1: Trends over time",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Chart 1: Trends over time",
+            "|  | 2006 | 2008 | 2010 | 2012 | 2014 | 2016 | 2018 | 2022 | 2024 |  |",
+            "| 11-14: Boys | 7.2 | 7.8 | 4.2 | 3.4 | 5.6 | 4.7 | 2.3 | 1.4 | 2.8 |  |",
+            "| 11-14: Girls | 6.4 | 5.8 | 3.2 | 2.4 | 4.1 | 1.7 | 2.6 | 1.2 | 1.5 |  |",
+            "| 15-16: Boys | 23.2 | 22.6 | 12.6 | 18.0 | 21.6 | 20.8 | 12.0 | 10.4 | 17.8 |  |",
+            "| 15-16: Girls | 17.2 | 15.9 | 13.8 | 13.3 | 14.0 | 16.2 | 6.4 | 8.7 | 7.9 |  |",
+            "| Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "| Year | Std I-V | Std I-V | Std VI-VIII | Std VI-VIII |",
+            "| Year | Boys | Girls | Boys | Girls |",
+            "| 2018 | 53.5 | 53.6 | 45.3 | 53.7 |",
+            "| 2022 | 53.8 | 53.7 | 46.3 | 52.2 |",
+            "| 2024 | 45.6 | 46.7 | 46.6 | 58.8 |",
+            "| Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "|  | Std III | Std III | Std V | Std V | Std VIII | Std VIII |",
+            "|  | Boys | Girls | Boys | Girls | Boys | Girls |",
+            "| 2022 | 19.7 | 23.0 | 49.8 | 46.7 | 82.4 | 89.2 |",
+            "| 2024 | 21.5 | 19.1 | 46.1 | 52.4 | 75.6 | 83.1 |",
+            "| Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "|  | Std V | Std V | Std VIII | Std VIII |",
+            "|  | Boys | Girls | Boys | Girls |",
+            "| 2022 | 16.7 | 13.7 | 46.6 | 52.9 |",
+            "| 2024 | 21.1 | 20.0 | 42.6 | 38.1 |"
+        ]
+    }
+]

@@ -63,7 +63,15 @@ FILES_TO_PROCESS = [
         "Gujarat.json",
         "Harayan.json",
         "West Bengal_Tables.json",
-        "Himachal_pradesh.json"
+        "Himachal_pradesh.json",
+        "Jammu_Kashmir.json",
+        "Jharkhand.json",
+        "Karnataka.json",
+        "Kerela.json",
+        "Maharashtra.json",
+        "Meghalaya.json",
+        "Mizoram.json",
+        "Nagaland.json"
 
 ]
 

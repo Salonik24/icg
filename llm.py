@@ -660,11 +660,11 @@ if __name__ == "__main__":
 
     # File paths
     file_paths = [
-        "andhra_pradesh.json",
-        "bihar.json",
-        "MP.json",
-        "punjab.json",
-        "all_india.json",
+        "andhra_pradesh .json",
+        "bihar .json",
+        "Madhya_pradesh.json",
+        "punjab .json",
+        "all_india .json",
         "odisha.json",
         "Rajasthan.json",
         "Sikkim.json",
@@ -679,7 +679,16 @@ if __name__ == "__main__":
         "Gujarat.json",
         "Harayan.json",
         "West Bengal_Tables.json",
-        "Himachal_pradesh.json"
+        "Himachal_pradesh.json",
+        "Jammu_Kashmir.json",
+        "Jharkhand.json",
+        "Karnataka.json",
+        "Kerela.json",
+        "Maharashtra.json",
+        "Meghalaya.json",
+        "Mizoram.json",
+        "Nagaland.json"
+
 
     ]
 

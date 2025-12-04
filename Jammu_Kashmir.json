@@ -1,0 +1,376 @@
+[
+    {
+        "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
+        "description": "Enrollment statistics for children in Jammu and Kashmir in 2024, categorized by age groups (6-14, 7-16, 7-10, 11-14, 15-16) and gender. The table compares enrollment percentages in Government, Private, and Other schools, as well as the percentage of children currently not in school.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
+            "| Age 6-14: All | 57.2 | 41.7 | 0.4 | 0.6 | 100 |",
+            "| Age 7-16: All | 58.3 | 40.2 | 0.5 | 1.1 | 100 |",
+            "| Age 7-10: All | 56.0 | 43.2 | 0.4 | 0.4 | 100 |",
+            "| Age 7-10: Boys | 54.0 | 45.2 | 0.5 | 0.3 | 100 |",
+            "| Age 7-10: Girls | 58.2 | 41.1 | 0.3 | 0.5 | 100 |",
+            "| Age 11-14: All | 57.6 | 41.1 | 0.5 | 0.8 | 100 |",
+            "| Age 11-14: Boys | 55.2 | 43.4 | 0.5 | 1.0 | 100 |",
+            "| Age 11-14: Girls | 60.2 | 38.8 | 0.4 | 0.6 | 100 |",
+            "| Age 15-16: All | 65.9 | 29.7 | 0.6 | 3.8 | 100 |",
+            "| Age 15-16: Boys | 64.0 | 32.2 | 0.8 | 3.0 | 100 |",
+            "| Age 15-16: Girls | 67.6 | 27.4 | 0.4 | 4.6 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
+        "description": "Detailed breakdown of educational enrollment for children aged 3 to 8 in Jammu and Kashmir for the year 2022. It distinguishes between pre-school types (Anganwadi, Government pre-primary, Private LKG/UKG) and formal school types (Government, Private, Other), including data on children not attending any institution.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 63.6 | 4.6 | 13.7 | 2.1 | 1.1 | 0.5 | 14.4 | 100 |",
+            "| Age 4 | 39.4 | 15.1 | 31.2 | 3.8 | 3.3 | 0.3 | 6.9 | 100 |",
+            "| Age 5 | 11.4 | 22.4 | 41.7 | 14.8 | 8.0 | 0.0 | 1.6 | 100 |",
+            "| Age 6 | 2.8 | 13.3 | 34.0 | 30.7 | 18.6 | 0.0 | 0.6 | 100 |",
+            "| Age 7 | 0.8 | 5.4 | 17.6 | 45.0 | 31.0 | 0.0 | 0.3 | 100 |",
+            "| Age 8 | 0.3 | 1.7 | 6.4 | 49.4 | 41.4 | 0.5 | 0.2 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
+        "description": "Educational enrollment statistics for children aged 3 to 8 in Jammu and Kashmir for the year 2024. The table provides percentage breakdowns for Anganwadi, Government pre-primary, Private LKG/UKG, and various formal school categories, alongside data on children not enrolled.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/ UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 64.9 | 8.6 | 12.8 | 1.4 | 0.5 | 0.0 | 11.9 | 100 |",
+            "| Age 4 | 37.7 | 20.8 | 31.1 | 3.5 | 1.3 | 0.0 | 5.5 | 100 |",
+            "| Age 5 | 11.2 | 27.1 | 43.9 | 11.1 | 4.1 | 0.0 | 2.6 | 100 |",
+            "| Age 6 | 3.0 | 17.8 | 36.1 | 27.7 | 14.9 | 0.0 | 0.5 | 100 |",
+            "| Age 7 | 0.5 | 7.1 | 21.8 | 41.2 | 28.6 | 0.4 | 0.4 | 100 |",
+            "| Age 8 | 0.6 | 1.4 | 6.5 | 50.4 | 40.3 | 0.4 | 0.5 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 4: % Children by grade and reading level. All children. 2024",
+        "description": "Assessment of foundational reading skills for children in Jammu and Kashmir in 2024, arranged by grade level (Standard I through VIII). The table categorizes students by their highest reading ability: Not even letter, Letter, Word, Standard I level text, or Standard II level text.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
+            "| I | 16.3 | 40.1 | 30.3 | 9.7 | 3.6 | 100 |",
+            "| II | 6.3 | 32.2 | 34.4 | 17.5 | 9.7 | 100 |",
+            "| III | 3.8 | 21.7 | 31.5 | 26.4 | 16.6 | 100 |",
+            "| IV | 1.6 | 13.0 | 28.9 | 29.5 | 26.9 | 100 |",
+            "| V | 2.2 | 9.3 | 25.0 | 25.9 | 37.7 | 100 |",
+            "| VI | 1.0 | 8.2 | 20.5 | 26.6 | 43.8 | 100 |",
+            "| VII | 0.9 | 5.5 | 18.6 | 24.8 | 50.1 | 100 |",
+            "| VIII | 0.9 | 3.5 | 12.1 | 25.0 | 58.5 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 5: Trends over time",
+        "description": "Longitudinal trends (2014, 2016, 2018, 2022, 2024) showing the percentage of Standard III children in Jammu and Kashmir capable of reading Standard II level text. The data is broken down by Government and Private schools.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 10.0 | 29.9 | 20.0 |",
+            "| 2016 | 7.3 | 29.3 | 14.6 |",
+            "| 2018 | 5.4 | 42.0 | 22.1 |",
+            "| 2022 | 4.3 | 34.0 | 19.0 |",
+            "| 2024 | 6.7 | 30.7 | 16.7 |"
+        ]
+    },
+    {
+        "title": "Table 6: Trends over time",
+        "description": "Historical data (2014-2024) illustrating reading proficiency trends for Standard V and Standard VIII students in Jammu and Kashmir. The table displays the percentage of students in Government and Private schools who can read Standard II level text.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 21.0 | 58.8 | 38.7 | 54.4 | 76.5 | 63.9 |",
+            "| 2016 | 22.2 | 53.1 | 32.0 | 55.6 | 78.0 | 62.1 |",
+            "| 2018 | 24.3 | 69.1 | 42.0 | 55.5 | 83.0 | 65.0 |",
+            "| 2022 | 18.1 | 54.9 | 35.2 | 50.2 | 78.0 | 61.2 |",
+            "| 2024 | 21.8 | 60.3 | 37.8 | 47.2 | 78.2 | 58.6 |"
+        ]
+    },
+    {
+        "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
+        "description": "Assessment of foundational arithmetic skills for children in Jammu and Kashmir in 2024, arranged by grade level (Standard I through VIII). The table tracks proficiency levels including number recognition (1-9, 11-99), subtraction, and division.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even",
+            "| Std | Not even",
+            "| I | 12.9 | 30.0 | 45.2 | 10.8 | 1.2 | 100 |",
+            "| II | 5.6 | 19.9 | 51.2 | 20.5 | 2.8 | 100 |",
+            "| III | 2.9 | 12.2 | 48.5 | 27.4 | 9.0 | 100 |",
+            "| IV | 1.7 | 6.2 | 45.4 | 28.5 | 18.4 | 100 |",
+            "| V | 1.8 | 5.6 | 37.2 | 30.3 | 25.1 | 100 |",
+            "| VI | 0.7 | 5.1 | 34.3 | 32.1 | 27.8 | 100 |",
+            "| VII | 0.8 | 2.9 | 32.4 | 33.2 | 30.7 | 100 |",
+            "| VIII | 0.6 | 1.7 | 29.3 | 32.6 | 35.8 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 8: Trends over time",
+        "description": "Longitudinal trends (2014-2024) showing the percentage of Standard III children in Jammu and Kashmir who can perform at least subtraction. The data is categorized by Government and Private schools.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 22.8 | 59.2 | 41.1 |",
+            "| 2016 | 19.4 | 55.0 | 31.3 |",
+            "| 2018 | 20.2 | 55.0 | 36.1 |",
+            "| 2022 | 26.1 | 51.6 | 38.7 |",
+            "| 2024 | 22.7 | 56.2 | 36.6 |"
+        ]
+    },
+    {
+        "title": "Table 9: Trends over time",
+        "description": "Historical trends (2014-2024) of arithmetic proficiency in Jammu and Kashmir, specifically measuring the percentage of Standard V and Standard VIII students who can perform division, compared across Government and Private schools.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 13.7 | 38.0 | 25.0 | 27.6 | 55.1 | 39.3 |",
+            "| 2016 | 14.6 | 37.5 | 21.9 | 40.4 | 66.5 | 48.0 |",
+            "| 2018 | 13.6 | 42.6 | 25.1 | 25.3 | 47.3 | 32.9 |",
+            "| 2022 | 14.0 | 32.1 | 22.4 | 26.3 | 50.6 | 35.9 |",
+            "| 2024 | 16.3 | 37.6 | 25.2 | 28.0 | 49.5 | 35.9 |"
+        ]
+    },
+    {
+        "title": "Table 10: Smartphone availability and use. By age. 2024",
+        "description": "Digital access statistics for children aged 14, 15, and 16 in Jammu and Kashmir for 2024. The table covers smartphone availability at home, the ability to bring a phone for digital tasks, usability skills, and personal ownership of smartphones.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |  |",
+            "| Age | Have a smart-phone at home | Could bring a smartphone to do digital tasks* | Can use a smartphone | Of those who can use a smartphone, % who have their own smartphone |  |",
+            "| 14 | 92.8 | 69.0 | 81.0 | 42.3 |  |",
+            "| 15 | 93.7 | 72.2 | 83.7 | 49.6 |  |",
+            "| 16 | 94.8 | 77.0 | 87.7 | 54.9 |  |",
+            "| All | 93.7 | 72.4 | 83.9 | 48.5 |  |",
+            "|  |  |  |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
+        "description": "Gender-based comparison of smartphone availability and usage for 14-16 year olds in Jammu and Kashmir (2024). It includes data on access at home, ability to use smartphones for digital tasks, and personal ownership rates for Boys vs Girls.",
+        "data": [
+            "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |  |",
+            "| Sex | Have a smartphone at home | Could bring a smartphone to do digital tasks* | Can use a smart-phone | Of those who can use a smartphone, % who have their own smartphone |  |",
+            "| Boys | 93.6 | 75.3 | 85.5 | 54.6 |  |",
+            "| Girls | 93.8 | 69.7 | 82.3 | 42.5 |  |",
+            "| All | 93.7 | 72.4 | 83.9 | 48.5 |  |",
+            "|  |  |  |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
+        "description": "Digital literacy and online safety report for children aged 14-16 in Jammu and Kashmir (2024). The table details engagement in educational activities and social media, as well as proficiency in safety features like blocking profiles, making profiles private, and changing passwords.",
+        "data": [
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/report a profile | Make a profile private | Change password |",
+            "| 14 | 61.4 | 75.8 | 66.8 | 65.0 | 67.8 |",
+            "| 15 | 63.1 | 79.3 | 74.7 | 70.6 | 75.5 |",
+            "| 16 | 68.0 | 83.9 | 80.3 | 79.4 | 83.3 |",
+            "| All | 64.0 | 79.4 | 73.8 | 71.5 | 75.4 |",
+            "|  |  |  |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
+        "description": "Comparison of digital habits between boys and girls (aged 14-16) in Jammu and Kashmir for 2024. The data covers participation in educational activities, social media usage, and knowledge of online safety measures (blocking, privacy settings, password management).",
+        "data": [
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/ report a profile | Make a profile private | Change password |",
+            "| Boys | 61.4 | 80.8 | 74.4 | 75.7 | 79.5 |",
+            "| Girls | 66.6 | 78.1 | 73.1 | 67.3 | 71.1 |",
+            "| All | 64.0 | 79.4 | 73.8 | 71.5 | 75.4 |"
+        ]
+    },
+    {
+        "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
+        "description": "Breakdown of specific digital capabilities for children in Jammu and Kashmir (2024), aggregated by age and sex. It measures the ability to perform tasks such as setting alarms, browsing for information, finding YouTube videos, and sharing videos.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Setting an alarm | Setting an alarm | Setting an alarm | Browsing for information | Browsing for information | Browsing for information | Finding YouTube video | Finding YouTube video | Finding YouTube video | Of those who found video, % able to share it | Of those who found video, % able to share it | Of those who found video, % able to share it | Of those who found video, % able to share it |",
+            "| Age | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All |",
+            "| 14 | 70.1 | 67.9 | 69.0 | 85.4 | 82.3 | 84.0 | 82.5 | 78.1 | 80.4 | 87.2 | 81.7 | 84.6 | 95.3 | 94.7 | 95.0 |",
+            "| 15 | 77.7 | 67.0 | 72.2 | 88.6 | 86.5 | 87.6 | 79.0 | 84.0 | 81.4 | 88.4 | 89.7 | 89.0 | 94.8 | 95.3 | 95.0 |",
+            "| 16 | 80.2 | 74.4 | 77.0 | 94.6 | 88.8 | 91.5 | 90.2 | 88.2 | 89.1 | 93.8 | 90.0 | 91.8 | 98.0 | 97.7 | 97.8 |",
+            "| All | 75.3 | 69.7 | 72.4 | 89.2 | 85.8 | 87.6 | 83.7 | 83.4 | 83.5 | 89.5 | 87.0 | 88.3 | 96.0 | 95.9 | 96.0 |"
+        ]
+    },
+    {
+        "title": "Table 15: Trends over time",
+        "description": "Survey data showing the number of Primary and Upper Primary schools visited in Jammu and Kashmir during the years 2010, 2018, 2022, and 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "|  |  | 2010 | 2018 | 2022 | 2024 |  |  |",
+            "| Primary schools* | Primary schools* |  | 53 | 85 | 98 |  |  |",
+            "| Upper primary schools* | Upper primary schools* |  | 323 | 444 | 419 |  |  |",
+            "| Total schools visited | Total schools visited |  | 376 | 529 | 517 |  |  |",
+            "|  |  |  |  |  |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 16: Trends over time",
+        "description": "Attendance trends in Jammu and Kashmir schools for the years 2010, 2018, 2022, and 2024. The table displays the average percentage of enrolled children present and the average percentage of teachers present.",
+        "data": [
+            "| Primary schools | Primary schools | 2010 | 2018 | 2022 | 2024 |  |  |",
+            "| % Enrolled children present (Average) | % Enrolled children present (Average) |  | 78.3 | 77.3 | 80.2 |  |  |",
+            "| % Teachers present (Average) | % Teachers present (Average) |  | 78.9 | 89.3 | 86.9 |  |  |",
+            "| Upper primary schools | Upper primary schools | 2010 | 2018 | 2022 | 2024 |  |  |",
+            "| % Enrolled children present (Average) | % Enrolled children present (Average) |  | 76.7 | 74.0 | 77.2 |  |  |",
+            "| % Teachers present (Average) | % Teachers present (Average) |  | 83.0 | 83.1 | 84.3 |  |  |",
+            "|  |  |  |  |  |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 17: Trends over time",
+        "description": "A longitudinal metric for 'All schools' in Jammu and Kashmir, tracking a specific percentage indicator across 2010, 2018, 2022, and 2024.",
+        "data": [
+            "|  |  |  | 2010 | 2018 | 2022 | 2024 |  |",
+            "| Primary schools | Primary schools | Primary schools |  | 88.7 | 86.9 | 92.8 |  |",
+            "| Upper primary schools | Upper primary schools | Upper primary schools |  | 46.1 | 47.5 | 44.0 |  |",
+            "|  |  |  |  |  |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 18: Multigrade classes. 2024",
+        "description": "Data on multigrade classroom observations in Jammu and Kashmir for 2024, specifically showing the percentage of schools where Standard I and Standard II children were observed sitting with other grades.",
+        "data": [
+            "| % Schools | % Schools | % Schools | Std I children  observed sitting with any other Std | Std II children  observed sitting with any other Std |  |  |  |",
+            "| Primary schools | Primary schools | Primary schools | 84.0 | 83.3 |  |  |  |",
+            "| Upper primary schools | Upper primary schools | Upper primary schools | 72.3 | 67.0 |  |  |  |",
+            "|  |  |  |  |  |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
+        "description": "2024 observational data regarding the presence of Teaching Learning Materials (TLM) in Jammu and Kashmir classrooms (Std I and Std II) and whether student work was displayed.",
+        "data": [
+            "| % Schools | % Schools | % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |  |",
+            "| % Schools | % Schools | % Schools | Std I | Std II | Std I | Std II |  |",
+            "| Primary schools | Primary schools | Primary schools | 79.2 | 77.4 | 73.0 | 70.0 |  |",
+            "| Upper primary schools | Upper primary schools | Upper primary schools | 75.4 | 73.3 | 72.5 | 73.8 |  |",
+            "|  |  |  |  |  |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 20: Trends over time",
+        "description": "Comprehensive school infrastructure and facility trends in Jammu and Kashmir (2010-2024). The table tracks the availability and status of mid-day meals, drinking water, toilets (including separate girls' toilets), libraries, electricity connections, and computers.",
+        "data": [
+            "| % Schools with | % Schools with | % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
+            "| Mid-day meal | Mid-day meal served in school on the day of visit | Mid-day meal served in school on the day of visit | Mid-day meal served in school on the day of visit |  | 77.3 | 82.2 | 84.2 |",
+            "| Mid-day meal | Kitchen/shed for cooking mid-day meal | Kitchen/shed for cooking mid-day meal | Kitchen/shed for cooking mid-day meal |  | 86.3 | 87.4 | 88.9 |",
+            "| Drinking water | No facility for drinking water | No facility for drinking water | No facility for drinking water |  | 36.6 | 23.6 | 19.1 |",
+            "| Drinking water | Facility but no drinking water available | Facility but no drinking water available | Facility but no drinking water available |  | 8.9 | 7.1 | 6.1 |",
+            "| Drinking water | Drinking water available | Drinking water available | Drinking water available |  | 54.6 | 69.3 | 74.8 |",
+            "| Drinking water | Total | Total | Total |  | 100 | 100 | 100 |",
+            "| Toilet | No toilet facility | No toilet facility | No toilet facility |  | 4.6 | 1.9 | 1.9 |",
+            "| Toilet | Facility but toilet not useable | Facility but toilet not useable | Facility but toilet not useable |  | 22.5 | 25.3 | 16.3 |",
+            "| Toilet | Toilet usable | Toilet usable | Toilet usable |  | 73.0 | 72.8 | 81.8 |",
+            "| Toilet | Total | Total | Total |  | 100 | 100 | 100 |",
+            "| Girls' toilet | No separate provision for girls' toilet | No separate provision for girls' toilet | No separate provision for girls' toilet |  | 30.2 | 23.4 | 26.2 |",
+            "| Girls' toilet | Separate provision but locked | Separate provision but locked | Separate provision but locked |  | 7.4 | 14.1 | 6.0 |",
+            "| Girls' toilet | Separate provision, unlocked but not useable | Separate provision, unlocked but not useable | Separate provision, unlocked but not useable |  | 14.3 | 9.5 | 10.2 |",
+            "| Girls' toilet | Separate provision, unlocked and useable | Separate provision, unlocked and useable | Separate provision, unlocked and useable |  | 48.2 | 53.1 | 57.6 |",
+            "| Girls' toilet | Total | Total | Total |  | 100 | 100 | 100 |",
+            "| Library | No library | No library | No library |  | 41.1 | 37.3 | 28.0 |",
+            "| Library | Library but no books being used by children on the day of visit | Library but no books being used by children on the day of visit | Library but no books being used by children on the day of visit |  | 32.3 | 30.4 | 39.0 |",
+            "| Library | Library books being used by children on the day of visit | Library books being used by children on the day of visit | Library books being used by children on the day of visit |  | 26.6 | 32.3 | 33.0 |",
+            "| Library | Total | Total | Total |  | 100 | 100 | 100 |",
+            "| Electricity | Electricity connection | Electricity connection | Electricity connection |  | 31.2 | 88.9 | 92.8 |",
+            "| Electricity | Of schools with electricity connection, % schools with electricity available on the day of visit | Of schools with electricity connection, % schools with electricity available on the day of visit | Of schools with electricity connection, % schools with electricity available on the day of visit |  | 58.7 | 83.5 | 81.9 |",
+            "| Computer | No computer available for children to use | No computer available for children to use | No computer available for children to use |  | 82.8 | 71.6 | 70.3 |",
+            "| Computer | Computer available but not being used by children on the day of visit | Computer available but not being used by children on the day of visit | Computer available but not being used by children on the day of visit |  | 12.6 | 16.6 | 14.5 |",
+            "| Computer | Computer being used by children on the day of visit | Computer being used by children on the day of visit | Computer being used by children on the day of visit |  | 4.6 | 11.8 | 15.1 |",
+            "| Computer | Total | Total | Total |  | 100 | 100 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
+        "description": "Status of Foundational Literacy and Numeracy (FLN) implementation in Jammu and Kashmir schools for 2024 and the previous academic year. It covers government directives, online/offline teacher training, TLM receipt, funds receipt, and School Readiness Programs.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| % Schools | % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | Offline | Online | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| Current academic year (2024-2025) | Current academic year (2024-2025) | Primary schools* | 51.6 | 42.3 | 61.5 | 59.8 | 28.1 | 45.7 |",
+            "| Current academic year (2024-2025) | Current academic year (2024-2025) | Upper primary schools* | 54.2 | 43.0 | 66.3 | 52.1 | 20.2 | 51.4 |",
+            "| Previous academic year (2023-2024) | Previous academic year (2023-2024) | Primary schools | 54.2 | 49.0 | 77.1 | 62.5 | 31.9 | 52.2 |",
+            "| Previous academic year (2023-2024) | Previous academic year (2023-2024) | Upper primary schools | 63.6 | 54.1 | 83.4 | 57.6 | 26.3 | 52.9 |",
+            "|  |  |  |  |  |  |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
+        "description": "Comparison of language and math textbook distribution in Jammu and Kashmir schools between 2022 and 2024. The data indicates the percentage of schools distributing books to all grades, some grades, or no grades.",
+        "data": [
+            "| % Schools | % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed |  |  |",
+            "| % Schools | % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total |  |  |",
+            "| Primary schools | Primary schools | 2022 | 91.7 | 6.0 | 2.4 | 100 |  |  |",
+            "| Primary schools | Primary schools | 2024 | 84.7 | 13.3 | 2.0 | 100 |  |  |",
+            "| Upper primary schools | Upper primary schools | 2022 | 92.9 | 5.7 | 1.4 | 100 |  |  |",
+            "| Upper primary schools | Upper primary schools | 2024 | 88.1 | 10.7 | 1.2 | 100 |  |  |",
+            "|  |  |  |  |  |  |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 23: Distribution of uniforms. 2022, 2024",
+        "description": "Statistics on the distribution of school uniforms in Jammu and Kashmir for the years 2022 and 2024, showing the percentage of schools covering all grades, some grades, or no grades.",
+        "data": [
+            "| % Schools | % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |  |",
+            "| % Schools | % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in all grades, then % schools where funds given |  |",
+            "| Primary schools | Primary schools | 2022 | 50.6 | 16.9 | 32.5 | 100 |  |  |",
+            "| Primary schools | Primary schools | 2024 | 46.3 | 9.5 | 44.2 | 100 |  |  |",
+            "| Upper primary schools | Upper primary schools | 2022 | 56.7 | 16.3 | 27.0 | 100 |  |  |",
+            "| Upper primary schools | Upper primary schools | 2024 | 51.6 | 13.6 | 34.8 | 100 |  |  |",
+            "|  |  |  |  |  |  |  |  |  |"
+        ]
+    },
+    {
+        "title": "Table 24: Physical education. 2018, 2022 and 2024",
+        "description": "Trends regarding physical education resources in Jammu and Kashmir schools (2018, 2022, 2024), covering weekly time allocation, the presence of specialized PE teachers, playgrounds, and sports equipment availability. The table also includes data from Chart 1-4 showing out-of-school trends, government enrollment trends, and reading/division abilities by gender over time.",
+        "data": [
+            "| % Schools with | % Schools with | % Schools with | Primary schools | Primary schools | Primary schools | Upper primary schools | Upper primary schools | Upper primary schools |",
+            "| % Schools with | % Schools with | % Schools with | 2018 | 2022 | 2024 | 2018 | 2022 | 2024 |",
+            "| Weekly time allotted for physical education for every class | Weekly time allotted for physical education for every class | Weekly time allotted for physical education for every class |  | 55.3 | 69.4 |  | 74.6 | 81.9 |",
+            "| Physical education teacher | Separate teacher | Separate teacher | 0.0 | 2.4 | 4.2 | 27.2 | 55.0 | 54.1 |",
+            "| Physical education teacher | Any other teacher | Any other teacher | 44.0 | 63.9 | 59.4 | 27.9 | 23.5 | 32.7 |",
+            "| Physical education teacher | No teacher | No teacher | 56.0 | 33.7 | 36.5 | 44.9 | 21.5 | 13.3 |",
+            "| Physical education teacher | Total | Total | 100 | 100 | 100 | 100 | 100 | 100 |",
+            "| Playground in the school | Playground in the school | Playground in the school | 42.3 | 56.0 | 48.0 | 58.0 | 60.2 | 62.0 |",
+            "| Sports equipment available | Sports equipment available | Sports equipment available | 54.7 | 90.6 | 83.7 | 79.8 | 88.4 | 92.3 |",
+            "| Chart 1: Trends over time",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Chart 1: Trends over time",
+            "|  | 2006 | 2008 | 2010 | 2012 | 2014 | 2016 | 2018 | 2022 | 2024 |  |",
+            "| 11-14: Boys | 3.5 | 3.0 |  | 1.7 | 3.1 | 2.2 | 1.2 | 0.5 | 1.0 |  |",
+            "| 11-14: Girls | 8.3 | 5.0 |  | 5.0 | 4.2 | 3.0 | 2.4 | 1.0 | 0.6 |  |",
+            "| 15-16: Boys | 9.3 | 9.3 |  | 8.2 | 11.2 | 9.3 | 7.1 | 3.4 | 3.0 |  |",
+            "| 15-16: Girls | 13.5 | 15.4 |  | 13.9 | 11.7 | 12.1 | 12.5 | 6.2 | 4.6 |  |",
+            "| Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex 2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex 2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex 2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex 2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex 2018, 2022, 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "| Year | Std I-V | Std I-V | Std VI-VIII | Std VI-VIII |",
+            "| Year | Boys | Girls | Boys | Girls |",
+            "| 2018 | 51.5 | 59.9 | 61.2 | 65.8 |",
+            "| 2022 | 51.1 | 56.0 | 56.2 | 63.1 |",
+            "| 2024 | 54.1 | 58.0 | 58.1 | 63.0 |",
+            "| Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 |  |",
+            "|  | Std III | Std III | Std V | Std V | Std VIII | Std VIII |  |",
+            "|  | Boys | Girls | Boys | Girls | Boys | Girls |  |",
+            "| 2022 | 18.5 | 19.9 | 33.7 | 36.6 | 58.5 | 63.3 |  |",
+            "| 2024 | 16.4 | 16.8 | 37.0 | 38.4 | 59.8 | 57.4 |  |",
+            "| Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "| Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 |  |",
+            "|  | Std V | Std V | Std VIII | Std VIII |  |",
+            "|  | Boys | Girls | Boys | Girls |  |",
+            "| 2022 | 22.8 | 21.9 | 37.5 | 33.8 |  |",
+            "| 2024 | 24.3 | 26.1 | 36.6 | 35.1 |  |"
+        ]
+    }
+]

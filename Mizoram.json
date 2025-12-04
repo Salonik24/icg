@@ -1,0 +1,362 @@
+[
+    {
+        "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
+        "description": "Enrollment statistics for children in Mizoram in 2024, categorized by age groups (6-14, 7-16, 7-10, 11-14, 15-16) and gender. The table compares enrollment percentages in Government, Private, and Other schools, as well as the percentage of children currently not in school.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
+            "| Age 6-14: All | 59.4 | 39.1 | 0.4 | 1.1 | 100 |",
+            "| Age 7-16: All | 58.5 | 37.9 | 0.4 | 3.1 | 100 |",
+            "| Age 7-10: All | 54.9 | 44.5 | 0.4 | 0.3 | 100 |",
+            "| Age 7-10: Boys | 55.5 | 43.9 | 0.3 | 0.3 | 100 |",
+            "| Age 7-10: Girls | 54.2 | 45.0 | 0.5 | 0.3 | 100 |",
+            "| Age 11-14: All | 61.6 | 36.1 | 0.3 | 2.0 | 100 |",
+            "| Age 11-14: Boys | 62.3 | 35.5 | 0.0 | 2.2 | 100 |",
+            "| Age 11-14: Girls | 61.0 | 36.7 | 0.6 | 1.7 | 100 |",
+            "| Age 15-16: All | 60.2 | 23.8 | 0.6 | 15.3 | 100 |",
+            "| Age 15-16: Boys | 60.0 | 21.3 | 0.2 | 18.6 | 100 |",
+            "| Age 15-16: Girls | 60.4 | 26.3 | 1.1 | 12.2 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
+        "description": "Detailed breakdown of educational enrollment for young children (ages 3 to 8) in Mizoram for the year 2022. It distinguishes between various pre-school types (Anganwadi, Government pre-primary, Private LKG/UKG) and formal school types (Government, Private, Other), including data on children not attending any institution.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 93.3 | 1.1 | 1.3 | 1.8 | 0.2 | 0.0 | 2.3 | 100 |",
+            "| Age 4 | 64.5 | 10.3 | 15.4 | 6.3 | 2.2 | 0.0 | 1.4 | 100 |",
+            "| Age 5 | 24.3 | 16.6 | 29.4 | 22.6 | 5.4 | 0.4 | 1.4 | 100 |",
+            "| Age 6 | 4.6 | 11.8 | 22.5 | 46.2 | 13.1 | 0.9 | 1.0 | 100 |",
+            "| Age 7 | 0.7 | 4.7 | 12.0 | 51.1 | 29.8 | 1.2 | 0.5 | 100 |",
+            "| Age 8 | 0.4 | 2.0 | 2.1 | 59.6 | 34.9 | 0.3 | 0.8 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
+        "description": "Detailed breakdown of educational enrollment for young children (ages 3 to 8) in Mizoram for the year 2024. It distinguishes between various pre-school types (Anganwadi, Government pre-primary, Private LKG/UKG) and formal school types (Government, Private, Other), including data on children not attending any institution.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
+            "| Age | Angan-wadi | Govt pre-primary | Pvt LKG/ UKG | Govt | Pvt | Other | Not in pre-school or school | Total |",
+            "| Age 3 | 87.6 | 2.4 | 1.2 | 0.2 | 0.5 | 0.0 | 8.1 | 100 |",
+            "| Age 4 | 65.3 | 12.6 | 14.7 | 3.1 | 1.3 | 0.0 | 3.0 | 100 |",
+            "| Age 5 | 20.9 | 21.1 | 37.4 | 15.2 | 3.8 | 0.2 | 1.4 | 100 |",
+            "| Age 6 | 6.1 | 13.8 | 27.1 | 39.8 | 11.9 | 0.7 | 0.5 | 100 |",
+            "| Age 7 | 1.1 | 5.7 | 9.3 | 46.3 | 37.5 | 0.2 | 0.0 | 100 |",
+            "| Age 8 | 0.2 | 1.2 | 2.7 | 49.8 | 45.8 | 0.0 | 0.4 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 4: % Children by grade and reading level. All children. 2024",
+        "description": "Assessment of foundational reading skills for children in Mizoram in 2024, arranged by grade level (Standard I through VIII). The table categorizes students by their highest reading ability: Not even letter, Letter, Word, Standard I level text, or Standard II level text.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
+            "| I | 15.5 | 44.8 | 31.0 | 7.3 | 1.5 | 100 |",
+            "| II | 3.4 | 25.1 | 37.9 | 23.4 | 10.3 | 100 |",
+            "| III | 0.3 | 9.7 | 27.5 | 32.8 | 29.7 | 100 |",
+            "| IV | 0.0 | 4.0 | 14.6 | 29.5 | 51.9 | 100 |",
+            "| V | 0.0 | 1.9 | 6.9 | 23.5 | 67.7 | 100 |",
+            "| VI | 0.0 | 0.5 | 4.6 | 17.4 | 77.5 | 100 |",
+            "| VII | 0.1 | 1.0 | 2.3 | 11.1 | 85.6 | 100 |",
+            "| VIII | 0.0 | 0.4 | 0.9 | 8.0 | 90.7 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 5: Trends over time",
+        "description": "Longitudinal trends (2014, 2016, 2018, 2022, 2024) showing the percentage of Standard III children in Mizoram capable of reading Standard II level text. The data is broken down by Government and Private schools.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 14.8 | 25.8 | 19.0 |",
+            "| 2016 | 7.2 | 18.0 | 10.5 |",
+            "| 2018 | 25.2 | 26.8 | 25.6 |",
+            "| 2022 | 13.2 | 32.3 | 19.7 |",
+            "| 2024 | 25.0 | 37.9 | 29.9 |"
+        ]
+    },
+    {
+        "title": "Table 6: Trends over time",
+        "description": "Historical data (2014-2024) illustrating reading proficiency trends for Standard V and Standard VIII students in Mizoram. The table displays the percentage of students in Government and Private schools who can read Standard II level text.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 47.1 | 60.9 | 52.1 | 83.6 | 81.0 | 82.8 |",
+            "| 2016 | 41.0 | 61.2 | 46.6 | 81.9 |  | 83.5 |",
+            "| 2018 | 58.6 |  | 64.3 | 86.7 |  | 89.3 |",
+            "| 2022 | 46.4 | 60.6 | 51.8 | 86.0 | 84.4 | 85.6 |",
+            "| 2024 | 65.9 | 70.1 | 67.5 | 90.2 | 91.6 | 90.6 |"
+        ]
+    },
+    {
+        "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
+        "description": "Assessment of foundational arithmetic skills for children in Mizoram in 2024, arranged by grade level (Standard I through VIII). The table tracks proficiency levels including number recognition (1-9, 11-99), subtraction, and division.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Std | Not even",
+            "| Std | Not even",
+            "| I | 10.4 | 24.6 | 55.8 | 9.2 | 0.0 | 100 |",
+            "| II | 4.1 | 7.6 | 52.2 | 34.8 | 1.5 | 100 |",
+            "| III | 1.0 | 1.7 | 40.1 | 43.6 | 13.6 | 100 |",
+            "| IV | 0.6 | 2.0 | 28.2 | 37.9 | 31.3 | 100 |",
+            "| V | 0.0 | 1.4 | 19.4 | 34.5 | 44.7 | 100 |",
+            "| VI | 0.0 | 0.7 | 14.3 | 40.7 | 44.3 | 100 |",
+            "| VII | 0.0 | 0.4 | 16.6 | 36.9 | 46.1 | 100 |",
+            "| VIII | 0.2 | 0.8 | 9.8 | 28.4 | 60.9 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 8: Trends over time",
+        "description": "Longitudinal trends (2014-2024) showing the percentage of Standard III children in Mizoram who can perform at least subtraction. The data is categorized by Government and Private schools.",
+        "data": [
+            "| --- | --- | --- | --- |",
+            "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
+            "| Year | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 63.9 | 67.7 | 65.3 |",
+            "| 2016 | 33.1 | 45.9 | 37.0 |",
+            "| 2018 | 57.4 | 62.7 | 58.8 |",
+            "| 2022 | 35.3 | 55.1 | 42.0 |",
+            "| 2024 | 55.3 | 61.2 | 57.5 |"
+        ]
+    },
+    {
+        "title": "Table 9: Trends over time",
+        "description": "Historical trends (2014-2024) of arithmetic proficiency in Mizoram, specifically measuring the percentage of Standard V and Standard VIII students who can perform division, compared across Government and Private schools.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
+            "| Year | Govt | Pvt | Govt & Pvt* | Govt | Pvt | Govt & Pvt* |",
+            "| 2014 | 37.1 | 45.1 | 40.0 | 84.2 | 88.5 | 85.5 |",
+            "| 2016 | 25.3 | 35.3 | 28.1 | 76.7 |  | 76.7 |",
+            "| 2018 | 35.8 |  | 40.2 | 67.5 |  | 71.0 |",
+            "| 2022 | 14.8 | 30.8 | 20.9 | 41.3 | 53.1 | 44.7 |",
+            "| 2024 | 40.3 | 51.4 | 44.4 | 59.2 | 64.1 | 60.7 |"
+        ]
+    },
+    {
+        "title": "Table 10: Smartphone availability and use. By age. 2024",
+        "description": "Digital access statistics for children aged 14, 15, and 16 in Mizoram for 2024. The table covers smartphone availability at home, the ability to bring a phone for digital tasks, usability skills, and personal ownership of smartphones.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Age | Have a smart-phone at home | Could bring a smartphone to do digital tasks* | Can use a smartphone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| 14 | 99.6 | 91.5 | 96.3 | 20.3 |",
+            "| 15 | 98.8 | 91.3 | 96.3 | 32.0 |",
+            "| 16 | 100.0 | 95.8 | 98.0 | 47.3 |",
+            "| All | 99.4 | 92.4 | 96.7 | 30.3 |"
+        ]
+    },
+    {
+        "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
+        "description": "Gender-based comparison of smartphone availability and usage for 14-16 year olds in Mizoram (2024). It includes data on access at home, ability to use smartphones for digital tasks, and personal ownership rates for Boys vs Girls.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Sex | Have a smartphone at home | Could bring a smartphone to do digital tasks* | Can use a smart-phone | Of those who can use a smartphone, % who have their own smartphone |",
+            "| Boys | 99.3 | 93.3 | 97.6 | 31.7 |",
+            "| Girls | 99.5 | 91.5 | 95.9 | 29.0 |",
+            "| All | 99.4 | 92.4 | 96.7 | 30.3 |"
+        ]
+    },
+    {
+        "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
+        "description": "Digital literacy and online safety report for children aged 14-16 in Mizoram (2024). The table details engagement in educational activities and social media, as well as proficiency in safety features like blocking profiles, making profiles private, and changing passwords.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/report a profile | Make a profile private | Change password |",
+            "| 14 | 48.3 | 84.6 | 59.7 | 58.0 | 57.5 |",
+            "| 15 | 46.4 | 86.9 | 77.0 | 71.8 | 77.5 |",
+            "| 16 | 52.2 | 85.7 | 83.9 | 82.8 | 80.8 |",
+            "| All | 48.5 | 85.6 | 71.1 | 68.3 | 69.6 |"
+        ]
+    },
+    {
+        "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
+        "description": "Comparison of digital habits between boys and girls (aged 14-16) in Mizoram for 2024. The data covers participation in educational activities, social media usage, and knowledge of online safety measures (blocking, privacy settings, password management).",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
+            "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Block/ report a profile | Make a profile private | Change password |",
+            "| Boys | 47.0 | 86.5 | 63.6 | 60.6 | 63.4 |",
+            "| Girls | 50.0 | 84.8 | 78.3 | 75.7 | 75.6 |",
+            "| All | 48.5 | 85.6 | 71.1 | 68.3 | 69.6 |"
+        ]
+    },
+    {
+        "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
+        "description": "Breakdown of specific digital capabilities for children in Mizoram (2024), aggregated by age and sex. It measures the ability to perform tasks such as setting alarms, browsing for information, finding YouTube videos, and sharing videos.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
+            "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Setting an alarm | Setting an alarm | Setting an alarm | Browsing for information | Browsing for information | Browsing for information | Finding YouTube video | Finding YouTube video | Finding YouTube video | Of those who found video, % able to share it | Of those who found video, % able to share it | Of those who found video, % able to share it | Of those who found video, % able to share it |",
+            "| Age | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All | Boys | Girls | All |",
+            "| 14 | 93.5 | 89.7 | 91.5 | 81.0 | 80.8 | 80.9 | 77.8 | 73.6 | 75.6 | 95.6 | 94.0 | 94.8 | 86.9 | 92.7 | 89.8 |",
+            "| 15 | 91.7 | 90.9 | 91.3 | 84.6 | 87.1 | 85.8 | 79.9 | 88.9 | 84.5 | 95.1 | 98.8 | 96.9 | 94.4 | 98.7 | 96.6 |",
+            "| 16 |  |  | 95.8 |  |  | 90.7 |  |  | 81.6 |  |  | 96.9 |  |  | 96.3 |",
+            "| All | 93.3 | 91.5 | 92.4 | 85.1 | 84.5 | 84.8 | 81.3 | 78.7 | 80.0 | 95.9 | 96.1 | 96.0 | 91.7 | 95.4 | 93.6 |"
+        ]
+    },
+    {
+        "title": "Table 15: Trends over time",
+        "description": "Survey data showing the number of Primary and Upper Primary schools visited in Mizoram during the years 2010, 2018, 2022, and 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| Primary schools* | 166 | 228 | 189 | 167 |",
+            "| Upper primary schools* | 8 | 5 | 23 | 13 |",
+            "| Total schools visited | 174 | 233 | 212 | 180 |"
+        ]
+    },
+    {
+        "title": "Table 16: Trends over time",
+        "description": "Attendance trends in Mizoram schools for the years 2010, 2018, 2022, and 2024. The table displays the average percentage of enrolled children present and the average percentage of teachers present.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| All schools** | 2010 | 2018 | 2022 | 2024 |",
+            "| % Enrolled children present (Average) | 85.8 | 83.4 | 84.4 | 90.3 |",
+            "| % Teachers present (Average) | 94.4 | 83.2 | 88.3 | 90.8 |"
+        ]
+    },
+    {
+        "title": "Table 17: Trends over time",
+        "description": "A longitudinal metric for 'All schools' in Mizoram, tracking a specific percentage indicator across 2010, 2018, 2022, and 2024.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "|  | 2010 | 2018 | 2022 | 2024 |",
+            "| All schools | 39.8 | 84.1 | 73.0 | 89.3 |"
+        ]
+    },
+    {
+        "title": "Table 18: Multigrade classes. 2024",
+        "description": "Data on multigrade classroom observations in Mizoram for 2024, specifically showing the percentage of schools where Standard I and Standard II children were observed sitting with other grades.",
+        "data": [
+            "| --- | --- | --- |",
+            "| % Schools | Std I children observed sitting with any other Std | Std II children observed sitting with any other Std |",
+            "| All schools | 13.9 | 8.6 |"
+        ]
+    },
+    {
+        "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
+        "description": "2024 observational data regarding the presence of Teaching Learning Materials (TLM) in Mizoram classrooms (Std I and Std II) and whether student work was displayed.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
+            "| % Schools | Std I | Std II | Std I | Std II |",
+            "| All schools | 60.2 | 58.0 | 53.4 | 58.1 |"
+        ]
+    },
+    {
+        "title": "Table 20: Trends over time",
+        "description": "Comprehensive school infrastructure and facility trends in Mizoram (2010-2024). The table tracks the availability and status of mid-day meals, drinking water, toilets (including separate girls' toilets), libraries, electricity connections, and computers.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
+            "| Mid-day meal | Mid-day meal served in school on the day of visit | 94.0 | 89.2 | 92.4 | 75.0 |",
+            "| Mid-day meal | Kitchen/shed for cooking mid-day meal | 96.2 | 96.1 | 93.3 | 94.9 |",
+            "| Drinking water | No facility for drinking water | 47.3 | 39.6 | 31.6 | 28.5 |",
+            "| Drinking water | Facility but no drinking water available | 4.1 | 3.0 | 10.4 | 11.2 |",
+            "| Drinking water | Drinking water available | 48.5 | 57.4 | 58.0 | 60.3 |",
+            "| Drinking water | Total | 100 | 100 | 100 | 100 |",
+            "| Toilet | No toilet facility | 7.1 | 17.6 | 8.1 | 3.4 |",
+            "| Toilet | Facility but toilet not useable | 37.3 | 37.8 | 19.1 | 38.8 |",
+            "| Toilet | Toilet usable | 55.6 | 44.6 | 72.9 | 57.9 |",
+            "| Toilet | Total | 100 | 100 | 100 | 100 |",
+            "| Girls' toilet | No separate provision for girls' toilet | 43.4 | 29.8 | 26.3 | 31.6 |",
+            "| Girls' toilet | Separate provision but locked | 14.5 | 30.7 | 19.0 | 23.2 |",
+            "| Girls' toilet | Separate provision, unlocked but not useable | 11.3 | 4.6 | 7.3 | 8.9 |",
+            "| Girls' toilet | Separate provision, unlocked and useable | 30.8 | 34.9 | 47.3 | 36.3 |",
+            "| Girls' toilet | Total | 100 | 100 | 100 | 100 |",
+            "| Library | No library | 93.6 | 82.4 | 61.3 | 56.1 |",
+            "| Library | Library but no books being used by children on the day of visit | 4.7 | 15.0 | 26.4 | 37.2 |",
+            "| Library | Library books being used by children on the day of visit | 1.7 | 2.6 | 12.3 | 6.7 |",
+            "| Library | Total | 100 | 100 | 100 | 100 |",
+            "| Electricity | Electricity connection |  | 77.6 | 80.1 | 96.1 |",
+            "| Electricity | Of schools with electricity connection, % schools with electricity available on the day of visit |  | 82.2 | 81.2 | 86.5 |",
+            "| Computer | No computer available for children to use | 92.4 | 90.1 | 95.7 | 89.4 |",
+            "| Computer | Computer available but not being used by children on the day of visit | 1.8 | 9.5 | 4.4 | 10.6 |",
+            "| Computer | Computer being used by children on the day of visit | 5.9 | 0.4 | 0.0 | 0.0 |",
+            "| Computer | Total | 100 | 100 | 100 | 100 |"
+        ]
+    },
+    {
+        "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
+        "description": "Status of Foundational Literacy and Numeracy (FLN) implementation in Mizoram schools for 2024 and the previous academic year. It covers government directives, online/offline teacher training, TLM receipt, funds receipt, and School Readiness Programs.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | Offline | Online | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
+            "| All schools* | Current academic year (2024-2025) | 38.6 | 29.9 | 36.6 | 40.9 | 12.5 | 38.3 |",
+            "| All schools* | Previous academic year (2023-2024) | 44.9 | 38.2 | 44.7 | 48.3 | 12.1 | 37.7 |"
+        ]
+    },
+    {
+        "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
+        "description": "Comparison of language and math textbook distribution in Mizoram schools between 2022 and 2024. The data indicates the percentage of schools distributing books to all grades, some grades, or no grades.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed | If not distributed in all grades, then % schools where funds given |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in all grades, then % schools where funds given |",
+            "| All schools | 2022 | 88.7 | 9.0 | 2.4 | 100 |  |",
+            "| All schools | 2024 | 86.7 | 11.7 | 1.7 | 100 |  |"
+        ]
+    },
+    {
+        "title": "Table 23: Distribution of uniforms. All schools. 2022, 2024",
+        "description": "Statistics on the distribution of school uniforms in Mizoram for the years 2022 and 2024, showing the percentage of schools covering all grades, some grades, or no grades.",
+        "data": [
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
+            "| % Schools | % Schools | All grades | Some grades | No grades/ don’t know | Total | If not distributed in all grades, then % schools where funds given |",
+            "| All schools | 2022 | 85.9 | 7.1 | 7.1 | 100 |  |",
+            "| All schools | 2024 | 78.5 | 14.1 | 7.3 | 100 |  |"
+        ]
+    },
+    {
+        "title": "Table 24: Physical education. 2018, 2022 and 2024",
+        "description": "Trends regarding physical education resources in Mizoram schools (2018, 2022, 2024), covering weekly time allocation, the presence of specialized PE teachers, playgrounds, and sports equipment availability.",
+        "data": [
+            "| --- | --- | --- | --- | --- |",
+            "| % Schools with | % Schools with | All schools | All schools | All schools |",
+            "| % Schools with | % Schools with | 2018 | 2022 | 2024 |",
+            "| Weekly time allotted for physical education for every class | Weekly time allotted for physical education for every class |  | 75.9 | 73.3 |",
+            "| Physical education teacher | Separate teacher | 15.1 | 32.7 | 27.4 |",
+            "| Physical education teacher | Any other teacher | 47.3 | 35.1 | 42.9 |",
+            "| Physical education teacher | No teacher | 37.6 | 32.2 | 29.7 |",
+            "| Physical education teacher | Total | 100 | 100 | 100 |",
+            "| Playground in the school | Playground in the school | 65.5 | 77.6 | 83.2 |",
+            "| Sports equipment available | Sports equipment available | 75.0 | 73.2 | 82.5 |",
+            "| Chart 1: Trends over time",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| Chart 1: Trends over time",
+            "|  | 2006 | 2008 | 2010 | 2012 | 2014 | 2016 | 2018 | 2022 | 2024 |  |",
+            "| 11-14: Boys | 4.6 | 2.4 | 1.0 | 1.1 | 2.2 | 2.0 | 2.1 | 1.0 | 1.0 |  |",
+            "| 11-14: Girls | 8.4 | 5.1 | 1.8 | 3.5 | 3.3 | 3.4 | 2.3 | 1.0 | 1.9 |  |",
+            "| 15-16: Boys | 12.5 | 10.7 | 5.0 | 7.0 | 7.3 | 7.3 | 6.7 | 4.5 | 2.8 |  |",
+            "| 15-16: Girls | 19.4 | 15.6 | 7.7 | 9.3 | 11.3 | 10.7 | 6.8 | 4.7 | 4.1 |  |",
+            "| Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 | Chart 2: Trends over time                                                                                                                                                  % Children enrolled in government schools in Std I-V and Std VI-VIII by sex                                                            2018, 2022, 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "| Year | Std I-V | Std I-V | Std VI-VIII | Std VI-VIII |",
+            "| Year | Boys | Girls | Boys | Girls |",
+            "| 2018 | 35.7 | 45.9 | 41.5 | 55.2 |",
+            "| 2022 | 48.1 | 54.4 | 51.2 | 59.5 |",
+            "| 2024 | 38.8 | 47.8 | 44.1 | 57.5 |",
+            "| Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 | Chart 3: % Children who can read a Std II level text. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- | --- | --- |",
+            "|  | Std III | Std III | Std V | Std V | Std VIII | Std VIII |",
+            "|  | Boys | Girls | Boys | Girls | Boys | Girls |",
+            "| 2022 | 31.6 | 31.4 | 56.1 | 59.5 | 79.6 | 81.1 |",
+            "| 2024 | 45.6 | 42.2 | 62.1 | 64.9 | 81.7 | 83.7 |",
+            "| Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 | Chart 4: % Children who can do division. By grade and sex. 2022 and 2024 |",
+            "| --- | --- | --- | --- | --- |",
+            "|  | Std V | Std V | Std VIII | Std VIII |",
+            "|  | Boys | Girls | Boys | Girls |",
+            "| 2022 | 41.2 | 42.1 | 64.6 | 60.2 |",
+            "| 2024 | 44.6 | 41.7 | 58.0 | 55.0 |"
+        ]
+    }
+]
