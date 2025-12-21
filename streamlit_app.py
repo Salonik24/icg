@@ -2,16 +2,23 @@ import streamlit as st
 import os
 from datetime import datetime
 from dotenv import load_dotenv
+import google.generativeai as genai
 from llm import (
     load_tables_from_files,
     create_chunks,
     embed_and_index,
     retrieve_results,
     generate_llm_prompt,
-    get_llm_answer
+    get_llm_answer,
+    process_query  # NEW: Added this import
 )
 
 load_dotenv()
+
+# Configure Gemini API
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+if GOOGLE_API_KEY:
+    genai.configure(api_key=GOOGLE_API_KEY)
 
 # Configuration
 st.set_page_config(
@@ -44,35 +51,34 @@ st.markdown("""
 
 # Constants
 FILES_TO_PROCESS = [
-        "andhra_pradesh .json",
-        "bihar .json",
-        "Madhya_pradesh.json",
-        "punjab .json",
-        "all_india .json",
-        "odisha.json",
-        "Rajasthan.json",
-        "Sikkim.json",
-        "tamil_nadu.json",
-        "telangana.json",
-        "tripura.json",
-        "Uttarakhand.json",
-        "Uttar_Pradesh.json",
-        "Arunachal_pradesh.json",
-        "Assam.json",
-        "Chhattisgarh.json",
-        "Gujarat.json",
-        "Harayan.json",
-        "West_Bengal.json",
-        "Himachal_pradesh.json",
-        "Jammu_Kashmir.json",
-        "Jharkhand.json",
-        "Karnataka.json",
-        "Kerela.json",
-        "Maharashtra.json",
-        "Meghalaya.json",
-        "Mizoram.json",
-        "Nagaland.json"
-
+    "andhra_pradesh .json",
+    "bihar .json",
+    "Madhya_pradesh.json",
+    "punjab .json",
+    "all_india .json",
+    "odisha.json",
+    "Rajasthan.json",
+    "Sikkim.json",
+    "tamil_nadu.json",
+    "telangana.json",
+    "tripura.json",
+    "Uttarakhand.json",
+    "Uttar_Pradesh.json",
+    "Arunachal_pradesh.json",
+    "Assam.json",
+    "Chhattisgarh.json",
+    "Gujarat.json",
+    "Harayan.json",
+    "West_Bengal.json",
+    "Himachal_pradesh.json",
+    "Jammu_Kashmir.json",
+    "Jharkhand.json",
+    "Karnataka.json",
+    "Kerela.json",
+    "Maharashtra.json",
+    "Meghalaya.json",
+    "Mizoram.json",
+    "Nagaland.json"
 ]
 
 # Initialize session state
@@ -84,6 +90,9 @@ if 'rag_initialized' not in st.session_state:
     
 if 'rag_components' not in st.session_state:
     st.session_state.rag_components = None
+
+if 'model_answer' not in st.session_state:
+    st.session_state.model_answer = None
 
 
 @st.cache_resource(show_spinner="🚀 Initializing AI system...")
@@ -102,36 +111,39 @@ def initialize_rag_system():
             use_cache=True
         )
         
+        # Initialize Gemini model for answering
+        model_answer = genai.GenerativeModel("gemini-2.5-flash")
+        
         return {
             'index': index,
             'model': model,
             'embeddings': embeddings,
-            'chunks': chunks
+            'chunks': chunks,
+            'model_answer': model_answer
         }
     except Exception as e:
         st.error(f"Failed to initialize: {str(e)}")
         return None
 
 
-def process_query(user_input):
-    """Process user query and return AI response"""
+def process_query_wrapper(user_input):
+    """Process user query using the upgraded backend"""
     try:
         rag = st.session_state.rag_components
         
-        # Retrieve relevant context
-        retrieved = retrieve_results(
-            user_input, 
-            rag['index'], 
-            rag['model'], 
-            rag['chunks'], 
-            top_k=3
+        # Use the main process_query function from backend
+        # This handles both simple and complex queries automatically
+        result = process_query(
+            user_input,
+            rag['index'],
+            rag['model'],
+            rag['chunks'],
+            rag['model_answer']
         )
         
-        # Generate prompt and get response
-        prompt = generate_llm_prompt(retrieved, user_input)
-        response = get_llm_answer(prompt)
+        # Return just the final answer to keep UI simple
+        return result['final_answer']
         
-        return response
     except Exception as e:
         return f"❌ Error: {str(e)}"
 
@@ -144,6 +156,7 @@ def main():
         if rag_components:
             st.session_state.rag_components = rag_components
             st.session_state.rag_initialized = True
+            st.session_state.model_answer = rag_components['model_answer']
         else:
             st.error("⚠️ Failed to initialize. Please check your data files.")
             st.stop()
@@ -170,7 +183,7 @@ def main():
         # Generate and display response
         with st.chat_message("assistant"):
             with st.spinner("🤔 Thinking..."):
-                response = process_query(prompt)
+                response = process_query_wrapper(prompt)
             st.markdown(response)
         
         # Add to history

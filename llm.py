@@ -7,13 +7,15 @@ import numpy as np
 from pathlib import Path
 import logging
 import pickle
-from dotenv import load_dotenv, find_dotenv  # ✅ FIXED: Added find_dotenv
+from dotenv import load_dotenv, find_dotenv
 import hashlib
 from datetime import datetime
 import time
 
+
 # Load environment variables with auto-detection
 load_dotenv(find_dotenv(), override=True)
+
 
 # Verify API key before proceeding
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
@@ -24,9 +26,11 @@ if not GOOGLE_API_KEY:
         "GOOGLE_API_KEY=your_api_key_here"
     )
 
+
 # Configure Gemini API
 genai.configure(api_key=GOOGLE_API_KEY)
 print(f"✓ API Key loaded successfully (ends with: ...{GOOGLE_API_KEY[-8:]})")
+
 
 # Configure logging - Set to WARNING to reduce terminal clutter
 logging.basicConfig(
@@ -40,9 +44,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+
 # Cache directory for embeddings and index
 CACHE_DIR = Path("cache")
 CACHE_DIR.mkdir(exist_ok=True)
+
 
 # Cache file paths
 CACHE_INDEX_FILE = CACHE_DIR / "faiss_index.bin"
@@ -51,9 +57,11 @@ CACHE_CHUNKS_FILE = CACHE_DIR / "chunks.pkl"
 CACHE_METADATA_FILE = CACHE_DIR / "cache_metadata.json"
 CACHE_MODEL_FILE = CACHE_DIR / "model_name.txt"
 
+
 # =====================================================================
 # Cache Management Functions
 # =====================================================================
+
 
 def compute_file_hash(file_path):
     """Compute SHA256 hash of a file for change detection."""
@@ -66,6 +74,7 @@ def compute_file_hash(file_path):
     except Exception as e:
         logger.error(f"Error computing hash for {file_path}: {e}")
         return None
+
 
 def get_file_metadata(file_paths):
     """Get metadata (hash and mtime) for all files."""
@@ -80,6 +89,7 @@ def get_file_metadata(file_paths):
             }
     return metadata
 
+
 def load_cache_metadata():
     """Load cache metadata if it exists."""
     if CACHE_METADATA_FILE.exists():
@@ -89,6 +99,7 @@ def load_cache_metadata():
         except Exception as e:
             logger.warning(f"Error loading cache metadata: {e}")
     return None
+
 
 def save_cache_metadata(file_paths, model_name):
     """Save metadata for files that were used to create the cache."""
@@ -103,6 +114,7 @@ def save_cache_metadata(file_paths, model_name):
         logger.info("Cache metadata saved successfully")
     except Exception as e:
         logger.error(f"Error saving cache metadata: {e}")
+
 
 def files_have_changed(file_paths, cached_metadata):
     """Check if any source files have changed since cache was created."""
@@ -131,6 +143,7 @@ def files_have_changed(file_paths, cached_metadata):
     
     logger.info("All files unchanged, can use cache")
     return False
+
 
 def save_embeddings_and_index(index, embeddings, chunks, model_name, file_paths):
     """Save embeddings, FAISS index, chunks, and metadata to disk."""
@@ -165,6 +178,7 @@ def save_embeddings_and_index(index, embeddings, chunks, model_name, file_paths)
     except Exception as e:
         logger.error(f"Error saving cache: {e}")
         raise
+
 
 def load_embeddings_and_index():
     """Load embeddings, FAISS index, and chunks from disk."""
@@ -201,9 +215,72 @@ def load_embeddings_and_index():
         logger.error(f"Error loading cache: {e}")
         return None, None, None, None
 
+
+# =====================================================================
+# NEW: State Detection Functions 
+# =====================================================================
+
+
+def detect_state_in_query(query: str, available_states: list):
+    """
+    Heuristic: check whether any available state names appear in the query.
+    Returns the matched state name (as in available_states) or None.
+    """
+    q = query.lower()
+    # Normalize available states to lower
+    normalized = {s.lower(): s for s in available_states}
+
+    # exact token match or substring match (handles multiword like 'all_india' -> 'all india')
+    for low_state, orig_state in normalized.items():
+        # create readable variants for matching
+        alt = low_state.replace("_", " ").replace("-", " ")
+        if (f" {low_state} " in f" {q} ") or (f" {alt} " in f" {q} "):
+            return orig_state
+
+    # fallback: try simple substring
+    for low_state, orig_state in normalized.items():
+        if low_state in q or low_state.replace("_", " ") in q:
+            return orig_state
+
+    return None
+
+
+def select_tables_for_query(tables: list, query: str, all_india_filename='all_india.json'):
+    """
+    If query mentions a state (based on tables' 'state' field), return only that table.
+    If no state mentioned -> try to find a table whose source_file matches all_india_filename (or state == 'all_india').
+    If all_india isn't available, fallback to returning all tables.
+    """
+    if not tables:
+        return []
+
+    available_states = [t["state"] for t in tables]
+    matched_state = detect_state_in_query(query, available_states)
+
+    if matched_state:
+        print(f"✓ Detected state in query: '{matched_state}'. Using that table only.")
+        return [t for t in tables if t["state"] == matched_state]
+
+    # No state detected — try to use all_india.json
+    # Normalize search
+    all_india_variants = { 'all_india', 'all-india', 'all india', 'all_india.json', 'all-india.json', 'all india.json' }
+    # Try to find by source_file or state name
+    for t in tables:
+        src_lower = t["source_file"].lower()
+        state_lower = t["state"].lower()
+        if src_lower in all_india_variants or state_lower in all_india_variants or ('all' in state_lower and 'india' in state_lower):
+            print(f"✓ No state in query — using national file '{t['source_file']}' (state='{t['state']}').")
+            return [t]
+
+    # if nothing matched, as fallback use all tables (or you could return empty to indicate error)
+    print("⚠ No state mentioned and no 'all_india' file found — falling back to using all loaded tables.")
+    return tables
+
+
 # =====================================================================
 # Utility: Load all JSON files and normalize into tables
 # =====================================================================
+
 
 def load_tables_from_files(file_paths):
     """
@@ -265,9 +342,11 @@ def load_tables_from_files(file_paths):
         logger.warning("No valid tables loaded. Check file paths or formats.")
     return all_tables
 
+
 # =====================================================================
 # Step 2: Create Chunks
 # =====================================================================
+
 
 def create_chunks(tables):
     """
@@ -301,9 +380,11 @@ def create_chunks(tables):
     print(f"✓ Created {len(chunks)} chunks from {len(tables)} tables")
     return chunks
 
+
 # =====================================================================
 # Step 3: Embedding & Indexing with Gemini API
 # =====================================================================
+
 
 def embed_and_index(chunks, model_name='models/text-embedding-004', batch_size=100, file_paths=None, use_cache=True):
     """
@@ -398,13 +479,16 @@ def embed_and_index(chunks, model_name='models/text-embedding-004', batch_size=1
     
     return index, model_name, embeddings_np, chunks
 
+
 # =====================================================================
 # Step 4: Retrieval with Gemini Embeddings
 # =====================================================================
 
-def retrieve_results(query, index, model_name, chunks, top_k=3):
+
+def retrieve_results(query, index, model_name, chunks, top_k=3, state_hint=None):
     """
     Retrieves top-k relevant chunks for the given user query using Gemini Embeddings.
+    Optional state_hint parameter for logging purposes.
     """
     if index.ntotal == 0:
         raise ValueError("FAISS index is empty. Run embed_and_index() first.")
@@ -432,9 +516,11 @@ def retrieve_results(query, index, model_name, chunks, top_k=3):
 
     return retrieved
 
+
 # =====================================================================
 # Step 5: Prompt Assembly
 # =====================================================================
+
 
 def generate_llm_prompt(retrieved_chunks, query):
     """
@@ -464,9 +550,11 @@ Answer:
 """
     return prompt.strip()
 
+
 # =====================================================================
-# Step 6: LLM Answer Generation (NEW - MISSING FUNCTION ADDED)
+# Step 6: LLM Answer Generation
 # =====================================================================
+
 
 def get_llm_answer(prompt, model_name="gemini-2.5-flash"):
     """
@@ -487,9 +575,11 @@ def get_llm_answer(prompt, model_name="gemini-2.5-flash"):
         logger.error(f"Error generating LLM response: {e}")
         return f"Error generating response: {str(e)}"
 
+
 # =====================================================================
 # Step 7: Query Complexity Detection
 # =====================================================================
+
 
 def is_complex_query(query):
     """
@@ -506,6 +596,7 @@ def is_complex_query(query):
     is_complex = any(keyword in query_lower for keyword in complexity_keywords)
     
     return is_complex
+
 
 def decompose_query(query, model_answer):
     """
@@ -536,6 +627,8 @@ Output format example:
         # Remove markdown code blocks if present
         if response_text.startswith('```json'):
             response_text = response_text[len('```json'):]
+        if response_text.startswith('```'):
+            response_text = response_text[3:]
         if response_text.endswith('```'):
             response_text = response_text[:-3]
         
@@ -549,6 +642,7 @@ Output format example:
         logger.error(f"Error in query decomposition: {e}")
         print("Falling back to simple query processing")
         return [query]
+
 
 def answer_sub_query(sub_query, index, model_name, chunks, model_answer):
     """
@@ -565,6 +659,7 @@ def answer_sub_query(sub_query, index, model_name, chunks, model_answer):
         "answer": answer,
         "retrieved_chunks": retrieved
     }
+
 
 def combine_answers(original_query, sub_query_results, model_answer):
     """
@@ -601,9 +696,11 @@ Final Answer:
     
     return final_answer
 
+
 # =====================================================================
 # Step 8: Main Query Processing
 # =====================================================================
+
 
 def process_query(query, index, model_name, chunks, model_answer):
     """
@@ -645,13 +742,89 @@ def process_query(query, index, model_name, chunks, model_answer):
             "retrieved_chunks": retrieved
         }
 
+
+# =====================================================================
+# NEW: State-Aware Pipeline Runner 
+# =====================================================================
+
+
+def run_pipeline_for_query(file_paths, query, top_k=3, batch_size=100, all_india_filename='all_india.json', use_cache=True):
+    """
+    NEW FUNCTION: Executes the full pipeline with state-aware table selection.
+    
+    1. Load all tables from provided file_paths
+    2. Select tables based on query (state detected -> that table, else all_india.json if present, else all tables)
+    3. Create chunks for selected tables, embed, index, retrieve and return results
+    
+    Args:
+        file_paths: List of JSON file paths
+        query: User query string
+        top_k: Number of top results to retrieve
+        batch_size: Batch size for embedding
+        all_india_filename: Name of the national-level data file
+        use_cache: Whether to use cached embeddings
+        
+    Returns:
+        dict: Query result with answer and metadata
+    """
+    print("\n" + "="*80)
+    print(f"Running State-Aware Pipeline for: {query}")
+    print("="*80)
+    
+    # Load all available tables
+    tables = load_tables_from_files(file_paths)
+    if not tables:
+        raise ValueError("No tables loaded from file_paths")
+
+    # Select relevant tables based on query
+    selected_tables = select_tables_for_query(tables, query, all_india_filename=all_india_filename)
+    
+    # Create chunks only for selected tables
+    chunks = create_chunks(selected_tables)
+
+    # Embed and index with cache support
+    selected_file_paths = [t["source_file"] for t in selected_tables]
+    index, model_name, embeddings, chunks = embed_and_index(
+        chunks, 
+        batch_size=batch_size,
+        file_paths=selected_file_paths,
+        use_cache=use_cache
+    )
+    
+    # Retrieve relevant chunks
+    state_hint = [t['state'] for t in selected_tables]
+    retrieved = retrieve_results(
+        query, 
+        index, 
+        model_name, 
+        chunks, 
+        top_k=top_k,
+        state_hint=state_hint
+    )
+    
+    # Generate prompt and get answer
+    prompt = generate_llm_prompt(retrieved, query)
+    model_answer = genai.GenerativeModel("gemini-2.5-flash")
+    answer = get_llm_answer(prompt)
+    
+    return {
+        "query": query,
+        "selected_states": [t["state"] for t in selected_tables],
+        "retrieved_chunks": retrieved,
+        "prompt": prompt,
+        "answer": answer
+    }
+
+
 # =====================================================================
 # Main Execution
 # =====================================================================
 
+
 if __name__ == "__main__":
     print("=" * 80)
     print("Starting LLM RAG Pipeline with Gemini Embeddings")
+    print("Enhanced with State-Aware Query Processing")
     print("=" * 80)
 
     # Configure Gemini API
@@ -688,8 +861,6 @@ if __name__ == "__main__":
         "Meghalaya.json",
         "Mizoram.json",
         "Nagaland.json"
-
-
     ]
 
     # Load tables
