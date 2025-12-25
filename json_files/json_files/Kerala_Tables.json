@@ -1,7 +1,7 @@
 [
     {
         "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
-        "description": "Enrollment statistics for children in Kerala in 2024, categorized by age groups (6-14, 7-16, 7-10, 11-14, 15-16) and gender. The table compares enrollment percentages in Government, Private, and Other schools, as well as the percentage of children currently not in school.",
+        "description": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
@@ -20,7 +20,7 @@
     },
     {
         "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
-        "description": "Detailed breakdown of educational enrollment for children aged 3 to 8 in Kerala for the year 2022. It distinguishes between pre-school types (Anganwadi, Government pre-primary, Private LKG/UKG) and formal school types (Government, Private, Other), including data on children not attending any institution.",
+        "description": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -35,7 +35,7 @@
     },
     {
         "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
-        "description": "Educational enrollment statistics for children aged 3 to 8 in Kerala for the year 2024. The table provides percentage breakdowns for Anganwadi, Government pre-primary, Private LKG/UKG, and various formal school categories, alongside data on children not enrolled.",
+        "description": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -50,7 +50,7 @@
     },
     {
         "title": "Table 4: % Children by grade and reading level. All children. 2024",
-        "description": "Assessment of foundational reading skills for children in Kerala in 2024, arranged by grade level (Standard I through VIII). The table categorizes students by their highest reading ability: Not even letter, Letter, Word, Standard I level text, or Standard II level text.",
+        "description": "Table 4: % Children by grade and reading level. All children. 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
@@ -66,7 +66,7 @@
     },
     {
         "title": "Table 5: Trends over time",
-        "description": "Longitudinal trends (2014, 2016, 2018, 2022, 2024) showing the percentage of Standard III children in Kerala capable of reading Standard II level text. The data is broken down by Government and Private schools.",
+        "description": "Table 5: Trends over time in Kerala",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
@@ -80,7 +80,7 @@
     },
     {
         "title": "Table 6: Trends over time",
-        "description": "Historical data (2014-2024) illustrating reading proficiency trends for Standard V and Standard VIII students in Kerala. The table displays the percentage of students in Government and Private schools who can read Standard II level text.",
+        "description": "Table 6: Trends over time in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
@@ -94,7 +94,7 @@
     },
     {
         "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
-        "description": "Assessment of foundational arithmetic skills for children in Kerala in 2024, arranged by grade level (Standard I through VIII). The table tracks proficiency levels including number recognition (1-9, 11-99), subtraction, and division.",
+        "description": "Table 7: % Children by grade and arithmetic level. All children. 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even",
@@ -111,7 +111,7 @@
     },
     {
         "title": "Table 8: Trends over time",
-        "description": "Longitudinal trends (2014-2024) showing the percentage of Standard III children in Kerala who can perform at least subtraction. The data is categorized by Government and Private schools.",
+        "description": "Table 8: Trends over time in Kerala",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
@@ -125,7 +125,7 @@
     },
     {
         "title": "Table 9: Trends over time",
-        "description": "Historical trends (2014-2024) of arithmetic proficiency in Kerala, specifically measuring the percentage of Standard V and Standard VIII students who can perform division, compared across Government and Private schools.",
+        "description": "Table 9: Trends over time in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
@@ -139,7 +139,7 @@
     },
     {
         "title": "Table 10: Smartphone availability and use. By age. 2024",
-        "description": "Digital access statistics for children aged 14, 15, and 16 in Kerala for 2024. The table covers smartphone availability at home, the ability to bring a phone for digital tasks, usability skills, and personal ownership of smartphones.",
+        "description": "Table 10: Smartphone availability and use. By age. 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -152,7 +152,7 @@
     },
     {
         "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
-        "description": "Gender-based comparison of smartphone availability and usage for 14-16 year olds in Kerala (2024). It includes data on access at home, ability to use smartphones for digital tasks, and personal ownership rates for Boys vs Girls.",
+        "description": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -164,7 +164,7 @@
     },
     {
         "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
-        "description": "Digital literacy and online safety report for children aged 14-16 in Kerala (2024). The table details engagement in educational activities and social media, as well as proficiency in safety features like blocking profiles, making profiles private, and changing passwords.",
+        "description": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -177,7 +177,7 @@
     },
     {
         "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
-        "description": "Comparison of digital habits between boys and girls (aged 14-16) in Kerala for 2024. The data covers participation in educational activities, social media usage, and knowledge of online safety measures (blocking, privacy settings, password management).",
+        "description": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -189,7 +189,7 @@
     },
     {
         "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
-        "description": "Breakdown of specific digital capabilities for children in Kerala (2024), aggregated by age and sex. It measures the ability to perform tasks such as setting alarms, browsing for information, finding YouTube videos, and sharing videos.",
+        "description": "Table 14: % Children who could do digital tasks, by age and sex. 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
@@ -203,7 +203,7 @@
     },
     {
         "title": "Table 15: Trends over time",
-        "description": "Survey data showing the number of Primary and Upper Primary schools visited in Kerala during the years 2010, 2018, 2022, and 2024.",
+        "description": "Table 15: Trends over time in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -214,7 +214,7 @@
     },
     {
         "title": "Table 16: Trends over time",
-        "description": "Attendance trends in Kerala schools for the years 2010, 2018, 2022, and 2024. The table displays the average percentage of enrolled children present and the average percentage of teachers present.",
+        "description": "Table 16: Trends over time in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Primary schools | 2010 | 2018 | 2022 | 2024 |",
@@ -227,7 +227,7 @@
     },
     {
         "title": "Table 17: Trends over time",
-        "description": "A longitudinal metric for Primary and Upper Primary schools in Kerala, tracking a specific percentage indicator across 2010, 2018, 2022, and 2024.",
+        "description": "Table 17: Trends over time in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -237,7 +237,7 @@
     },
     {
         "title": "Table 18: Multigrade classes. 2024",
-        "description": "Data on multigrade classroom observations in Kerala for 2024, specifically showing the percentage of schools where Standard I and Standard II children were observed sitting with other grades.",
+        "description": "Table 18: Multigrade classes. 2024 in Kerala",
         "data": [
             "| --- | --- | --- |",
             "| % Schools | Std I children  observed sitting with any other Std | Std II children  observed sitting with any other Std |",
@@ -247,7 +247,7 @@
     },
     {
         "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
-        "description": "2024 observational data regarding the presence of Teaching Learning Materials (TLM) in Kerala classrooms (Std I and Std II) and whether student work was displayed.",
+        "description": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
@@ -258,7 +258,7 @@
     },
     {
         "title": "Table 20: Trends over time",
-        "description": "Comprehensive school infrastructure and facility trends in Kerala (2010-2024). The table tracks the availability and status of mid-day meals, drinking water, toilets (including separate girls' toilets), libraries, electricity connections, and computers.",
+        "description": "Table 20: Trends over time in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
@@ -291,7 +291,7 @@
     },
     {
         "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
-        "description": "Status of Foundational Literacy and Numeracy (FLN) implementation in Kerala schools for 2024 and the previous academic year. It covers government directives, online/offline teacher training, TLM receipt, funds receipt, and School Readiness Programs.",
+        "description": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
@@ -304,7 +304,7 @@
     },
     {
         "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
-        "description": "Comparison of language and math textbook distribution in Kerala schools between 2022 and 2024. The data indicates the percentage of schools distributing books to all grades, some grades, or no grades.",
+        "description": "Table 22: Distribution of language and math textbooks. 2022 and 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed |",
@@ -317,7 +317,7 @@
     },
     {
         "title": "Table 23: Distribution of uniforms. 2022, 2024",
-        "description": "Statistics on the distribution of school uniforms in Kerala for the years 2022 and 2024, showing the percentage of schools covering all grades, some grades, or no grades.",
+        "description": "Table 23: Distribution of uniforms. 2022, 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
@@ -330,7 +330,7 @@
     },
     {
         "title": "Table 24: Physical education. 2018, 2022 and 2024",
-        "description": "Trends regarding physical education resources in Kerala schools (2018, 2022, 2024), covering weekly time allocation, the presence of specialized PE teachers, playgrounds, and sports equipment availability. The data is broken down by Primary and Upper Primary schools.",
+        "description": "Table 24: Physical education. 2018, 2022 and 2024 in Kerala",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | Primary schools | Primary schools | Primary schools | Upper primary schools | Upper primary schools | Upper primary schools |",

@@ -1,7 +1,7 @@
 [
     {
         "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
-        "description": "Comprehensive data on school enrollment rates in West Bengal for the year 2024, categorized by age groups (6-14, 7-16, 15-16) and gender. This table compares enrollment percentages across Government, Private, and other institutions, and includes the percentage of children not currently in school. It also provides a historical trend analysis of enrollment figures from 2006 to 2024.",
+        "description": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
@@ -35,7 +35,7 @@
     },
     {
         "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
-        "description": "Statistics on early childhood education enrollment in West Bengal for the year 2022. The table details the distribution of children aged 3 to 8 across different institution types, including Anganwadis, Government pre-primary, Private LKG/UKG, and formal Government or Private schools, as well as the percentage of children not attending any institution.",
+        "description": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -50,7 +50,7 @@
     },
     {
         "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
-        "description": "Updated 2024 statistics on early childhood education enrollment in West Bengal, showing the shift in enrollment patterns for children aged 3 to 8. This table breaks down participation in Anganwadis, Government pre-primary, Private LKG/UKG, and formal schooling, allowing for comparison of pre-school uptake against the 2022 data.",
+        "description": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -65,7 +65,7 @@
     },
     {
         "title": "Table 4: % Children by grade and reading level. All children. 2024",
-        "description": "Foundational literacy assessment data for West Bengal students in 2024. This table displays the percentage of children in grades I through VIII categorized by their highest reading capability: not able to read letters, reading letters, reading words, reading Standard I level text, or reading Standard II level text.",
+        "description": "Table 4: % Children by grade and reading level. All children. 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
@@ -81,7 +81,7 @@
     },
     {
         "title": "Table 5: Trends over time",
-        "description": "Longitudinal analysis of reading proficiency in West Bengal for Standard III students. The table tracks the percentage of children who can read Standard II level text from 2014 to 2024, broken down by Government schools, Private schools, and aggregate totals.",
+        "description": "Table 5: Trends over time in West Bengal",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
@@ -95,7 +95,7 @@
     },
     {
         "title": "Table 6: Trends over time",
-        "description": "Historical trends in advanced reading proficiency for West Bengal students in higher primary grades (Std V and Std VIII) between 2014 and 2024. The data compares the percentage of students in these grades who can read Standard II level text, split by Government and Private schools. It also includes a chart comparing 2022 vs 2024 reading levels by gender.",
+        "description": "Table 6: Trends over time in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
@@ -116,7 +116,7 @@
     },
     {
         "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
-        "description": "Foundational numeracy assessment data for West Bengal students in 2024. The table categorizes students in grades I through VIII by their highest arithmetic capability, ranging from not recognizing numbers to performing division.",
+        "description": "Table 7: % Children by grade and arithmetic level. All children. 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even",
@@ -133,7 +133,7 @@
     },
     {
         "title": "Table 8: Trends over time",
-        "description": "Longitudinal trends in basic arithmetic proficiency (subtraction) for Standard III students in West Bengal. The data tracks performance from 2014 to 2024 across Government and Private schools.",
+        "description": "Table 8: Trends over time in West Bengal",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
@@ -147,7 +147,7 @@
     },
     {
         "title": "Table 9: Trends over time",
-        "description": "Historical data (2014-2024) regarding advanced arithmetic skills (division) for students in Std V and Std VIII in West Bengal. The table compares the percentage of students capable of division in Government schools versus Private schools.",
+        "description": "Table 9: Trends over time in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
@@ -161,7 +161,7 @@
     },
     {
         "title": "Table 10: Smartphone availability and use. By age. 2024",
-        "description": "Survey of digital access and smartphone usage for children aged 14 to 16 in West Bengal (2024). The data covers the percentage of children with smartphones at home, their ability to use them for digital tasks, and the percentage who personally own a smartphone.",
+        "description": "Table 10: Smartphone availability and use. By age. 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -174,7 +174,7 @@
     },
     {
         "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
-        "description": "Gender-based breakdown of smartphone availability and usage in West Bengal for 2024. The table compares boys and girls (ages 14-16) regarding home availability, ability to perform digital tasks, and personal smartphone ownership.",
+        "description": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -186,7 +186,7 @@
     },
     {
         "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
-        "description": "Analysis of online behavior and digital safety awareness among smartphone-using children (ages 14-16) in West Bengal for 2024. The data details participation in educational activities vs. social media usage, and proficiency in safety features like blocking profiles, making profiles private, and changing passwords.",
+        "description": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -199,7 +199,7 @@
     },
     {
         "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
-        "description": "Gender-disaggregated data on digital behavior and online safety for children aged 14-16 in West Bengal (2024). This table compares boys and girls in terms of using smartphones for education versus social media, and their knowledge of safety protocols like profile blocking and password management.",
+        "description": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -211,7 +211,7 @@
     },
     {
         "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
-        "description": "Assessment of practical digital skills among youth in West Bengal (2024). This table measures the percentage of children (ages 14-16, by sex) who can perform specific tasks on a smartphone, such as setting an alarm, browsing for information, and finding or sharing a YouTube video.",
+        "description": "Table 14: % Children who could do digital tasks, by age and sex. 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
@@ -225,7 +225,7 @@
     },
     {
         "title": "Table 15: Trends over time",
-        "description": "Logistical data regarding the school survey in West Bengal, detailing the number of primary and upper primary schools visited by surveyors across the years 2010, 2018, 2022, and 2024.",
+        "description": "Table 15: Trends over time in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -236,7 +236,7 @@
     },
     {
         "title": "Table 16: Trends over time",
-        "description": "Attendance trends for students and teachers in West Bengal schools. This table shows the average percentage of enrolled children present and teachers present on the day of the visit for the years 2010, 2018, 2022, and 2024.",
+        "description": "Table 16: Trends over time in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| All schools** | 2010 | 2018 | 2022 | 2024 |",
@@ -246,7 +246,7 @@
     },
     {
         "title": "Table 17: Trends over time",
-        "description": "Data on school enrollment size trends in West Bengal, specifically tracking the percentage of schools with total enrollment of 60 or fewer students across the years 2010, 2018, 2022, and 2024.",
+        "description": "Table 17: Trends over time in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -255,7 +255,7 @@
     },
     {
         "title": "Table 18: Multigrade classes. 2024",
-        "description": "Statistics on multigrade classroom practices in West Bengal schools for 2024. The table indicates the percentage of schools where children in Standard I and Standard II were observed sitting with students from other grades.",
+        "description": "Table 18: Multigrade classes. 2024 in West Bengal",
         "data": [
             "| --- | --- | --- |",
             "| % Schools | Std I children observed sitting with any other Std | Std II children observed sitting with any other Std |",
@@ -264,7 +264,7 @@
     },
     {
         "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
-        "description": "Classroom observation data regarding Teaching Learning Materials (TLM) in West Bengal (2024). The table shows the percentage of schools where TLM (other than textbooks) was present in Std I and II classrooms, and whether student work was displayed.",
+        "description": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
@@ -274,7 +274,7 @@
     },
     {
         "title": "Table 20: Trends over time",
-        "description": "Comprehensive infrastructure report for West Bengal schools covering Right to Education (RTE) indicators from 2010 to 2024. The data tracks the availability and usability of mid-day meals, drinking water, toilets (including separate provisions for girls), libraries, electricity, and computers.",
+        "description": "Table 20: Trends over time in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
@@ -307,7 +307,7 @@
     },
     {
         "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
-        "description": "Implementation status of Foundational Literacy and Numeracy (FLN) initiatives in West Bengal schools for the academic years 2023-2024 and 2024-2025. The table covers government directives, teacher training (online and offline), receipt of FLN teaching materials and funds, and the conduct of School Readiness Programmes.",
+        "description": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
@@ -318,7 +318,7 @@
     },
     {
         "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
-        "description": "Report on the distribution of free language and math textbooks in West Bengal schools for 2022 and 2024. The table indicates the percentage of schools where textbooks were distributed to all, some, or no grades, and mentions fund allocation where physical books were not distributed.",
+        "description": "Table 22: Distribution of language and math textbooks. 2022 and 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed | If not distributed in all grades, then % schools where funds given |",
@@ -329,7 +329,7 @@
     },
     {
         "title": "Table 23: Distribution of uniforms. All schools. 2022, 2024",
-        "description": "Status of school uniform distribution in West Bengal for the years 2022 and 2024. The data shows the percentage of schools achieving full, partial, or no distribution of uniforms to students.",
+        "description": "Table 23: Distribution of uniforms. All schools. 2022, 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
@@ -340,7 +340,7 @@
     },
     {
         "title": "Table 24: Physical education. 2018, 2022 and 2024",
-        "description": "Availability of physical education resources in West Bengal schools across 2018, 2022, and 2024. The table tracks indicators such as weekly time allotment for PE, the presence of specialized PE teachers versus regular teachers conducting sports, and the availability of playgrounds and sports equipment.",
+        "description": "Table 24: Physical education. 2018, 2022 and 2024 in West Bengal",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | All schools | All schools | All schools |",

@@ -1,7 +1,7 @@
 [
     {
         "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
-        "description": "School enrollment statistics for Odisha in 2024, categorized by age group (6-16) and gender. The table details the percentage of children in Government, Private, and Other schools, as well as out-of-school rates. It also includes longitudinal trends (2006-2024) for older age groups and government school enrollment trends (2018-2024).",
+        "description": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
@@ -28,7 +28,7 @@
     },
     {
         "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
-        "description": "Enrollment distribution for children aged 3 to 8 years in Odisha for the year 2022. This table breaks down participation in pre-school (Anganwadi, Govt pre-primary, Private LKG/UKG) versus formal schooling, and includes data on government school enrollment trends by gender from 2018 to 2024.",
+        "description": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -50,7 +50,7 @@
     },
     {
         "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
-        "description": "Enrollment data for 2024 covering children aged 3 to 8 years in Odisha. The table tracks enrollment in Anganwadis, government pre-primary, private LKG/UKG, and formal schools (Government and Private), highlighting early childhood education trends.",
+        "description": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Age | Age | Age | Pre-school | Pre-school | Pre-school | Pre-school | Pre-school | Pre-school | School | School | School | School | School | Not in pre-school or school | Total |",
@@ -65,7 +65,7 @@
     },
     {
         "title": "Table 4: % Children by grade and reading level. All children. 2024",
-        "description": "Foundational reading proficiency results for students in Grades I-VIII in Odisha for 2024. The table categorizes students by reading level (Letter, Word, Std I Text, Std II Text). Chart 3 provides a gender-disaggregated comparison of reading levels for 2022 and 2024.",
+        "description": "Table 4: % Children by grade and reading level. All children. 2024 in Odisha",
         "data": [
             "| Std | Not even letter | Letter | Letter | Word | Word | Std I level text | Std I level text | Std II level text | Std II level text | Total | Total |",
             "| I | 29.8 | 35.3 | 35.3 | 18.2 | 18.2 | 8.4 | 8.4 | 8.3 | 8.3 | 100 | 100 |",
@@ -85,7 +85,7 @@
     },
     {
         "title": "Table 5: Trends over time",
-        "description": "Historical trends (2014-2024) of reading proficiency for Standard III students in Odisha. The table compares Government and Private school performance. Also includes Chart 4 regarding division capability by gender and grade.",
+        "description": "Table 5: Trends over time in Odisha",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
@@ -106,7 +106,7 @@
     },
     {
         "title": "Table 6: Trends over time",
-        "description": "Longitudinal reading proficiency trends (2014-2024) for Standard V and Standard VIII students in Odisha. The table provides data on the percentage of students who can read Standard II level text, broken down by school type (Govt vs Pvt).",
+        "description": "Table 6: Trends over time in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
@@ -120,7 +120,7 @@
     },
     {
         "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
-        "description": "Foundational numeracy assessment for students in Grades I-VIII in Odisha for 2024. The table categorizes students by their highest arithmetic capability, ranging from number recognition (1-9, 11-99) to subtraction and division.",
+        "description": "Table 7: % Children by grade and arithmetic level. All children. 2024 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even",
@@ -137,7 +137,7 @@
     },
     {
         "title": "Table 8: Trends over time",
-        "description": "Historical trends (2014-2024) regarding basic arithmetic (subtraction) proficiency for Standard III students in Odisha. The data compares performance between Government and Private schools.",
+        "description": "Table 8: Trends over time in Odisha",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
@@ -151,7 +151,7 @@
     },
     {
         "title": "Table 9: Trends over time",
-        "description": "Historical trends (2014-2024) of advanced arithmetic (division) proficiency for Standard V and Standard VIII students in Odisha. The table shows the percentage of students capable of division, broken down by school type.",
+        "description": "Table 9: Trends over time in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
@@ -165,7 +165,7 @@
     },
     {
         "title": "Table 10: Smartphone availability and use. By age. 2024",
-        "description": "Data on smartphone availability and usage for adolescents aged 14-16 in Odisha for 2024. Metrics include availability at home, ability to perform digital tasks, and personal smartphone ownership.",
+        "description": "Table 10: Smartphone availability and use. By age. 2024 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -178,7 +178,7 @@
     },
     {
         "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
-        "description": "Gender-disaggregated data on smartphone availability and use for adolescents aged 14-16 in Odisha (2024). The table compares boys and girls regarding home smartphone access, digital task capability, and personal ownership.",
+        "description": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Sex | Sex | % Children who: | % Children who: | % Children who: | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone | Of those who can use a smartphone, % who have their own smartphone | Of those who can use a smartphone, % who have their own smartphone |",
@@ -190,7 +190,7 @@
     },
     {
         "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
-        "description": "Digital behavior and safety awareness among smartphone-using children aged 14-16 in Odisha (2024). The table covers participation in educational and social media activities, as well as knowledge of safety features like blocking profiles, private settings, and password changes.",
+        "description": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024 in Odisha",
         "data": [
             "| Age | % Children who did the any education-related activity in reference week | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
             "| Age | % Children who did the any education-related activity in reference week | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | % Children who used any social media in  reference week | Block/report a profile | Block/report a profile | Make a profile private | Make a profile private | Change password |",
@@ -202,7 +202,7 @@
     },
     {
         "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
-        "description": "Comparison of digital usage and online safety skills between boys and girls aged 14-16 in Odisha (2024). The data tracks participation in educational vs social media activities and proficiency in safety measures like blocking and privacy settings.",
+        "description": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -214,7 +214,7 @@
     },
     {
         "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
-        "description": "Proficiency in specific digital tasks (setting alarms, browsing, YouTube, sharing) among adolescents aged 14-16 in Odisha (2024). The table provides a breakdown by age and sex.",
+        "description": "Table 14: % Children who could do digital tasks, by age and sex. 2024 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
@@ -228,7 +228,7 @@
     },
     {
         "title": "Table 15: Trends over time",
-        "description": "Logistical data showing the number of primary and upper primary schools visited in Odisha during ASER surveys from 2010 to 2024.",
+        "description": "Table 15: Trends over time in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -239,7 +239,7 @@
     },
     {
         "title": "Table 16: Trends over time",
-        "description": "Average student and teacher attendance rates in Odisha's primary and upper primary schools for the years 2010, 2018, 2022, and 2024.",
+        "description": "Table 16: Trends over time in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Primary schools | 2010 | 2018 | 2022 | 2024 |",
@@ -252,7 +252,7 @@
     },
     {
         "title": "Table 17: Trends over time",
-        "description": "Trends regarding specific school characteristics (likely small schools or enrollment metrics) in Odisha from 2010 to 2024.",
+        "description": "Table 17: Trends over time in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -262,7 +262,7 @@
     },
     {
         "title": "Table 18: Multigrade classes. 2024",
-        "description": "Percentage of schools in Odisha where multigrade classrooms (Std I or II sitting with other grades) were observed in 2024.",
+        "description": "Table 18: Multigrade classes. 2024 in Odisha",
         "data": [
             "| --- | --- | --- |",
             "| % Schools | Std I children  observed sitting with any other Std | Std II children  observed sitting with any other Std |",
@@ -272,7 +272,7 @@
     },
     {
         "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
-        "description": "Observation of Teaching Learning Materials (TLM) and displayed student work in Standard I and II classrooms in Odisha schools (2024).",
+        "description": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
@@ -283,7 +283,7 @@
     },
     {
         "title": "Table 20: Trends over time",
-        "description": "Comprehensive school infrastructure report for Odisha (2010-2024), covering Mid-day meals, drinking water, toilets, libraries, electricity, and computers.",
+        "description": "Table 20: Trends over time in Odisha",
         "data": [
             "| % Schools with | % Schools with | % Schools with | 2010 | 2010 | 2018 | 2018 | 2022 | 2022 | 2024 | 2024 |",
             "| Mid-day meal | Mid-day meal served in school on the day of visit | Mid-day meal served in school on the day of visit | 88.8 | 88.8 | 98.8 | 98.8 | 98.6 | 98.6 | 98.1 | 98.1 |",
@@ -315,7 +315,7 @@
     },
     {
         "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
-        "description": "Implementation status of Foundational Literacy and Numeracy (FLN) activities in Odisha schools for 2023-24 and 2024-25, covering teacher training, materials, and readiness programs.",
+        "description": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
@@ -328,7 +328,7 @@
     },
     {
         "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
-        "description": "Distribution status of language and math textbooks in Odisha schools for the years 2022 and 2024.",
+        "description": "Table 22: Distribution of language and math textbooks. 2022 and 2024 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed |",
@@ -341,7 +341,7 @@
     },
     {
         "title": "Table 23: Distribution of uniforms. 2022, 2024",
-        "description": "Status of school uniform distribution (physical or funds/DBT) in Odisha schools for 2022 and 2024.",
+        "description": "Table 23: Distribution of uniforms. 2022, 2024 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
@@ -354,7 +354,7 @@
     },
     {
         "title": "Table 24: Physical education. 2018, 2022 and 2024",
-        "description": "Availability of physical education resources (time, teachers, playgrounds, equipment) in Odisha schools for 2018, 2022, and 2024.",
+        "description": "Table 24: Physical education. 2018, 2022 and 2024 in Odisha",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | Primary schools | Primary schools | Primary schools | Upper primary schools | Upper primary schools | Upper primary schools |",

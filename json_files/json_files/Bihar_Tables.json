@@ -1,7 +1,7 @@
 [
     {
         "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
-        "description": "Percentage of children in Bihar enrolled in different school types (Government, Private, Other) versus not enrolled, broken down by age group and sex for the year 2024. Includes trend data from 2006 to 2024 on out-of-school children and trends from 2018 to 2024 for government school enrollment by grade level and sex.",
+        "description": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
@@ -35,7 +35,7 @@
     },
     {
         "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
-        "description": "Percentage of children aged 3 to 8 in Bihar enrolled in various types of pre-schools (Anganwadi, Govt pre-primary, Pvt LKG/UKG) and schools (Govt, Pvt, Other) for the year 2022.",
+        "description": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -50,7 +50,7 @@
     },
     {
         "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
-        "description": "Percentage of children aged 3 to 8 in Bihar enrolled in various types of pre-schools (Anganwadi, Govt pre-primary, Pvt LKG/UKG) and schools (Govt, Pvt, Other) for the year 2024.",
+        "description": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -65,7 +65,7 @@
     },
     {
         "title": "Table 4: % Children by grade and reading level. All children. 2024",
-        "description": "Percentage of all children in Bihar, by grade (Standard I to VIII), categorized by their reading proficiency level (Word, Standard I text, Standard II text) for the year 2024.",
+        "description": "Table 4: % Children by grade and reading level. All children. 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Std | Word | Std I level text | Std II level text | Total |",
@@ -81,7 +81,7 @@
     },
     {
         "title": "Table 5: Trends over time",
-        "description": "Trends over time (2014-2024) showing the percentage of children in Standard III in Bihar who can read a Standard II level text, broken down by school type (Government, Private, and combined).",
+        "description": "Table 5: Trends over time in Bihar",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
@@ -95,7 +95,7 @@
     },
     {
         "title": "Table 6: Trends over time",
-        "description": "Trends over time (2014-2024) showing the percentage of children in Standard V and Standard VIII in Bihar who can read a Standard II level text, by school type (Government, Private, combined). Includes a chart comparing reading levels by grade and sex for 2022 and 2024.",
+        "description": "Table 6: Trends over time in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
@@ -116,7 +116,7 @@
     },
     {
         "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
-        "description": "Percentage of all children in Bihar, by grade (Standard I to VIII), categorized by their arithmetic proficiency level (number recognition, subtraction, division) for the year 2024.",
+        "description": "Table 7: % Children by grade and arithmetic level. All children. 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even",
@@ -133,7 +133,7 @@
     },
     {
         "title": "Table 8: Trends over time",
-        "description": "Trends over time (2014-2024) showing the percentage of children in Standard III in Bihar who can perform at least subtraction, broken down by school type (Government, Private, and combined).",
+        "description": "Table 8: Trends over time in Bihar",
         "data": [
             "| Year | Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
             "| Year | Year | Govt | Pvt | Pvt | Govt & Pvt* | Govt & Pvt* | Govt & Pvt* |",
@@ -146,7 +146,7 @@
     },
     {
         "title": "Table 9: Trends over time",
-        "description": "Trends over time (2014-2024) showing the percentage of children in Standard V and Standard VIII in Bihar who can perform division, by school type (Government, Private, combined). Includes a chart comparing division skills by grade and sex for 2022 and 2024.",
+        "description": "Table 9: Trends over time in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
@@ -167,7 +167,7 @@
     },
     {
         "title": "Table 10: Smartphone availability and use. By age. 2024",
-        "description": "Statistics on smartphone availability and use among children in Bihar for the year 2024, broken down by age (14, 15, 16). Includes percentages for having a smartphone at home, ability to use one, and personal ownership.",
+        "description": "Table 10: Smartphone availability and use. By age. 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -180,7 +180,7 @@
     },
     {
         "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
-        "description": "Statistics on smartphone availability and use among 14-16 year-olds in Bihar for the year 2024, broken down by sex. Includes percentages for having a smartphone at home, ability to use one, and personal ownership.",
+        "description": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -192,7 +192,7 @@
     },
     {
         "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
-        "description": "Usage patterns and safety awareness among smartphone-literate children in Bihar for 2024, by age (14, 15, 16). Shows percentage using smartphones for education and social media, and knowledge of safety features like blocking profiles and changing passwords.",
+        "description": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -205,7 +205,7 @@
     },
     {
         "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
-        "description": "Usage patterns and safety awareness among smartphone-literate children aged 14-16 in Bihar for 2024, by sex. Shows percentage using smartphones for education and social media, and knowledge of safety features like blocking profiles and changing passwords.",
+        "description": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -217,7 +217,7 @@
     },
     {
         "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
-        "description": "Proficiency of children in Bihar in performing specific digital tasks on a smartphone for the year 2024, broken down by age (14, 15, 16) and sex. Tasks include setting an alarm, browsing for information, and finding/sharing YouTube videos.",
+        "description": "Table 14: % Children who could do digital tasks, by age and sex. 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
@@ -231,7 +231,7 @@
     },
     {
         "title": "Table 15: Trends over time",
-        "description": "Trends in the number of primary and upper primary schools visited in Bihar for the survey years 2010, 2018, 2022, and 2024.",
+        "description": "Table 15: Trends over time in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -242,7 +242,7 @@
     },
     {
         "title": "Table 16: Trends over time",
-        "description": "Trends in average student and teacher attendance rates in primary and upper primary schools in Bihar for the years 2010, 2018, 2022, and 2024.",
+        "description": "Table 16: Trends over time in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Primary schools | 2010 | 2018 | 2022 | 2024 |",
@@ -255,7 +255,7 @@
     },
     {
         "title": "Table 17: Trends over time",
-        "description": "Trends in the percentage of primary and upper primary schools in Bihar with an enrollment of less than 60 students for the years 2010, 2018, 2022, and 2024.",
+        "description": "Table 17: Trends over time in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -265,7 +265,7 @@
     },
     {
         "title": "Table 18: Multigrade classes. 2024",
-        "description": "Percentage of primary and upper primary schools in Bihar where Standard I and Standard II students were observed sitting in multigrade classrooms for the year 2024.",
+        "description": "Table 18: Multigrade classes. 2024 in Bihar",
         "data": [
             "| --- | --- | --- |",
             "| % Schools | Std I children  observed sitting with any other Std | Std II children  observed sitting with any other Std |",
@@ -275,7 +275,7 @@
     },
     {
         "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
-        "description": "Observation of Teaching Learning Materials (TLM) in Standard I and II classrooms of primary and upper primary schools in Bihar for 2024. Includes data on the presence of TLM and the display of student work.",
+        "description": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
@@ -286,7 +286,7 @@
     },
     {
         "title": "Table 20: Trends over time",
-        "description": "Trends in the availability and usability of school facilities in Bihar from 2010 to 2024. Covers mid-day meals, drinking water, toilets (including separate girls' toilets), libraries, electricity, and computers.",
+        "description": "Table 20: Trends over time in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
@@ -319,7 +319,7 @@
     },
     {
         "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
-        "description": "Implementation status of Foundational Literacy and Numeracy (FLN) initiatives in primary and upper primary schools in Bihar for the 2023-24 and 2024-25 academic years. Details include government directives, teacher training, and provision of materials and funds.",
+        "description": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
@@ -332,7 +332,7 @@
     },
     {
         "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
-        "description": "Comparison of language and math textbook distribution status in primary and upper primary schools in Bihar for the years 2022 and 2024. Shows whether distribution covered all, some, or no grades.",
+        "description": "Table 22: Distribution of language and math textbooks. 2022 and 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed | If not distributed in all grades, then % schools where funds given |",
@@ -345,7 +345,7 @@
     },
     {
         "title": "Table 23: Distribution of uniforms. 2022, 2024",
-        "description": "Comparison of school uniform distribution status in primary and upper primary schools in Bihar for the years 2022 and 2024. Shows whether distribution covered all, some, or no grades and if funds were provided as an alternative.",
+        "description": "Table 23: Distribution of uniforms. 2022, 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
@@ -358,7 +358,7 @@
     },
     {
         "title": "Table 24: Physical education. 2018, 2022 and 2024",
-        "description": "Trends in physical education provisions in primary and upper primary schools in Bihar for 2018, 2022, and 2024. Data includes time allotment, teacher availability, and the presence of playgrounds and sports equipment.",
+        "description": "Table 24: Physical education. 2018, 2022 and 2024 in Bihar",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | Primary schools | Primary schools | Primary schools | Upper primary schools | Upper primary schools | Upper primary schools |",

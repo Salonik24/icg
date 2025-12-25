@@ -1,22 +1,23 @@
 import streamlit as st
 import os
+from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
 import google.generativeai as genai
+
+# Import all necessary functions from the backend
 from llm import (
     load_tables_from_files,
     create_chunks,
     embed_and_index,
-    retrieve_results,
-    generate_llm_prompt,
-    get_llm_answer,
-    process_query  # NEW: Added this import
+    process_query,
+    get_json_files
 )
 
 load_dotenv()
 
 # Configure Gemini API
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = os.getenv("GEMINI_API_KEY")
 if GOOGLE_API_KEY:
     genai.configure(api_key=GOOGLE_API_KEY)
 
@@ -49,38 +50,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Constants
-FILES_TO_PROCESS = [
-    "andhra_pradesh .json",
-    "bihar .json",
-    "Madhya_pradesh.json",
-    "punjab .json",
-    "all_india .json",
-    "odisha.json",
-    "Rajasthan.json",
-    "Sikkim.json",
-    "tamil_nadu.json",
-    "telangana.json",
-    "tripura.json",
-    "Uttarakhand.json",
-    "Uttar_Pradesh.json",
-    "Arunachal_pradesh.json",
-    "Assam.json",
-    "Chhattisgarh.json",
-    "Gujarat.json",
-    "Harayan.json",
-    "West_Bengal.json",
-    "Himachal_pradesh.json",
-    "Jammu_Kashmir.json",
-    "Jharkhand.json",
-    "Karnataka.json",
-    "Kerela.json",
-    "Maharashtra.json",
-    "Meghalaya.json",
-    "Mizoram.json",
-    "Nagaland.json"
-]
-
 # Initialize session state
 if 'messages' not in st.session_state:
     st.session_state.messages = []
@@ -94,21 +63,39 @@ if 'rag_components' not in st.session_state:
 if 'model_answer' not in st.session_state:
     st.session_state.model_answer = None
 
-
 @st.cache_resource(show_spinner="🚀 Initializing AI system...")
 def initialize_rag_system():
     """Initialize the RAG system once and cache it"""
     try:
-        tables = load_tables_from_files(FILES_TO_PROCESS)
+        # Get all JSON files from json_files directory
+        json_dir = Path("json_files") / "json_files"
+        
+        if not json_dir.exists():
+            # Try alternate path
+            json_dir = Path("json_files")
+        
+        if not json_dir.exists():
+            raise ValueError(f"Directory '{json_dir}' does not exist")
+        
+        # Get all JSON files (silently)
+        json_files = get_json_files(str(json_dir))
+        
+        if not json_files:
+            raise ValueError(f"No JSON files found in '{json_dir}'")
+        
+        # Load tables (silently)
+        tables = load_tables_from_files(json_files)
         if not tables:
             raise ValueError("No valid tables loaded from files")
         
+        # Create chunks (silently)
         chunks = create_chunks(tables)
-        index, model, embeddings, chunks = embed_and_index(
+        
+        # Build index (silently)
+        index, model = embed_and_index(
             chunks,
             model_name='models/text-embedding-004',
-            file_paths=FILES_TO_PROCESS,
-            use_cache=True
+            batch_size=100
         )
         
         # Initialize Gemini model for answering
@@ -117,14 +104,13 @@ def initialize_rag_system():
         return {
             'index': index,
             'model': model,
-            'embeddings': embeddings,
             'chunks': chunks,
-            'model_answer': model_answer
+            'model_answer': model_answer,
+            'tables': tables
         }
     except Exception as e:
-        st.error(f"Failed to initialize: {str(e)}")
+        st.error(f"❌ Failed to initialize: {str(e)}")
         return None
-
 
 def process_query_wrapper(user_input):
     """Process user query using the upgraded backend"""
@@ -137,16 +123,14 @@ def process_query_wrapper(user_input):
             user_input,
             rag['index'],
             rag['model'],
-            rag['chunks'],
-            rag['model_answer']
+            rag['chunks']
         )
         
-        # Return just the final answer to keep UI simple
+        # Return just the final answer without metadata
         return result['final_answer']
         
     except Exception as e:
-        return f"❌ Error: {str(e)}"
-
+        return f"❌ Error processing query: {str(e)}"
 
 # Main app
 def main():
@@ -158,12 +142,12 @@ def main():
             st.session_state.rag_initialized = True
             st.session_state.model_answer = rag_components['model_answer']
         else:
-            st.error("⚠️ Failed to initialize. Please check your data files.")
+            st.error("⚠️ Failed to initialize. Please check your data files and API key.")
             st.stop()
     
     # Main chat area
     st.title("🤖 AI Chat Assistant")
-    st.caption("Ask me anything about your data!")
+    st.caption("Ask me anything about education statistics across Indian states!")
     
     # Display chat messages
     for message in st.session_state.messages:
@@ -190,7 +174,6 @@ def main():
         st.session_state.messages.append({"role": "assistant", "content": response})
         
         st.rerun()
-
 
 if __name__ == "__main__":
     main()

@@ -1,7 +1,7 @@
 [
     {
         "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
-        "description": "This table presents 2024 school enrollment statistics for children in Chhattisgarh, categorized by age groups (6-14, 7-16, 15-16) and gender. It details the percentage distribution across government and private schools, as well as out-of-school rates. It also includes Chart 1, which tracks trends of out-of-school children aged 11-16 from 2006 to 2024.",
+        "description": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
@@ -28,7 +28,7 @@
     },
     {
         "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
-        "description": "Data from 2022 showing the educational status of young children (ages 3 to 8) in Chhattisgarh, distinguishing between pre-school (Anganwadi, Govt, Pvt) and formal school enrollment. It also includes Chart 2, illustrating trends in government school enrollment for Std I-V and VI-VIII for the years 2018, 2022, and 2024.",
+        "description": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -50,7 +50,7 @@
     },
     {
         "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
-        "description": "Detailed 2024 enrollment data for children aged 3-8 in Chhattisgarh. The table breaks down enrollment into specific pre-school categories (Anganwadi, Govt pre-primary, Pvt LKG/UKG) and formal schooling types (Govt, Pvt, Other), facilitating comparison with 2022 data.",
+        "description": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Age | Age | Age | Pre-school | Pre-school | Pre-school | Pre-school | Pre-school | Pre-school | School | School | School | School | School | Not in pre-school or school | Total |",
@@ -65,7 +65,7 @@
     },
     {
         "title": "Table 4: % Children by grade and reading level. All children. 2024",
-        "description": "A 2024 assessment of reading proficiency for children in Chhattisgarh across Grades I through VIII. It measures reading levels from recognizing letters to reading Std II level text. It includes Chart 3, comparing Std II level text reading ability by grade and sex between 2022 and 2024.",
+        "description": "Table 4: % Children by grade and reading level. All children. 2024 in Chhattisgarh",
         "data": [
             "| Std | Not even letter | Letter | Letter | Word | Word | Std I level text | Std I level text | Std II level text | Std II level text | Total | Total |",
             "| I | 39.9 | 45.4 | 45.4 | 10.2 | 10.2 | 2.8 | 2.8 | 1.7 | 1.7 | 100 | 100 |",
@@ -87,7 +87,7 @@
     },
     {
         "title": "Table 5: Trends over time",
-        "description": "Historical trend analysis (2014-2024) of reading skills for Standard III students in Chhattisgarh, specifically tracking the ability to read Std II level text by school type. It includes Chart 4, which compares the ability to do division among boys and girls in Std V and VIII for 2022 and 2024.",
+        "description": "Table 5: Trends over time in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
@@ -108,7 +108,7 @@
     },
     {
         "title": "Table 6: Trends over time",
-        "description": "Longitudinal data (2014-2024) on reading proficiency for students in Standard V and VIII in Chhattisgarh. The table tracks the percentage of students capable of reading Std II level text, segmented by Government and Private school enrollment.",
+        "description": "Table 6: Trends over time in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
@@ -122,7 +122,7 @@
     },
     {
         "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
-        "description": "A 2024 numeracy assessment for students in Grades I through VIII in Chhattisgarh. The table categorizes children based on their highest arithmetic capability, ranging from number recognition (1-9, 10-99) to performing subtraction and division.",
+        "description": "Table 7: % Children by grade and arithmetic level. All children. 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even",
@@ -139,7 +139,7 @@
     },
     {
         "title": "Table 8: Trends over time",
-        "description": "Time-series data (2014-2024) tracking the arithmetic skills of Standard III students in Chhattisgarh. It specifically shows the percentage of children capable of doing at least subtraction, broken down by government and private school sectors.",
+        "description": "Table 8: Trends over time in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
@@ -153,7 +153,7 @@
     },
     {
         "title": "Table 9: Trends over time",
-        "description": "Historical trend analysis (2014-2024) of division skills for Standard V and Standard VIII students in Chhattisgarh. The table compares the performance of students in government versus private schools over the decade.",
+        "description": "Table 9: Trends over time in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
@@ -167,7 +167,7 @@
     },
     {
         "title": "Table 10: Smartphone availability and use. By age. 2024",
-        "description": "Digital access statistics for 2024 in Chhattisgarh, focusing on smartphone availability at home, the ability to use them for digital tasks, and personal smartphone ownership among adolescents aged 14, 15, and 16.",
+        "description": "Table 10: Smartphone availability and use. By age. 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -180,7 +180,7 @@
     },
     {
         "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
-        "description": "Gender-based comparison of smartphone access and ownership for children aged 14-16 in Chhattisgarh (2024). It highlights disparities between boys and girls regarding home availability, ability to use devices for digital tasks, and personal ownership.",
+        "description": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Sex | Sex | % Children who: | % Children who: | % Children who: | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone | Of those who can use a smartphone, % who have their own smartphone | Of those who can use a smartphone, % who have their own smartphone |",
@@ -192,7 +192,7 @@
     },
     {
         "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
-        "description": "Survey of usage patterns and digital safety awareness among smartphone-using children aged 14-16 in Chhattisgarh (2024). It covers engagement in educational activities and social media, as well as knowledge of safety features like blocking profiles, private settings, and changing passwords.",
+        "description": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024 in Chhattisgarh",
         "data": [
             "| Age | % Children who did the any education-related activity in reference week | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
             "| Age | % Children who did the any education-related activity in reference week | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | % Children who used any social media in  reference week | Block/report a profile | Block/report a profile | Make a profile private | Make a profile private | Change password |",
@@ -204,7 +204,7 @@
     },
     {
         "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
-        "description": "Gender-disaggregated data on smartphone usage purposes (education vs. social media) and digital safety proficiency among 14-16 year olds in Chhattisgarh (2024). It compares boys and girls on their ability to block profiles, make profiles private, and change passwords.",
+        "description": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -216,7 +216,7 @@
     },
     {
         "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
-        "description": "This table details the proficiency of children in Chhattisgarh (2024) in performing specific digital tasks. It shows the percentage of boys and girls aged 14-16 who can set alarms, browse for information, find YouTube videos, and share content.",
+        "description": "Table 14: % Children who could do digital tasks, by age and sex. 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
@@ -230,7 +230,7 @@
     },
     {
         "title": "Table 15: Trends over time",
-        "description": "Sample size details for school surveys conducted in Chhattisgarh across selected years (2010, 2018, 2022, 2024), categorized by the number of primary and upper primary schools visited.",
+        "description": "Table 15: Trends over time in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -241,7 +241,7 @@
     },
     {
         "title": "Table 16: Trends over time",
-        "description": "Trends in student and teacher attendance rates in Chhattisgarh schools, comparing average presence percentages across survey years from 2010 to 2024.",
+        "description": "Table 16: Trends over time in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| All schools | 2010 | 2018 | 2022 | 2024 |",
@@ -251,7 +251,7 @@
     },
     {
         "title": "Table 17: Trends over time",
-        "description": "Trends regarding school size in Chhattisgarh (2010-2024), specifically tracking the percentage of schools meeting specific small-enrollment criteria over time.",
+        "description": "Table 17: Trends over time in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -260,7 +260,7 @@
     },
     {
         "title": "Table 18: Multigrade classes. 2024",
-        "description": "Prevalence of multigrade classroom environments in Chhattisgarh (2024), showing the percentage of schools where Standard I and II students were observed sitting with students from other grades.",
+        "description": "Table 18: Multigrade classes. 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- |",
             "| % Schools | Std I children  observed sitting with any other Std | Std II children  observed sitting with any other Std |",
@@ -269,7 +269,7 @@
     },
     {
         "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
-        "description": "Observational data from 2024 on the presence of Teaching Learning Materials (TLM) and the display of student work in Standard I and II classrooms in Chhattisgarh schools.",
+        "description": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
@@ -279,7 +279,7 @@
     },
     {
         "title": "Table 20: Trends over time",
-        "description": "Comprehensive infrastructure survey of Chhattisgarh schools (2010-2024), tracking the availability and usability of facilities including mid-day meals, drinking water, toilets (general and girls'), libraries, electricity, and computers.",
+        "description": "Table 20: Trends over time in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
@@ -312,7 +312,7 @@
     },
     {
         "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
-        "description": "Implementation status of Foundational Literacy and Numeracy (FLN) initiatives in Chhattisgarh for the 2023-24 and 2024-25 academic years. This table covers government directives, teacher training (online and offline), material distribution (TLM), and school readiness programs.",
+        "description": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
@@ -323,7 +323,7 @@
     },
     {
         "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
-        "description": "Comparison of language and mathematics textbook distribution rates in Chhattisgarh schools between 2022 and 2024, showing the percentage of schools where textbooks were distributed to all, some, or no grades.",
+        "description": "Table 22: Distribution of language and math textbooks. 2022 and 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed |",
@@ -334,7 +334,7 @@
     },
     {
         "title": "Table 23: Distribution of uniforms. 2022, 2024",
-        "description": "Statistics on the provision of school uniforms to students in Chhattisgarh, comparing distribution coverage (all grades vs. some grades) between 2022 and 2024.",
+        "description": "Table 23: Distribution of uniforms. 2022, 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
@@ -345,7 +345,7 @@
     },
     {
         "title": "Table 24: Physical education. 2018, 2022 and 2024",
-        "description": "Data on the availability of physical education resources in Chhattisgarh schools (2018-2024), detailing allotted weekly time, presence of separate PE teachers, and availability of playgrounds and sports equipment.",
+        "description": "Table 24: Physical education. 2018, 2022 and 2024 in Chhattisgarh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | All schools | All schools | All schools |",

@@ -1,7 +1,7 @@
 [
     {
         "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
-        "description": "Enrollment statistics for children in Maharashtra in 2024, categorized by age groups (6-14, 7-16, 7-10, 11-14, 15-16) and gender. The table compares enrollment percentages in Government, Private, and Other schools, as well as the percentage of children currently not in school. It also includes Chart 1 showing trends of out-of-school children aged 11-16 from 2006 to 2024.",
+        "description": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
@@ -28,7 +28,7 @@
     },
     {
         "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
-        "description": "Detailed breakdown of educational enrollment for children aged 3 to 8 in Maharashtra for the year 2022. It distinguishes between pre-school types (Anganwadi, Govt pre-primary, Private LKG/UKG) and formal school types. It also includes Chart 2 showing enrollment trends in government schools for Standard I-V and VI-VIII by sex for the years 2018, 2022, and 2024.",
+        "description": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -50,7 +50,7 @@
     },
     {
         "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
-        "description": "Educational enrollment statistics for children aged 3 to 8 in Maharashtra for 2024, distinguishing between various pre-school and school types. The table also includes Chart 3 data, which compares the reading proficiency (ability to read Std II level text) of boys and girls in grades III, V, and VIII for the years 2022 and 2024.",
+        "description": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -72,7 +72,7 @@
     },
     {
         "title": "Table 4: % Children by grade and reading level. All children. 2024",
-        "description": "Reading proficiency levels of children in Maharashtra for 2024, ranging from 'not even letter' to 'Standard II level text' across grades I through VIII. This table also incorporates Chart 4 data, showing the percentage of children in Std V and VIII who can do division, broken down by sex for 2022 and 2024.",
+        "description": "Table 4: % Children by grade and reading level. All children. 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
@@ -95,7 +95,7 @@
     },
     {
         "title": "Table 5: Trends over time",
-        "description": "Longitudinal trend data (2014-2024) for Maharashtra showing the percentage of children in Standard III who can read Standard II level text, broken down by Government and Private schools.",
+        "description": "Table 5: Trends over time in Maharashtra",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
@@ -109,7 +109,7 @@
     },
     {
         "title": "Table 6: Trends over time",
-        "description": "Historical trends (2014-2024) regarding reading proficiency in Maharashtra for students in Standard V and VIII. It specifically tracks the percentage of students capable of reading Standard II level text across government and private school sectors.",
+        "description": "Table 6: Trends over time in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Year | Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
@@ -123,7 +123,7 @@
     },
     {
         "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
-        "description": "Arithmetic proficiency of children in Maharashtra for the year 2024, categorized by grade (I-VIII). The table measures skills ranging from number recognition (1-9, 11-99) to subtraction and division operations.",
+        "description": "Table 7: % Children by grade and arithmetic level. All children. 2024 in Maharashtra",
         "data": [
             "| Std | Not even",
             "| Std | Not even",
@@ -139,7 +139,7 @@
     },
     {
         "title": "Table 8: Trends over time",
-        "description": "Trends over time (2014-2024) for arithmetic skills in Maharashtra, specifically showing the percentage of children in Standard III capable of doing at least subtraction, comparing Government and Private schools.",
+        "description": "Table 8: Trends over time in Maharashtra",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
@@ -153,7 +153,7 @@
     },
     {
         "title": "Table 9: Trends over time",
-        "description": "Multi-year comparison (2014-2024) of division skills among students in Maharashtra. It tracks the percentage of children in Standard V and VIII who can perform division, segmented by Government and Private school types.",
+        "description": "Table 9: Trends over time in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
@@ -167,7 +167,7 @@
     },
     {
         "title": "Table 10: Smartphone availability and use. By age. 2024",
-        "description": "Statistics on smartphone availability and usage for children aged 14, 15, and 16 in Maharashtra for 2024. Includes data on home availability, ability to use for digital tasks, general usage, and personal ownership.",
+        "description": "Table 10: Smartphone availability and use. By age. 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -180,7 +180,7 @@
     },
     {
         "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
-        "description": "Gender-based comparison of smartphone access and ownership among 14-16 year olds in Maharashtra (2024). It contrasts boys and girls regarding phone availability at home, usage capabilities, and their ability to perform digital tasks.",
+        "description": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Sex | Sex | % Children who: | % Children who: | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone | Of those who can use a smartphone, % who have their own smartphone | Of those who can use a smartphone, % who have their own smartphone |",
@@ -192,7 +192,7 @@
     },
     {
         "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
-        "description": "Digital literacy and usage habits of children aged 14-16 in Maharashtra (2024). The table details engagement in educational activities, social media usage, and knowledge of online safety features (blocking, privacy settings, changing passwords) by age.",
+        "description": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024 in Maharashtra",
         "data": [
             "| Age | % Children who did the any education-related activity in reference week | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
             "| Age | % Children who did the any education-related activity in reference week | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | % Children who used any social media in  reference week | Block/report a profile | Block/report a profile | Block/report a profile | Make a profile private | Change password | Change password |",
@@ -204,7 +204,7 @@
     },
     {
         "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
-        "description": "Comparison of digital behavior between boys and girls (aged 14-16) in Maharashtra for 2024. It covers participation in education-related activities, social media use, and proficiency in online safety measures like changing passwords and blocking profiles.",
+        "description": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -216,7 +216,7 @@
     },
     {
         "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
-        "description": "Proficiency of children in Maharashtra (2024) in performing specific digital tasks, such as setting alarms, browsing information, and finding/sharing YouTube videos. Data is segmented by age (14-16) and gender.",
+        "description": "Table 14: % Children who could do digital tasks, by age and sex. 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
@@ -230,7 +230,7 @@
     },
     {
         "title": "Table 15: Trends over time",
-        "description": "Survey metadata showing the number of Primary and Upper Primary schools visited in Maharashtra during the surveys conducted in 2010, 2018, 2022, and 2024.",
+        "description": "Table 15: Trends over time in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -241,7 +241,7 @@
     },
     {
         "title": "Table 16: Trends over time",
-        "description": "Attendance trends for students and teachers in Maharashtra's Primary and Upper Primary schools across the years 2010, 2018, 2022, and 2024.",
+        "description": "Table 16: Trends over time in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Primary schools | 2010 | 2018 | 2022 | 2024 |",
@@ -254,7 +254,7 @@
     },
     {
         "title": "Table 17: Trends over time",
-        "description": "Longitudinal data showing specific percentage indicators related to Primary and Upper Primary schools in Maharashtra for the years 2010, 2018, 2022, and 2024.",
+        "description": "Table 17: Trends over time in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -264,7 +264,7 @@
     },
     {
         "title": "Table 18: Multigrade classes. 2024",
-        "description": "Statistics on multigrade classroom situations in Maharashtra for 2024. It shows the percentage of Primary and Upper Primary schools where Standard I and II children were observed sitting with other grades.",
+        "description": "Table 18: Multigrade classes. 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- |",
             "| % Schools | Std I children  observed sitting with any other Std | Std II children  observed sitting with any other Std |",
@@ -274,7 +274,7 @@
     },
     {
         "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
-        "description": "Observational data regarding Teaching Learning Materials (TLM) in Maharashtra classrooms (2024). It tracks the presence of TLM and displayed student work in Standard I and II across Primary and Upper Primary schools.",
+        "description": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
@@ -285,7 +285,7 @@
     },
     {
         "title": "Table 20: Trends over time",
-        "description": "Comprehensive school infrastructure trends in Maharashtra (2010-2024). This table covers the availability and usability of mid-day meals, drinking water, toilets (including separate girls' toilets), libraries, electricity, and computers.",
+        "description": "Table 20: Trends over time in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
@@ -318,7 +318,7 @@
     },
     {
         "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
-        "description": "Implementation status of Foundational Literacy and Numeracy (FLN) activities in Maharashtra schools for the academic years 2023-2024 and 2024-2025. Includes data on government directives, teacher training (online/offline), and TLM funding for Primary and Upper Primary schools.",
+        "description": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
@@ -331,7 +331,7 @@
     },
     {
         "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
-        "description": "Statistics on the distribution of language and math textbooks in Maharashtra's Primary and Upper Primary schools, comparing data between 2022 and 2024.",
+        "description": "Table 22: Distribution of language and math textbooks. 2022 and 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed |",
@@ -344,7 +344,7 @@
     },
     {
         "title": "Table 23: Distribution of uniforms. 2022, 2024",
-        "description": "Data on the distribution of school uniforms in Maharashtra for the years 2022 and 2024, detailing coverage for all grades versus some grades in Primary and Upper Primary schools.",
+        "description": "Table 23: Distribution of uniforms. 2022, 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
@@ -357,7 +357,7 @@
     },
     {
         "title": "Table 24: Physical education. 2018, 2022 and 2024",
-        "description": "Trends in physical education resources in Maharashtra schools (2018, 2022, 2024). The table includes data on time allocation, presence of PE teachers, playgrounds, and sports equipment availability in Primary and Upper Primary schools.",
+        "description": "Table 24: Physical education. 2018, 2022 and 2024 in Maharashtra",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | Primary schools | Primary schools | Primary schools | Upper primary schools | Upper primary schools | Upper primary schools |",

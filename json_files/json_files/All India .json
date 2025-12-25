@@ -93,20 +93,20 @@
         ]
     },
     {
-        "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
-        "description": "This table evaluates the foundational arithmetic skills of students in India for the year 2024. It details the percentage of children in each grade, from Standard I to VIII, who have achieved different levels of numeracy, including number recognition, subtraction, and division.",
-        "data": [
-            "| --- | --- | --- | --- | --- | --- | --- |",
-            "| Std | Not even 1-9 | Recognize 1-9 | Recognize 11-99 | Subtraction | Division | Total |",
-            "| I | 26.3 | 39.9 | 26.6 | 5.2 | 2.0 | 100 |",
-            "| II | 10.6 | 33.5 | 37.2 | 13.7 | 5.0 | 100 |",
-            "| III | 5.5 | 23.7 | 37.1 | 22.3 | 11.4 | 100 |",
-            "| IV | 2.9 | 15.6 | 34.1 | 25.8 | 21.5 | 100 |",
-            "| V | 2.3 | 11.8 | 30.1 | 25.1 | 30.7 | 100 |",
-            "| VI | 1.6 | 8.8 | 28.9 | 24.7 | 36.0 | 100 |",
-            "| VII | 1.2 | 6.6 | 27.2 | 23.5 | 41.5 | 100 |",
-            "| VIII | 1.1 | 4.9 | 25.4 | 22.8 | 45.7 | 100 |"
-        ]
+    "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
+    "description": "This table evaluates the foundational arithmetic skills of students in India for the year 2024. It details the percentage of children in each grade, from Standard I to VIII, who have achieved different levels of numeracy, including number recognition, subtraction, and division.",
+    "data": [
+        "| Std | Not even 1-9 | Recognize 1-9 | Recognize 11-99 | Subtraction | Division | Total |",
+        "| :--- | :--- | :--- | :--- | :--- | :--- | :--- |",
+        "| I | 26.3 | 39.9 | 26.6 | 5.2 | 2.0 | 100 |",
+        "| II | 10.6 | 33.5 | 37.2 | 13.7 | 5.0 | 100 |",
+        "| III | 5.5 | 23.7 | 37.1 | 22.3 | 11.4 | 100 |",
+        "| IV | 2.9 | 15.6 | 34.1 | 25.8 | 21.5 | 100 |",
+        "| V | 2.3 | 11.8 | 30.1 | 25.1 | 30.7 | 100 |",
+        "| VI | 1.6 | 8.8 | 28.9 | 24.7 | 36.0 | 100 |",
+        "| VII | 1.2 | 6.6 | 27.2 | 23.5 | 41.5 | 100 |",
+        "| VIII | 1.1 | 4.9 | 25.4 | 22.8 | 45.7 | 100 |"
+    ]
     },
     {
         "title": "Table 8: Trends over time",

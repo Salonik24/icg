@@ -1,7 +1,7 @@
 [
     {
         "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
-        "description": "This table provides a detailed breakdown of school enrollment percentages for children in Andhra Pradesh for the year 2024. It categorizes enrollment by school type (Government, Private, Other) and includes the proportion of children not in school. The data is further segmented by various age groups and by sex, allowing for a comparative analysis of enrollment patterns.",
+        "description": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
@@ -20,7 +20,7 @@
     },
     {
         "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
-        "description": "This table presents the distribution of pre-school and school enrollment for children aged 3 to 8 in Andhra Pradesh for the year 2022. It breaks down the data by specific age, showing the percentage of children attending various institutions, including Anganwadi, government pre-primary, private LKG/UKG, as well as government and private schools. It also includes the percentage of children not enrolled in any educational setting.",
+        "description": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -35,7 +35,7 @@
     },
     {
         "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
-        "description": "This table shows the percentage of children aged 3 to 8 in Andhra Pradesh enrolled in various educational settings for the year 2024. The data is categorized by the child's age and institution type, covering Anganwadi centers, government pre-primary, private LKG/UKG, government schools, and private schools. A column for children not enrolled in any pre-school or school is also included.",
+        "description": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -50,7 +50,7 @@
     },
     {
         "title": "Table 4: % Children by grade and reading level. All children. 2024",
-        "description": "This table assesses the foundational reading abilities of students in Andhra Pradesh for the year 2024. It provides a grade-wise breakdown (Standard I to VIII) of the percentage of children at different reading proficiency levels, ranging from not recognizing letters to being able to read a Standard II level text.",
+        "description": "Table 4: % Children by grade and reading level. All children. 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
@@ -66,7 +66,7 @@
     },
     {
         "title": "Table 5: Trends over time",
-        "description": "This table presents a longitudinal analysis of reading proficiency for Standard III students in Andhra Pradesh from 2014 to 2024. It specifically tracks the percentage of children who are able to read a Standard II level text, with data separated for government schools, private schools, and a combined total.",
+        "description": "Table 5: Trends over time in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
@@ -80,7 +80,7 @@
     },
     {
         "title": "Table 6: Trends over time",
-        "description": "This table shows historical trends in reading comprehension for students in Standards V and VIII in Andhra Pradesh for the years 2014, 2016, 2018, 2022, and 2024. It documents the percentage of students in these two grades who can successfully read a text intended for a Standard II level, broken down by school type.",
+        "description": "Table 6: Trends over time in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
@@ -94,10 +94,11 @@
     },
     {
         "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
-        "description": "This table evaluates the foundational arithmetic skills of students in Andhra Pradesh for the year 2024. It details the percentage of children in each grade, from Standard I to VIII, who have achieved different levels of numeracy, including number recognition, subtraction, and division.",
+        "description": "Table 7: % Children by grade and arithmetic level. All children. 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
-            "| Std | Not even 1-9 | Recognize 1-9 | Recognize 11-99 | Subtraction | Division | Total |",
+            "| Std | Not even",
+            "| Std | Not even",
             "| I | 18.9 | 33.3 | 39.7 | 5.9 | 2.2 | 100 |",
             "| II | 6.4 | 21.2 | 49.7 | 18.9 | 3.7 | 100 |",
             "| III | 4.8 | 11.0 | 40.1 | 31.2 | 12.9 | 100 |",
@@ -110,7 +111,7 @@
     },
     {
         "title": "Table 8: Trends over time",
-        "description": "This table illustrates the change in basic arithmetic skills for Standard III students in Andhra Pradesh over several years (2014, 2016, 2018, 2022, 2024). It specifically measures the percentage of students who can correctly perform at least a subtraction problem, with data separated for government, private, and combined school types.",
+        "description": "Table 8: Trends over time in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
@@ -124,7 +125,7 @@
     },
     {
         "title": "Table 9: Trends over time",
-        "description": "This table provides a historical comparison of arithmetic proficiency for students in Standards V and VIII in Andhra Pradesh. It charts the percentage of students in these grades who are able to solve a division problem for the years 2014, 2016, 2018, 2022, and 2024, disaggregated by school type.",
+        "description": "Table 9: Trends over time in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
@@ -138,7 +139,7 @@
     },
     {
         "title": "Table 10: Smartphone availability and use. By age. 2024",
-        "description": "This table examines smartphone access and usage among older children (ages 14-16) in Andhra Pradesh for the year 2024. It presents data on the percentage of children who have a smartphone at home, those who could bring one for a task, their self-reported ability to use a smartphone, and the rate of personal smartphone ownership among those who can use one.",
+        "description": "Table 10: Smartphone availability and use. By age. 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -151,7 +152,7 @@
     },
     {
         "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
-        "description": "This table provides a gender-based comparison of smartphone access and usage among 14-16-year-olds in Andhra Pradesh for 2024. It details the percentage of boys and girls who have a smartphone at home, could bring one for a task, can use one, and the rate of personal smartphone ownership among users, highlighting digital access differences between sexes.",
+        "description": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -163,7 +164,7 @@
     },
     {
         "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
-        "description": "This table analyzes the digital behavior of smartphone-literate children in Andhra Pradesh for 2024, broken down by age (14, 15, and 16). It shows the percentage who used their smartphone for educational purposes and social media during the survey week, and details their awareness of key online safety features.",
+        "description": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -176,7 +177,7 @@
     },
     {
         "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
-        "description": "This table compares the digital activities and safety awareness of smartphone-literate boys and girls aged 14-16 in Andhra Pradesh for 2024. It presents the percentage of each sex who used a smartphone for educational and social media activities, and their proficiency with online safety measures.",
+        "description": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -188,7 +189,7 @@
     },
     {
         "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
-        "description": "This table provides a detailed assessment of practical digital skills among children in Andhra Pradesh aged 14-16 for the year 2024, with data disaggregated by both age and sex. It measures the percentage of children who could perform specific tasks on a smartphone, including setting an alarm, browsing for information, finding a YouTube video, and sharing it.",
+        "description": "Table 14: % Children who could do digital tasks, by age and sex. 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
@@ -202,7 +203,7 @@
     },
     {
         "title": "Table 15: Trends over time",
-        "description": "This table shows the historical trend in the number of schools surveyed in Andhra Pradesh for the years 2010, 2018, 2022, and 2024. The data is broken down by school level, showing the count of primary schools and upper primary schools visited, along with the total number of schools included in the survey each year.",
+        "description": "Table 15: Trends over time in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -213,7 +214,7 @@
     },
     {
         "title": "Table 16: Trends over time",
-        "description": "This table tracks the average attendance rates for both students and teachers in Andhra Pradesh from 2010 to 2024. It presents the percentage of enrolled children and teachers present on the day of the visit, with separate trend data provided for primary and upper primary schools.",
+        "description": "Table 16: Trends over time in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Primary schools | 2010 | 2018 | 2022 | 2024 |",
@@ -226,7 +227,7 @@
     },
     {
         "title": "Table 17: Trends over time",
-        "description": "This table shows the trend in the proportion of small schools (enrollment of 60 or less) in Andhra Pradesh from 2010 to 2024. It specifically details the percentage for primary and upper primary schools, highlighting changes in school size over this period.",
+        "description": "Table 17: Trends over time in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -236,7 +237,7 @@
     },
     {
         "title": "Table 18: Multigrade classes. 2024",
-        "description": "This table focuses on the practice of teaching multigrade classes in schools in Andhra Pradesh for the year 2024. It shows the percentage of primary and upper primary schools where children in Standard I and Standard II were observed sitting and being taught together with students from other grades.",
+        "description": "Table 18: Multigrade classes. 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- |",
             "| % Schools | Std I children  observed sitting with any other Std | Std II children  observed sitting with any other Std |",
@@ -246,7 +247,7 @@
     },
     {
         "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
-        "description": "This table assesses the use of Teaching Learning Materials (TLM) in classrooms in Andhra Pradesh for 2024. It shows the percentage of primary and upper primary schools where TLM was observed in Standard I and II classrooms, and further details the proportion of those schools that also display student-created work.",
+        "description": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
@@ -257,7 +258,7 @@
     },
     {
         "title": "Table 20: Trends over time",
-        "description": "This table provides a detailed longitudinal overview of essential school facilities and resources in Andhra Pradesh from 2010 to 2024. It tracks the trends in the provision and usability of mid-day meals, drinking water, toilets (including separate facilities for girls), libraries, electricity connections, and computers for student use.",
+        "description": "Table 20: Trends over time in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
@@ -290,7 +291,7 @@
     },
     {
         "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
-        "description": "This table details the implementation of the Foundational Literacy and Numeracy (FLN) mission in Andhra Pradesh for the 2023-24 and 2024-25 academic years. It measures the extent to which schools have received government directives, provided teacher training, received teaching materials, and conducted School Readiness Programmes for Standard I.",
+        "description": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
@@ -303,7 +304,7 @@
     },
     {
         "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
-        "description": "This table compares the distribution of language and math textbooks in primary and upper primary schools in Andhra Pradesh for the years 2022 and 2024. It breaks down the data into the percentage of schools that distributed books to all, some, or no grades.",
+        "description": "Table 22: Distribution of language and math textbooks. 2022 and 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed |",
@@ -316,7 +317,7 @@
     },
     {
         "title": "Table 23: Distribution of uniforms. 2022, 2024",
-        "description": "This table compares the distribution of school uniforms in primary and upper primary schools in Andhra Pradesh for 2022 and 2024. It indicates the percentage of schools that provided uniforms to all, some, or no grades, and also details the proportion of schools where funds were given to students instead.",
+        "description": "Table 23: Distribution of uniforms. 2022, 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
@@ -329,7 +330,7 @@
     },
     {
         "title": "Table 26: Physical education. 2018, 2022 and 2024",
-        "description": "This table presents trends in physical education provisions for primary and upper primary schools in Andhra Pradesh from 2018 to 2024. It covers key metrics such as the weekly time allotted for PE, the type of teacher responsible, and the availability of a playground and sports equipment. The subsequent charts in this section provide trends on out-of-school children and gender-disaggregated learning levels.",
+        "description": "Table 26: Physical education. 2018, 2022 and 2024 in Andhra Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | Primary schools | Primary schools | Primary schools | Upper primary schools | Upper primary schools | Upper primary schools |",

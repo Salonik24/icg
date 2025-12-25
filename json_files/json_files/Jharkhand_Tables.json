@@ -1,7 +1,7 @@
 [
     {
         "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
-        "description": "Enrollment statistics for children in Jharkhand in 2024, categorized by age groups (6-14, 7-16, 7-10, 11-14, 15-16) and gender. The table compares enrollment percentages in Government, Private, and Other schools, as well as the percentage of children currently not in school. It also includes historical trend charts (Chart 1 & 2) covering 2006-2024 for out-of-school children and government school enrollment.",
+        "description": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
@@ -35,7 +35,7 @@
     },
     {
         "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
-        "description": "Detailed breakdown of educational enrollment for children aged 3 to 8 in Jharkhand for the year 2022. It distinguishes between pre-school types (Anganwadi, Govt pre-primary, Private LKG/UKG) and formal school types, including data on children not enrolled.",
+        "description": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -50,7 +50,7 @@
     },
     {
         "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
-        "description": "Educational enrollment statistics for children aged 3 to 8 in Jharkhand for the year 2024. The table provides percentage breakdowns for Anganwadi, Government pre-primary, Private LKG/UKG, and various formal school categories.",
+        "description": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -65,7 +65,7 @@
     },
     {
         "title": "Table 4: % Children by grade and reading level. All children. 2024",
-        "description": "Reading proficiency levels of children in Jharkhand in 2024, categorized by grade (Std I to VIII). Metrics include percentages of children who can read letters, words, Std I level text, and Std II level text.",
+        "description": "Table 4: % Children by grade and reading level. All children. 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
@@ -81,7 +81,7 @@
     },
     {
         "title": "Table 5: Trends over time",
-        "description": "Longitudinal trends (2014-2024) of foundational reading skills in Jharkhand, specifically showing the percentage of children in Standard III who can read Standard II level text, broken down by Government and Private schools.",
+        "description": "Table 5: Trends over time in Jharkhand",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
@@ -95,7 +95,7 @@
     },
     {
         "title": "Table 6: Trends over time",
-        "description": "Historical reading proficiency data (2014-2024) for students in Standard V and VIII in Jharkhand. Includes additional Chart 3 data comparing reading abilities by gender for 2022 and 2024.",
+        "description": "Table 6: Trends over time in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
@@ -116,7 +116,7 @@
     },
     {
         "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
-        "description": "Arithmetic proficiency levels of children in Jharkhand in 2024, categorized by grade (Std I to VIII). Metrics range from number recognition (1-9, 11-99) to the ability to perform subtraction and division.",
+        "description": "Table 7: % Children by grade and arithmetic level. All children. 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even",
@@ -133,7 +133,7 @@
     },
     {
         "title": "Table 8: Trends over time",
-        "description": "Trends over time (2014-2024) regarding basic arithmetic skills in Jharkhand, specifically tracking the percentage of children in Standard III capable of performing at least subtraction, separated by school type.",
+        "description": "Table 8: Trends over time in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Year | Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
@@ -147,7 +147,7 @@
     },
     {
         "title": "Table 9: Trends over time",
-        "description": "Longitudinal data (2014-2024) on advanced arithmetic skills in Jharkhand, showing the percentage of children in Standard V and Standard VIII who can perform division, with comparisons between Government and Private schools.",
+        "description": "Table 9: Trends over time in Jharkhand",
         "data": [
             "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
             "| Year | Govt | Govt | Pvt | Govt & Pvt* | Govt & Pvt* | Govt | Govt | Pvt | Govt & Pvt* | Govt & Pvt* |",
@@ -160,7 +160,7 @@
     },
     {
         "title": "Table 10: Smartphone availability and use. By age. 2024",
-        "description": "Digital access statistics for 2024 in Jharkhand, detailing smartphone availability at home, usage capabilities, and personal ownership for children aged 14, 15, and 16.",
+        "description": "Table 10: Smartphone availability and use. By age. 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -173,7 +173,7 @@
     },
     {
         "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
-        "description": "Gender-based comparison of smartphone access and ownership among 14-16 year olds in Jharkhand for 2024. Includes data on home availability and digital task capability for boys versus girls.",
+        "description": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -185,7 +185,7 @@
     },
     {
         "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
-        "description": "Digital literacy and online safety metrics for children aged 14-16 in Jharkhand (2024). Covers participation in educational activities, social media usage, and knowledge of safety features like blocking profiles and changing passwords.",
+        "description": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -198,7 +198,7 @@
     },
     {
         "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
-        "description": "Comparison of digital behavior and online safety awareness between boys and girls (aged 14-16) in Jharkhand for 2024, focusing on educational and social media usage.",
+        "description": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -210,7 +210,7 @@
     },
     {
         "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
-        "description": "Detailed breakdown of digital competency for children in Jharkhand (2024), categorized by age and sex. Measures specific skills including setting alarms, browsing for information, finding YouTube videos, and sharing content.",
+        "description": "Table 14: % Children who could do digital tasks, by age and sex. 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
@@ -224,7 +224,7 @@
     },
     {
         "title": "Table 15: Trends over time",
-        "description": "Survey metadata showing the number of Primary and Upper Primary schools visited in Jharkhand during the ASER surveys in 2010, 2018, 2022, and 2024.",
+        "description": "Table 15: Trends over time in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -235,7 +235,7 @@
     },
     {
         "title": "Table 16: Trends over time",
-        "description": "Trends in student and teacher attendance percentages in Jharkhand's Primary and Upper Primary schools across the years 2010, 2018, 2022, and 2024.",
+        "description": "Table 16: Trends over time in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Primary schools | 2010 | 2018 | 2022 | 2024 |",
@@ -248,7 +248,7 @@
     },
     {
         "title": "Table 17: Trends over time",
-        "description": "Longitudinal trends (2010-2024) regarding specific school characteristics (likely small school enrollment metrics) for Primary and Upper Primary schools in Jharkhand.",
+        "description": "Table 17: Trends over time in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -258,7 +258,7 @@
     },
     {
         "title": "Table 18: Multigrade classes. 2024",
-        "description": "Data on multigrade classroom prevalence in Jharkhand for 2024, showing the percentage of schools where Standard I and Standard II children were observed sitting with other grades.",
+        "description": "Table 18: Multigrade classes. 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- |",
             "| % Schools | Std I children  observed sitting with any other Std | Std II children  observed sitting with any other Std |",
@@ -268,7 +268,7 @@
     },
     {
         "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
-        "description": "Observational data from 2024 regarding the availability of Teaching Learning Materials (TLM) and the display of student work in Primary and Upper Primary classrooms in Jharkhand.",
+        "description": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
@@ -279,7 +279,7 @@
     },
     {
         "title": "Table 20: Trends over time",
-        "description": "Comprehensive overview of school infrastructure trends in Jharkhand (2010-2024). Covers the availability and usability of mid-day meals, drinking water, toilets, girls' toilets, libraries, electricity, and computers.",
+        "description": "Table 20: Trends over time in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
@@ -312,7 +312,7 @@
     },
     {
         "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
-        "description": "Status of Foundational Literacy and Numeracy (FLN) implementation in Jharkhand schools for 2024-2025 vs 2023-2024. Includes data on government directives, teacher training, TLM availability, and fund usage.",
+        "description": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
@@ -325,7 +325,7 @@
     },
     {
         "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
-        "description": "Comparison of language and math textbook distribution in Jharkhand's Primary and Upper Primary schools between 2022 and 2024.",
+        "description": "Table 22: Distribution of language and math textbooks. 2022 and 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed |",
@@ -338,7 +338,7 @@
     },
     {
         "title": "Table 23: Distribution of uniforms. 2022, 2024",
-        "description": "Statistics on the distribution of school uniforms in Jharkhand for 2022 and 2024, detailing whether uniforms were provided to all grades, some grades, or if funds were given instead.",
+        "description": "Table 23: Distribution of uniforms. 2022, 2024 in Jharkhand",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given | If not distributed in all grades, then % schools where funds given |",
@@ -351,7 +351,7 @@
     },
     {
         "title": "Table 24: Physical education. 2018, 2022 and 2024",
-        "description": "Trends in Physical Education (PE) resources in Jharkhand (2018, 2022, 2024), covering time allocation, PE teachers, playgrounds, and sports equipment.",
+        "description": "Table 24: Physical education. 2018, 2022 and 2024 in Jharkhand",
         "data": [
             "| % Schools with | % Schools with | % Schools with | % Schools with | Primary schools | Primary schools | Primary schools | Primary schools | Primary schools | Upper primary schools | Upper primary schools | Upper primary schools | Upper primary schools | Upper primary schools | Upper primary schools |",
             "| % Schools with | % Schools with | % Schools with | % Schools with | 2018 | 2022 | 2022 | 2024 | 2024 | 2018 | 2018 | 2022 | 2022 | 2024 | 2024 |",

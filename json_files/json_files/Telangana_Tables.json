@@ -1,7 +1,7 @@
 [
     {
         "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
-        "description": "Enrollment data for children in Telangana for the year 2024, broken down by age groups (6-16) and gender. The table compares enrollment percentages in Government, Private, and Other schools, and includes the percentage of children not currently enrolled in school.",
+        "description": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
@@ -20,7 +20,7 @@
     },
     {
         "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
-        "description": "Early childhood education enrollment statistics for Telangana in 2022. The table details the distribution of children aged 3 to 8 across Anganwadis, Government pre-primary centers, Private LKG/UKG, and formal Government or Private schools.",
+        "description": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -35,7 +35,7 @@
     },
     {
         "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
-        "description": "Early childhood education enrollment statistics for Telangana in 2024. This table tracks the percentage of children aged 3 to 8 enrolled in Anganwadis, pre-primary institutions, and formal schools, allowing for comparison with 2022 data.",
+        "description": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -50,7 +50,7 @@
     },
     {
         "title": "Table 4: % Children by grade and reading level. All children. 2024",
-        "description": "Foundational reading proficiency levels for all children in Telangana (2024), categorized by Grade (Std I to VIII). The table displays the percentage of students at various reading stages, from 'Not even letter' to 'Standard II level text'.",
+        "description": "Table 4: % Children by grade and reading level. All children. 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
@@ -66,7 +66,7 @@
     },
     {
         "title": "Table 5: Trends over time",
-        "description": "Longitudinal analysis (2014-2024) of reading skills for Standard III students in Telangana. The table tracks the percentage of children capable of reading Standard II level text, broken down by Government and Private schools.",
+        "description": "Table 5: Trends over time in Telangana",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
@@ -80,7 +80,7 @@
     },
     {
         "title": "Table 6: Trends over time",
-        "description": "Historical trends (2014-2024) of reading proficiency for older students in Telangana. This table shows the percentage of children in Standard V and Standard VIII who can read Standard II level text, comparing Government and Private school performance.",
+        "description": "Table 6: Trends over time in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
@@ -94,7 +94,7 @@
     },
     {
         "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
-        "description": "Foundational numeracy assessment for Telangana students in 2024. The table displays the percentage of children in Grades I through VIII categorized by their highest arithmetic capability (Number recognition, Subtraction, Division).",
+        "description": "Table 7: % Children by grade and arithmetic level. All children. 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even",
@@ -111,7 +111,7 @@
     },
     {
         "title": "Table 8: Trends over time",
-        "description": "Trends in basic arithmetic proficiency (subtraction) for Standard III children in Telangana from 2014 to 2024. The data compares the performance of students in Government and Private schools.",
+        "description": "Table 8: Trends over time in Telangana",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
@@ -125,7 +125,7 @@
     },
     {
         "title": "Table 9: Trends over time",
-        "description": "Trends in advanced arithmetic proficiency (division) for Standard V and Standard VIII children in Telangana from 2014 to 2024. The table compares division capabilities across Government and Private school students.",
+        "description": "Table 9: Trends over time in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
@@ -139,7 +139,7 @@
     },
     {
         "title": "Table 10: Smartphone availability and use. By age. 2024",
-        "description": "Statistics on smartphone availability, usage, and ownership for children aged 14 to 16 in Telangana for the year 2024. The table details home availability and the percentage of children who can perform digital tasks.",
+        "description": "Table 10: Smartphone availability and use. By age. 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -152,7 +152,7 @@
     },
     {
         "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
-        "description": "Gender-based comparison of smartphone access and usage for adolescents aged 14-16 in Telangana (2024). The data contrasts Boys and Girls regarding smartphone availability at home, digital task capability, and device ownership.",
+        "description": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -164,7 +164,7 @@
     },
     {
         "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
-        "description": "Digital behavior and safety awareness among smartphone-using children aged 14-16 in Telangana (2024). The table covers participation in educational vs. social media activities and knowledge of safety features like blocking profiles and changing passwords.",
+        "description": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -177,7 +177,7 @@
     },
     {
         "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
-        "description": "Gender analysis of smartphone usage for education and social media among 14-16 year olds in Telangana (2024). Includes data on online safety skills such as blocking profiles and managing privacy settings for Boys vs. Girls.",
+        "description": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -189,7 +189,7 @@
     },
     {
         "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
-        "description": "Proficiency of children aged 14-16 in Telangana (2024) in performing specific digital tasks. The table breaks down the ability to set alarms, browse for information, find YouTube videos, and share videos by age and sex.",
+        "description": "Table 14: % Children who could do digital tasks, by age and sex. 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
@@ -203,7 +203,7 @@
     },
     {
         "title": "Table 15: Trends over time",
-        "description": "Survey coverage data showing the number of Primary and Upper Primary schools visited in Telangana during the years 2010, 2018, 2022, and 2024.",
+        "description": "Table 15: Trends over time in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -214,7 +214,7 @@
     },
     {
         "title": "Table 16: Trends over time",
-        "description": "Attendance trends in Telangana schools from 2010 to 2024. The table displays the average percentage of enrolled children and teachers present on the day of the visit.",
+        "description": "Table 16: Trends over time in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| All schools** | 2010 | 2018 | 2022 | 2024 |",
@@ -224,7 +224,7 @@
     },
     {
         "title": "Table 17: Trends over time",
-        "description": "Trends regarding school size in Telangana from 2010 to 2024, likely indicating the percentage of schools meeting specific low-enrollment criteria.",
+        "description": "Table 17: Trends over time in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -233,7 +233,7 @@
     },
     {
         "title": "Table 18: Multigrade classes. 2024",
-        "description": "Prevalence of multigrade classrooms in Telangana schools for 2024. The table shows the percentage of schools where Standard I and Standard II children were observed sitting with other grades.",
+        "description": "Table 18: Multigrade classes. 2024 in Telangana",
         "data": [
             "| --- | --- | --- |",
             "| % Schools | Std I children observed sitting with any other Std | Std II children observed sitting with any other Std |",
@@ -242,7 +242,7 @@
     },
     {
         "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
-        "description": "Classroom observations in Telangana (2024) regarding the presence of Teaching Learning Materials (TLM) other than textbooks, and the display of student work in Standard I and II classrooms.",
+        "description": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
@@ -252,7 +252,7 @@
     },
     {
         "title": "Table 20: Trends over time",
-        "description": "Comprehensive school infrastructure trends in Telangana (2010-2024). The table covers the availability and usability of mid-day meals, drinking water, toilets (including separate girls' toilets), libraries, electricity, and computers.",
+        "description": "Table 20: Trends over time in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
@@ -285,7 +285,7 @@
     },
     {
         "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
-        "description": "Implementation status of Foundational Literacy and Numeracy (FLN) initiatives in Telangana schools (2023-2025). The data covers government directives, teacher training (offline/online), availability of teaching materials, and school readiness programmes.",
+        "description": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
@@ -296,7 +296,7 @@
     },
     {
         "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
-        "description": "Statistics on the distribution of language and math textbooks in Telangana schools for the years 2022 and 2024. The table details the percentage of schools where textbooks were distributed to all, some, or no grades.",
+        "description": "Table 22: Distribution of language and math textbooks. 2022 and 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed | If not distributed in all grades, then % schools where funds given |",
@@ -307,7 +307,7 @@
     },
     {
         "title": "Table 23: Distribution of uniforms. All schools. 2022, 2024",
-        "description": "Statistics on the distribution of school uniforms in Telangana for 2022 and 2024, showing the percentage of schools receiving physical uniforms or funds for all or some grades.",
+        "description": "Table 23: Distribution of uniforms. All schools. 2022, 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
@@ -318,7 +318,7 @@
     },
     {
         "title": "Table 24: Physical education. 2018, 2022 and 2024",
-        "description": "Availability of physical education resources in Telangana schools (2018-2024), covering PE teachers, playgrounds, and equipment. The table also contains appended charts: Chart 1 (Out-of-school trends by gender/age), Chart 2 (Govt school enrollment trends), Chart 3 (Reading levels by grade/sex), and Chart 4 (Division skills by grade/sex).",
+        "description": "Table 24: Physical education. 2018, 2022 and 2024 in Telangana",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | All schools | All schools | All schools |",

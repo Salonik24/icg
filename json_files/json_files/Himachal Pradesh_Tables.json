@@ -1,7 +1,7 @@
 [
     {
         "title": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024",
-        "description": "This table presents 2024 school enrollment statistics for children in Himachal Pradesh, categorized by age groups (6-14, 7-16, 7-10, 11-14, 15-16) and sex. It details the percentage distribution of students across government schools, private schools, and other educational institutions, as well as the percentage of children not currently enrolled in school.",
+        "description": "Table 1: % Children enrolled in different types of schools. By age group and sex. 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age group and sex | Govt | Pvt | Other | Not in school | Total |",
@@ -20,7 +20,7 @@
     },
     {
         "title": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022",
-        "description": "Data from 2022 showing the educational status of young children (ages 3 to 8) in Himachal Pradesh. It breaks down enrollment into pre-school categories (Anganwadi, Govt pre-primary, Pvt LKG/UKG), formal schooling (Govt, Pvt, Other), and those not enrolled in any institution.",
+        "description": "Table 2: % Children enrolled in different types of pre-schools and schools. By age. 2022 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -35,7 +35,7 @@
     },
     {
         "title": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024",
-        "description": "Data from 2024 showing the educational status of young children (ages 3 to 8) in Himachal Pradesh. It breaks down enrollment into pre-school categories (Anganwadi, Govt pre-primary, Pvt LKG/UKG), formal schooling (Govt, Pvt, Other), and those not enrolled in any institution, allowing for comparison with 2022 data.",
+        "description": "Table 3: % Children enrolled in different types of pre-schools and schools. By age. 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | Pre-school | Pre-school | Pre-school | School | School | School | Not in pre-school or school | Total |",
@@ -50,7 +50,7 @@
     },
     {
         "title": "Table 4: % Children by grade and reading level. All children. 2024",
-        "description": "A 2024 assessment of reading proficiency for children in Himachal Pradesh across Grades I through VIII. The table displays the percentage of students at different reading milestones: recognizing letters, reading words, reading Standard I level text, and reading Standard II level text.",
+        "description": "Table 4: % Children by grade and reading level. All children. 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even letter | Letter | Word | Std I level text | Std II level text | Total |",
@@ -66,7 +66,7 @@
     },
     {
         "title": "Table 5: Trends over time",
-        "description": "Longitudinal trend analysis (2014-2024) of reading skills for Standard III students in Himachal Pradesh. It specifically tracks the percentage of children who can read Standard II level text, comparing performance in Government versus Private schools over the decade.",
+        "description": "Table 5: Trends over time in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text | % Children in Std III who can read Std II level text |",
@@ -80,7 +80,7 @@
     },
     {
         "title": "Table 6: Trends over time",
-        "description": "Multi-year comparison (2014-2024) of foundational reading abilities for students in Standard V and Standard VIII in Himachal Pradesh. The table shows the percentage of students in these higher grades who can read Standard II level text, segmented by Government and Private school enrollment.",
+        "description": "Table 6: Trends over time in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std V who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text | % Children in Std VIII who can read Std II level text |",
@@ -94,7 +94,7 @@
     },
     {
         "title": "Table 7: % Children by grade and arithmetic level. All children. 2024",
-        "description": "A 2024 numeracy assessment for students in Grades I through VIII in Himachal Pradesh. It categorizes children based on their highest arithmetic capability, ranging from number recognition (1-9, 10-99) to performing subtraction and division.",
+        "description": "Table 7: % Children by grade and arithmetic level. All children. 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| Std | Not even",
@@ -111,7 +111,7 @@
     },
     {
         "title": "Table 8: Trends over time",
-        "description": "Historical trend data (2014-2024) regarding the arithmetic skills of Standard III students in Himachal Pradesh. It tracks the percentage of children capable of doing at least subtraction, broken down by government and private school sectors.",
+        "description": "Table 8: Trends over time in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- |",
             "| Year | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction | % Children in Std III who can do at least subtraction |",
@@ -125,7 +125,7 @@
     },
     {
         "title": "Table 9: Trends over time",
-        "description": "Time-series data (2014-2024) illustrating the division competency of Standard V and Standard VIII students in Himachal Pradesh. The table compares the percentage of students who can perform division in government versus private schools over time.",
+        "description": "Table 9: Trends over time in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Year | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std V who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division | % Children in Std VIII who can do division |",
@@ -139,7 +139,7 @@
     },
     {
         "title": "Table 10: Smartphone availability and use. By age. 2024",
-        "description": "Digital access statistics for 2024 in Himachal Pradesh, focusing on smartphone availability at home, accessibility for digital tasks, and personal smartphone ownership among adolescents aged 14, 15, and 16.",
+        "description": "Table 10: Smartphone availability and use. By age. 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Age | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -152,7 +152,7 @@
     },
     {
         "title": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024",
-        "description": "Gender-based comparison of smartphone access and ownership for adolescents aged 14-16 in Himachal Pradesh (2024). It highlights disparities between boys and girls regarding home availability, ability to use devices for digital tasks, and personal ownership.",
+        "description": "Table 11: Smartphone availability and use among 14-16-year-olds. By sex. 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| Sex | % Children who: | % Children who: | % Children who: | Of those who can use a smartphone, % who have their own smartphone |",
@@ -164,7 +164,7 @@
     },
     {
         "title": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024",
-        "description": "Survey of usage patterns and digital safety awareness among smartphone-using children aged 14-16 in Himachal Pradesh (2024). It covers engagement in educational activities and social media, as well as knowledge of safety features like blocking profiles, private settings, and changing passwords.",
+        "description": "Table 12: Of those who know how to use a smartphone, % children who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features. By age. 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -177,7 +177,7 @@
     },
     {
         "title": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024",
-        "description": "Gender-disaggregated data on smartphone usage purposes (education vs. social media) and digital safety proficiency among 14-16 year olds in Himachal Pradesh (2024). It compares boys and girls on their ability to block profiles, make profiles private, and change passwords.",
+        "description": "Table 13: Of those who know how to use a smartphone, % children aged 14-16 who used a smartphone in the reference week for any educational activity and social media activity, and know how to use safety features, by sex. 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| Sex | % Children who did the any education-related activity in reference week | % Children who used any social media in  reference week | Of those who used social media, % children who can: | Of those who used social media, % children who can: | Of those who used social media, % children who can: |",
@@ -189,7 +189,7 @@
     },
     {
         "title": "Table 14: % Children who could do digital tasks, by age and sex. 2024",
-        "description": "This table details the digital proficiency of adolescents in Himachal Pradesh (2024). It shows the percentage of boys and girls aged 14-16 who can perform specific tasks such as setting alarms, browsing for information, finding YouTube videos, and sharing content.",
+        "description": "Table 14: % Children who could do digital tasks, by age and sex. 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
             "| Age | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | % Children who could bring a smartphone to do digital tasks* | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: | Of those who could bring a smartphone, % who could do the following tasks: |",
@@ -203,7 +203,7 @@
     },
     {
         "title": "Table 15: Trends over time",
-        "description": "Sample size details for school surveys conducted in Himachal Pradesh across selected years (2010, 2018, 2022, 2024), categorized by the number of primary and upper primary schools visited.",
+        "description": "Table 15: Trends over time in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -214,7 +214,7 @@
     },
     {
         "title": "Table 16: Trends over time",
-        "description": "Trends in student and teacher attendance rates in Himachal Pradesh schools, comparing average presence percentages across survey years from 2010 to 2024.",
+        "description": "Table 16: Trends over time in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| All schools** | 2010 | 2018 | 2022 | 2024 |",
@@ -224,7 +224,7 @@
     },
     {
         "title": "Table 17: Trends over time",
-        "description": "Trends regarding the prevalence of small schools in Himachal Pradesh (2010-2024), tracking changes in school size classifications over time.",
+        "description": "Table 17: Trends over time in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "|  | 2010 | 2018 | 2022 | 2024 |",
@@ -233,7 +233,7 @@
     },
     {
         "title": "Table 18: Multigrade classes. 2024",
-        "description": "Prevalence of multigrade classroom environments in Himachal Pradesh (2024), showing the percentage of schools where Standard I and II students were observed sitting with students from other grades.",
+        "description": "Table 18: Multigrade classes. 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- |",
             "| % Schools | Std I children observed sitting with any other Std | Std II children observed sitting with any other Std |",
@@ -242,7 +242,7 @@
     },
     {
         "title": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024",
-        "description": "Observational data from 2024 on the presence of Teaching Learning Materials (TLM) and the display of student work in Standard I and II classrooms in Himachal Pradesh schools.",
+        "description": "Table 19: Observation of TLM (Teaching Learning Materials) in classrooms. 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools | TLM observed in classroom (apart from textbooks) | TLM observed in classroom (apart from textbooks) | Of those schools with TLM, work done by students displayed in classroom | Of those schools with TLM, work done by students displayed in classroom |",
@@ -252,7 +252,7 @@
     },
     {
         "title": "Table 20: Trends over time",
-        "description": "Comprehensive infrastructure survey of Himachal Pradesh schools (2010-2024), tracking the availability and usability of facilities including mid-day meals, drinking water, toilets (general and girls'), libraries, electricity, and computers.",
+        "description": "Table 20: Trends over time in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | 2010 | 2018 | 2022 | 2024 |",
@@ -285,7 +285,7 @@
     },
     {
         "title": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024",
-        "description": "Implementation status of Foundational Literacy and Numeracy (FLN) initiatives in Himachal Pradesh (2024). This table covers government directives, teacher training, material distribution (TLM), and school readiness programs for the current and previous academic years.",
+        "description": "Table 21: Foundational Literacy and Numeracy (FLN) activities. 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Received a directive from govt to implement FLN activities with Std I-II/III | At least one teacher received training on FLN | At least one teacher received training on FLN | Received Teaching Learning Materials (TLM) for FLN activities** | Received funds for TLM for FLN activities** | School Readiness Programme held for Std l |",
@@ -296,7 +296,7 @@
     },
     {
         "title": "Table 22: Distribution of language and math textbooks. 2022 and 2024",
-        "description": "Comparison of language and mathematics textbook distribution rates in Himachal Pradesh schools between 2022 and 2024, showing the percentage of schools where textbooks were distributed to all, some, or no grades.",
+        "description": "Table 22: Distribution of language and math textbooks. 2022 and 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Textbooks distributed | Textbooks distributed | Textbooks distributed | Textbooks distributed | If not distributed in all grades, then % schools where funds given |",
@@ -307,7 +307,7 @@
     },
     {
         "title": "Table 23: Distribution of uniforms. All schools. 2022, 2024",
-        "description": "Statistics on the provision of school uniforms to students in Himachal Pradesh, comparing distribution coverage (all grades vs. some grades) in 2022 versus 2024.",
+        "description": "Table 23: Distribution of uniforms. All schools. 2022, 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- | --- | --- |",
             "| % Schools | % Schools | Uniforms distributed | Uniforms distributed | Uniforms distributed | Uniforms distributed | If not distributed in all grades, then % schools where funds given |",
@@ -318,7 +318,7 @@
     },
     {
         "title": "Table 24: Physical education. 2018, 2022 and 2024",
-        "description": "Data on physical education resources in Himachal Pradesh schools (2018-2024), including PE teachers and equipment. This entry also includes Chart 1 (enrollment trends 2006-2024), Chart 2 (Govt school enrollment trends), Chart 3 (Reading Std II level text trends), and Chart 4 (Division skills trends).",
+        "description": "Table 24: Physical education. 2018, 2022 and 2024 in Himachal Pradesh",
         "data": [
             "| --- | --- | --- | --- | --- |",
             "| % Schools with | % Schools with | All schools | All schools | All schools |",
