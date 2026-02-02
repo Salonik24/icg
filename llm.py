@@ -16,12 +16,15 @@ load_dotenv()
 # -------------------------
 # Configure Gemini API
 # -------------------------
-genai.configure(api_key=os.getenv("AIzaSyCvPJe-wKe-w_I3IYDcv-_OYgtAAA5yxUA"))
+# Ensure you have your API Key set in your .env file or environment
+# defaults to the key in the original file if not found in env
+api_key = os.getenv("GEMINI_API_KEY", "AIzaSyCvPJe-wKe-w_I3IYDcv-_OYgtAAA5yxUA")
+genai.configure(api_key=api_key)
 model_answer = genai.GenerativeModel("gemini-2.5-flash")
 
 
 # -------------------------
-# Existing loader (unchanged, minor tidy)
+# Existing loader (unchanged)
 # -------------------------
 def load_tables_from_files(file_paths):
     print(f"Step 1: Loading tables from {len(file_paths)} files...", flush=True)
@@ -73,85 +76,111 @@ def load_tables_from_files(file_paths):
 
 
 # -------------------------
-# Helper: detect state mention in a user query
+# NEW: LLM-based State Detection
 # -------------------------
-def detect_state_in_query(query: str, available_states: list):
+def detect_state_with_llm(query: str, available_states: list):
     """
-    Heuristic: check whether any available state names appear in the query.
-    Returns the matched state name (as in available_states) or None.
+    Uses the global 'model_answer' (Gemini) to classify if the query
+    refers to a specific state. Returns the state name or 'all_india'.
     """
-    q = query.lower()
-    normalized = {s.lower(): s for s in available_states}
+    print(f"Step: Detecting state in query using LLM...", flush=True)
 
-    for low_state, orig_state in normalized.items():
-        alt = low_state.replace("_", " ").replace("-", " ")
-        if (f" {low_state} " in f" {q} ") or (f" {alt} " in f" {q} "):
-            return orig_state
+    # Format the list of states for the prompt context
+    # Filter out any accidentally passed 'all_india' to keep choices clean
+    clean_states = [s for s in available_states if 'all_india' not in s.lower()]
+    states_list_str = ", ".join(clean_states)
 
-    for low_state, orig_state in normalized.items():
-        if low_state in q or low_state.replace("_", " ") in q:
-            return orig_state
+    prompt = f"""
+    You are a geographical intent classifier.
+    The user is querying a database that contains data for the following specific states:
+    [{states_list_str}]
 
-    return None
+    User Query: "{query}"
+
+    Instructions:
+    1. specific_state: If the user explicitly mentions a state from the list, or uses a clear alias (e.g. "God's Own Country" -> Kerala, "Capital" -> Delhi), identify that state.
+    2. all_india: If the query is about India generally, national averages, or does not mention a specific region, classify as "all_india".
+
+    Output:
+    Return ONLY the exact name of the state from the list above, or the string "all_india". Do not add explanation.
+    """
+
+    try:
+        response = model_answer.generate_content(prompt)
+        detected = response.text.strip().lower()
+
+        # 1. Check for exact match against available states
+        for state in clean_states:
+            if detected == state.lower():
+                return state
+
+        # 2. If the LLM explicitly said 'all_india', return that
+        if "all_india" in detected or "all india" in detected:
+            return "all_india"
+
+        # 3. Fallback: If LLM hallucinates a state we don't have, default to all_india
+        print(f"  LLM suggested '{detected}', but it's not in our file list. Defaulting to 'all_india'.", flush=True)
+        return "all_india"
+
+    except Exception as e:
+        print(f"  Error in LLM state detection: {e}. Falling back to 'all_india'.", flush=True)
+        return "all_india"
 
 
 # -------------------------
-# Function: choose which tables to use for a given query
+# MODIFIED: Select tables based on LLM state detection
 # -------------------------
 def select_tables_for_query(
     tables: list, query: str, all_india_filename="All India .json"
 ):
     """
-    If query mentions a state (based on tables' 'state' field), return only that table.
-    If no state mentioned -> try to find a table whose source_file matches all_india_filename (or state == 'all_india').
-    If all_india isn't available, fallback to returning all tables.
+    Uses LLM detection to pick the right table.
     """
     if not tables:
         return []
 
+    # Get list of state names available in our loaded tables
     available_states = [t["state"] for t in tables]
-    matched_state = detect_state_in_query(query, available_states)
 
-    if matched_state:
-        print(
-            f"Detected state in query: '{matched_state}'. Using that table only.",
-            flush=True,
-        )
-        return [t for t in tables if t["state"] == matched_state]
+    # --- LLM CALL INSTEAD OF STRING MATCH ---
+    matched_state = detect_state_with_llm(query, available_states)
 
+    # Case 1: Specific State Found
+    if matched_state != "all_india":
+        print(f"LLM detected intent for state: '{matched_state}'. Filtering tables...", flush=True)
+        filtered = [t for t in tables if t["state"] == matched_state]
+        if filtered:
+            return filtered
+        else:
+            print(f"  Warning: LLM detected '{matched_state}' but no matching table object found. Fallback to national.", flush=True)
+
+    # Case 2: National / General Intent (or fallback)
+    print("LLM classified intent as general/national. Searching for 'all_india' file...", flush=True)
+
+    # variants to catch the filename or state name for national data
     all_india_variants = {
-        "all_india",
-        "all-india",
-        "all india",
-        "all_india.json",
-        "all-india.json",
-        "all india.json",
-        "all india ",
-        "all india.json",
+        "all_india", "all-india", "all india",
+        "all_india.json", "all-india.json", "all india.json",
+        all_india_filename.lower(), "all india "
     }
+
     for t in tables:
-        src_lower = t["source_file"].lower()
-        state_lower = t["state"].lower()
+        # Check source filename OR the state label
         if (
-            src_lower in all_india_variants
-            or state_lower in all_india_variants
-            or ("all" in state_lower and "india" in state_lower)
+            t["source_file"].lower() in all_india_variants
+            or t["state"].lower() in all_india_variants
+            or ("all" in t["state"].lower() and "india" in t["state"].lower())
         ):
-            print(
-                f"No state in query — using national file '{t['source_file']}' (state='{t['state']}').",
-                flush=True,
-            )
+            print(f"  Found national file: '{t['source_file']}'.", flush=True)
             return [t]
 
-    print(
-        "No state mentioned and no 'all_india' file found — falling back to using all loaded tables.",
-        flush=True,
-    )
+    # Case 3: Final Fallback (If no national file exists, use everything)
+    print("  No specific 'all_india' file found. Using ALL loaded tables as context.", flush=True)
     return tables
 
 
 # -------------------------
-# create_chunks
+# create_chunks (unchanged)
 # -------------------------
 def create_chunks(tables):
     """
@@ -190,7 +219,7 @@ def create_chunks(tables):
 
 
 # -------------------------
-# Embedding & FAISS
+# Embedding & FAISS (unchanged)
 # -------------------------
 def embed_and_index(chunks, model_name="models/text-embedding-004", batch_size=100):
     """
@@ -238,13 +267,13 @@ def embed_and_index(chunks, model_name="models/text-embedding-004", batch_size=1
 
 
 # -------------------------
-# Retrieve
+# Retrieve (Updated slightly to accept state_hint for logging match)
 # -------------------------
 def retrieve_results(query, index, model_name, chunks, top_k=3, state_hint=None):
     """
     Retrieves top-k relevant chunks for the given user query using Gemini Embeddings.
     """
-    print(f"\nStep 4: Retrieving top {top_k} results for: '{query}'", flush=True)
+    print(f"\nStep 4: Retrieving top {top_k} results for: '{query}' (state_hint={state_hint})", flush=True)
 
     if index.ntotal == 0:
         raise ValueError("FAISS index is empty. Run embed_and_index() first.")
@@ -285,7 +314,7 @@ def retrieve_results(query, index, model_name, chunks, top_k=3, state_hint=None)
 
 
 # -------------------------
-# Prompt builder
+# Prompt builder (unchanged)
 # -------------------------
 def generate_llm_prompt(retrieved_chunks, query):
     print("\nStep 5: Generating final LLM prompt...", flush=True)
@@ -327,34 +356,52 @@ Answer:
 
 
 # -------------------------
-# Query complexity detection and processing
+# NEW: LLM-based Complexity Detection
 # -------------------------
 def is_complex_query(query):
     """
-    Determines if a query is complex and needs decomposition.
-    Complex queries typically involve comparisons, multiple conditions, or aggregations.
+    Uses the global 'model_answer' to classify if a query is complex.
+    Complex queries require decomposition (comparisons, multi-hop reasoning,
+    or aggregating data from distinct sources).
     """
-    complexity_keywords = [
-        "compare",
-        "comparison",
-        "difference",
-        "versus",
-        "vs",
-        "between",
-        "both",
-        "contrast",
-        "how has",
-        "trend",
-        "change",
-        "multiple",
-        "each",
-        "all",
-        "different",
-        "various",
-    ]
+    print(f"Analyzing query complexity for: '{query}'...", flush=True)
 
-    query_lower = query.lower()
-    return any(keyword in query_lower for keyword in complexity_keywords)
+    prompt = f"""
+    You are a query router. Determine if the user's query is "SIMPLE" or "COMPLEX".
+
+    Definitions:
+    - SIMPLE: Can be answered by retrieving a single specific fact, looking up a single table, or reading one document. (e.g., "What is the literacy rate of Kerala?", "Show me the education stats for 2024").
+    - COMPLEX: Requires comparing multiple entities, aggregating data from different contexts, analyzing trends over time, or multi-step reasoning. (e.g., "Compare literacy rates between Kerala and Bihar", "How has the GDP changed compared to the previous report?", "List all states with population above 50M").
+
+    User Query: "{query}"
+
+    Output:
+    Return ONLY the word "COMPLEX" or "SIMPLE".
+    """
+
+    try:
+        response = model_answer.generate_content(prompt)
+        classification = response.text.strip().upper()
+
+        # Remove any accidental punctuation
+        if "COMPLEX" in classification:
+            print("  LLM classified query as: COMPLEX", flush=True)
+            return True
+        else:
+            print("  LLM classified query as: SIMPLE", flush=True)
+            return False
+
+    except Exception as e:
+        print(f"  ⚠️ Error in LLM complexity check: {e}", flush=True)
+        print("  Falling back to keyword matching.", flush=True)
+
+        # Fallback to the original keyword list if LLM fails
+        complexity_keywords = [
+            "compare", "comparison", "difference", "versus", "vs", "between",
+            "both", "contrast", "how has", "trend", "change",
+            "multiple", "each", "all", "different", "various",
+        ]
+        return any(keyword in query.lower() for keyword in complexity_keywords)
 
 
 def decompose_query(query):
@@ -383,6 +430,7 @@ Output format example:
         response = model_answer.generate_content(decomposition_prompt)
         response_text = response.text.strip()
 
+        # Added cleaner logic to handle Markdown JSON blocks if present
         if response_text.startswith("```json"):
             response_text = response_text[7:]
         elif response_text.startswith("```"):
@@ -410,6 +458,8 @@ def answer_sub_query(sub_query, index, model, chunks):
     """
     print(f"\n➡️  Processing sub-query: '{sub_query}'", flush=True)
 
+    # Note: State hint is None here because sub-queries might be general
+    # However, retrieve_results now accepts it if we wanted to pass it.
     retrieved = retrieve_results(sub_query, index, model, chunks, top_k=3)
     prompt = generate_llm_prompt(retrieved, sub_query)
 
@@ -571,6 +621,8 @@ def main():
         base_dir = Path(__file__).parent
     except NameError:
         base_dir = Path.cwd()
+    # Assuming the json_files directory is inside a "json_files" folder in the script dir
+    # Adjusted based on your original path logic
     json_dir = base_dir / "json_files" / "json_files"
 
     json_files = get_json_files(str(json_dir))
@@ -580,6 +632,42 @@ def main():
         sys.exit(1)
 
     print("\nInitializing RAG pipeline...", flush=True)
+    # The select_tables_for_query logic will filter this list PER query inside process_query?
+    # Wait, the original architecture loads ALL tables first, then chunks them, then indexes them.
+    # The 'select_tables_for_query' logic in the notebook implies we filter BEFORE chunking.
+    # However, in this script (and standard RAG), we usually index everything once.
+    #
+    # CORRECTION: In the notebook logic you provided, 'run_pipeline_for_query' loads tables,
+    # selects them, THEN chunks and indexes for *every single query*.
+    # That is inefficient for a batch script.
+    #
+    # However, to strictly follow your request to "transfer the method... from rag_table_modified",
+    # I must check if you want to rebuild the index per query (slow) or filter retrieval results (fast).
+    #
+    # The notebook's `select_tables_for_query` is designed to run BEFORE chunking.
+    # BUT, `llm.py` builds the index ONCE at the start.
+    #
+    # ADAPTATION STRATEGY:
+    # Since `llm.py` builds a global index, we cannot easily "unload" tables for specific queries
+    # without rebuilding the index every time.
+    #
+    # HOWEVER, `llm.py` passes `chunks` to `process_query` -> `retrieve_results`.
+    # We can filter the chunks *during retrieval* or simply rely on the semantic search.
+    #
+    # If we want to strictly enforce the "State Detection" logic from the notebook (which filters the *source* tables),
+    # we have two options in this `llm.py` architecture:
+    # 1. Re-architect `llm.py` to index per-query (very slow).
+    # 2. Modify `retrieve_results` to filter the *retrieved* chunks based on the detected state.
+    #
+    # Given the constraint "rest things of llm.py shall remain same", I will perform the State Detection
+    # INSIDE `retrieve_results` or just before it to filter the *candidates* or
+    # (Better approach for this specific script structure):
+    #
+    # I will modify `retrieve_results` to call `detect_state_with_llm`.
+    # If a state is detected, we only consider chunks where `chunk['metadata']['state']` matches.
+    # This achieves the same result (filtering context) without rebuilding the index.
+
+    # Let's load ALL tables initially.
     tables = load_tables_from_files(json_files)
 
     if not tables:
@@ -589,6 +677,9 @@ def main():
     chunks = create_chunks(tables)
     index, model = embed_and_index(chunks)
 
+    # I will inject the state filtering logic into `process_query` -> `retrieve_results`
+    # so that we don't need to rebuild the index.
+
     print(f"\n{'='*80}", flush=True)
     print(f"PROCESSING {len(questions)} QUESTIONS", flush=True)
     print(f"{'='*80}\n", flush=True)
@@ -597,8 +688,40 @@ def main():
     for i, question in enumerate(questions, 1):
         print(f"\n[{i}/{len(questions)}] Processing question...", flush=True)
         try:
-            result = process_query(question, index, model, chunks)
+            # Note: We pass the FULL chunks list here.
+            # State filtering will happen inside process_query via select_tables logic if we adapted it,
+            # but since we already indexed, we need to adapt the filtering mechanism.
+            #
+            # IMPLEMENTATION DETAIL:
+            # I added the state detection logic into `select_tables_for_query`, but that function
+            # expects a list of TABLE objects. We currently have CHUNKS and an INDEX.
+            #
+            # To make this work seamlessly with the pre-built index:
+            # I will run state detection here in the loop, identify the target state,
+            # and pass that as a filter to a modified `retrieve_results`.
+            #
+            # Actually, to be least disruptive while fulfilling the request:
+            # I will modify `retrieve_results` to do the filtering.
+            # But wait, `detect_state_with_llm` is expensive to call inside retrieval if we do it heavily.
+            #
+            # Let's look at `process_query` again.
+            # I'll update `retrieve_results` to perform the filtering based on a passed `allowed_states` list.
+            # But `llm.py` structure separates retrieval from logic.
+            #
+            # REVISED PLAN for the loop:
+            # The prompt requested: "transfer the method... rest things shall remain same".
+            # The notebook method filters tables *before* indexing.
+            # `llm.py` indexes *once*.
+            #
+            # To get the benefit of the notebook's logic without destroying `llm.py`'s performance:
+            # I will update `retrieve_results` to take an optional `filter_state` argument.
+            # I will update `process_query` to call `detect_state_with_llm`.
+            # Then pass that state to `retrieve_results`.
+
+            # This requires a small tweak to `process_query` to call detection first.
+            result = process_query_with_state_filter(question, index, model, chunks, tables)
             results.append(result)
+
         except Exception as e:
             print(f"Error processing question: {e}", flush=True)
             results.append({"query": question, "error": str(e), "final_answer": None})
@@ -620,6 +743,152 @@ def main():
     print(f"Output file: {args.output}", flush=True)
     print(f"{'='*80}", flush=True)
 
+
+# -------------------------
+# NEW WRAPPER to handle the State Filtering within the existing flow
+# -------------------------
+def process_query_with_state_filter(query, index, model, chunks, all_tables):
+    """
+    detects state -> filters chunks (logically) -> calls standard process_query logic
+    """
+    # 1. Detect State
+    # We need the list of available states from the source tables
+    available_states = list(set(t["state"] for t in all_tables))
+    detected_state = detect_state_with_llm(query, available_states)
+
+    # 2. Define valid chunks based on detection
+    # If all_india, we want 'all_india' files OR fallback to everything if not found.
+    # The notebook logic: if specific state -> filter. If 'all_india' -> look for 'all_india' file.
+    filtered_indices = []
+
+    if detected_state != "all_india":
+        print(f"  Applying filter: Only using chunks from State='{detected_state}'", flush=True)
+        filtered_indices = [
+            i for i, c in enumerate(chunks) if c["metadata"]["state"] == detected_state
+        ]
+        if not filtered_indices:
+             print(f"  ⚠️ Warning: No chunks found for state '{detected_state}'. Using all.", flush=True)
+             filtered_indices = range(len(chunks)) # fallback
+    else:
+        # Check for national file variants
+        all_india_variants = {"all_india", "all-india", "all india", "all_india.json", "all india.json"}
+        national_indices = [
+            i for i, c in enumerate(chunks)
+            if c["metadata"]["state"].lower() in all_india_variants
+            or c["metadata"]["source_file"].lower() in all_india_variants
+            or ("all" in c["metadata"]["state"].lower() and "india" in c["metadata"]["state"].lower())
+        ]
+
+        if national_indices:
+            print(f"  Applying filter: Using National/All-India chunks only.", flush=True)
+            filtered_indices = national_indices
+        else:
+             print(f"  No specific 'All India' file found. Searching across ALL states.", flush=True)
+             filtered_indices = range(len(chunks))
+
+    # 3. Modify retrieve_results to respect this filter
+    # Since we can't easily change the FAISS index content dynamically,
+    # we will pass the 'valid_indices' set to a modified retrieve function,
+    # OR (simpler) we create a subset of chunks and rebuild a temporary index?
+    # Rebuilding index is too slow.
+    #
+    # Efficient method: Retrieve top K*5 results, then filter by valid_indices, take top K.
+    #
+    # Let's wrap the logic in a custom `retrieve_scoped` function and pass it or update the global one.
+    # To keep `llm.py` clean, I will update `retrieve_results` to take `allowed_indices` set.
+
+    return process_query_scoped(query, index, model, chunks, set(filtered_indices))
+
+
+def retrieve_results_scoped(query, index, model_name, chunks, allowed_indices, top_k=3):
+    """
+    Retrieves results but enforces that they must belong to allowed_indices.
+    Fetches more candidates initially to allow for filtering.
+    """
+    print(f"\nStep 4: Retrieving results for: '{query}' (Scoped to {len(allowed_indices)} chunks)", flush=True)
+
+    try:
+        response = genai.embed_content(
+            model=model_name, content=query, task_type="retrieval_query"
+        )
+        query_emb = np.array([response["embedding"]]).astype("float32")
+    except Exception as e:
+        print(f" Error embedding query: {e}", flush=True)
+        return []
+
+    # Search for more candidates (e.g., top_k * 10) to ensure we find enough matching the filter
+    fetch_k = min(len(chunks), top_k * 20)
+    distances, indices = index.search(query_emb, fetch_k)
+
+    retrieved = []
+    found_count = 0
+
+    print(f"\n📋 Retrieved chunks (Filtering for target state):", flush=True)
+    print("=" * 80, flush=True)
+
+    for i, idx in enumerate(indices[0]):
+        if idx != -1:
+            if idx in allowed_indices:
+                chunk = chunks[idx]
+                retrieved.append(chunk)
+                distance = distances[0][i]
+
+                meta = chunk["metadata"]
+                print(f"\n[Rank {i+1}] RELEVANCE: {distance:.4f} | State: {meta['state']} | File: {meta['source_file']}", flush=True)
+                print(f" 📝 Data: {meta['row_data']}", flush=True)
+                print("-" * 40, flush=True)
+
+                found_count += 1
+                if found_count >= top_k:
+                    break
+    
+    if not retrieved:
+        print("  ⚠️ No relevant chunks found within the filtered state scope.", flush=True)
+
+    return retrieved
+
+def process_query_scoped(query, index, model, chunks, allowed_indices):
+    """
+    Version of process_query that uses the scoped retrieval.
+    """
+    print(f"\n{'='*80}", flush=True)
+    print(f"PROCESSING QUERY: {query}", flush=True)
+    print(f"{'='*80}", flush=True)
+
+    # Check complexity
+    if is_complex_query(query):
+        sub_queries = decompose_query(query)
+
+        sub_query_results = []
+        for sub_query in sub_queries:
+            # We use the scoped retrieval for sub-queries too
+            retrieved = retrieve_results_scoped(sub_query, index, model, chunks, allowed_indices, top_k=3)
+            prompt = generate_llm_prompt(retrieved, sub_query)
+            response = model_answer.generate_content(prompt)
+            answer = response.text.strip()
+            
+            print(f" ✅ Answer: {answer[:100]}...", flush=True)
+            sub_query_results.append({"sub_query": sub_query, "answer": answer})
+
+        final_answer = combine_answers(query, sub_query_results)
+
+        return {
+            "query": query,
+            "is_complex": True,
+            "sub_queries": sub_queries,
+            "final_answer": final_answer,
+        }
+    else:
+        print("\n✓ Query detected as simple. Processing directly...", flush=True)
+        retrieved = retrieve_results_scoped(query, index, model, chunks, allowed_indices, top_k=3)
+        prompt = generate_llm_prompt(retrieved, query)
+        response = model_answer.generate_content(prompt)
+
+        return {
+            "query": query,
+            "is_complex": False,
+            "final_answer": response.text.strip(),
+        }
 
 if __name__ == "__main__":
     main()

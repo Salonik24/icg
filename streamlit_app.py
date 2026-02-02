@@ -10,7 +10,7 @@ from llm import (
     load_tables_from_files,
     create_chunks,
     embed_and_index,
-    process_query,
+    process_query_with_state_filter,
     get_json_files
 )
 
@@ -123,7 +123,8 @@ def process_query_wrapper(user_input):
             user_input,
             rag['index'],
             rag['model'],
-            rag['chunks']
+            rag['chunks'],
+            rag['tables']
         )
         
         # Return just the final answer without metadata
